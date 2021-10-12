@@ -1,9 +1,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <title>BKKSOISURVIVOR
-    </title>
+    <title>BKKSOISURVIVOR</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
       body{
         background:black;
         font-family:sans-serif;
@@ -27,13 +31,70 @@
             padding:0.5rem 0.5rem;
         }
         
-        p{
+        .frame p{
+            margin: auto;
+            color: white;
+            font-size: 18px;
+        }
+        .frame2 p{
             margin: auto;
             color: white;
             font-size: 18px;
         }
         .frame{
             display: inline-block;
+        }
+        .survi{
+          display: inline-block;
+          font-family: 'VT323', monospace;
+          color: white;
+          padding: 100px 0px 0px 180px;  
+        }
+
+        .survi1{
+          display: inline-block;
+          font-family: 'VT323', monospace;
+          color: white;
+          
+        }
+
+        .survi2{
+          font-family: 'VT323', monospace;
+          color: white;
+          margin-top: -120px;
+          margin-left: 180px;
+  
+        }
+        .txtsurvi{
+          font-size: 150px;
+          margin: 0;
+        }
+        .txtsurvi1{
+          font-size: 150px;
+          margin: 0;
+          color: #DBFF00;
+        }
+        .txtsurvi2{
+          font-size: 150px;
+          margin: 0;
+        }
+        .line{
+          background-color: white;
+          width: 50%;
+          height: 1px;
+          margin-left: 180px;
+          display: inline-block;
+          top: -40px;
+          position: relative;
+        }
+        .num3{
+          font-family: 'VT323', monospace;
+          color: white;
+          right: 10%; 
+          top:350px;
+          position: absolute;
+          display: inline-block;
+
         }
 
     </style>
@@ -49,5 +110,19 @@
             <img src="PIC/LOGO_PG1.png" width="15%">
         </div>
     </header>
+    <div class="name">
+       <div class="container-fluid">
+         <div class="row">
+           <div class="survi"><p class="txtsurvi">BKK-</p></div>
+           <div class="survi1"><p class="txtsurvi1">SOI</p></div>
+           <div class="survi2"><p class="txtsurvi2">SURVIVOR</p></div>
+           <div class="line"></div>
+           <div class="num3"><p style="font-size: 50px;">003</p></div>
+
+
+           
+         </div>
+       </div>
+    </div>
   </body>
 </html>
