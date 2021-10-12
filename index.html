@@ -7,61 +7,47 @@
       body{
         background:black;
         font-family:sans-serif;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
+        margin:0;
       }
-      a{
-        color:lime;
-        text-decoration: none;
-      }
-      .social{
-        font-size:2em;
-      }
+
+      header{
+            background: black;
+            transition:all .3s;
+            position:fixed;
+            width:100%;
+            z-index: 1;
+            display: inline-flex;
+            height: 63px;
+        }
+        #header{
+            padding:0.7rem 0.5rem;
+        }
+
+        #menu{
+            padding:0.5rem 0.5rem;
+        }
+        
+        p{
+            margin: auto;
+            color: white;
+            font-size: 18px;
+        }
+        .frame{
+            display: inline-block;
+        }
+
     </style>
   </head>
   <body>
-    <div class="main">
-      <h1>
-        BKKSOISURVIVOR 😎
-      </h1>
-      <p>
-        Welcome to my site
-      </p>
-      <p class="social">
-       
-        <a href="_____" class="">
-          <i class="fab fa-instagram">
-          </i>
-        </a>
-        
-        <a href="_____" class="">
-          <i class="fab fa-twitter">
-          </i>
-        </a>
-        
-        <a href="_____" class="">
-          <i class="fab fa-facebook">
-          </i>
-        </a>
-        
-        <a href="mailto:jabont@hotmail.com" class="">
-          <i class="fab fa-email">
-          </i>
-        </a>
-        
-         <a href="_____" class="">
-          <i class="fab fa-linkedin">
-          </i>
-        </a>
-        
-         <a href="_____" class="">
-          <i class="fab fa-line">
-          </i>
-        </a>
-        
-      </p>
-    </div>
+    <header>
+        <div id="menu">
+            <div class="frame"><img src="PIC/ARROW-SMALL_01.png"></div>
+            <div class="frame"><p>HOME</p></div>
+            <div class="frame2"><p>INFO</p></div>
+        </div>
+        <div id="header">
+            <img src="PIC/LOGO_PG1.png" width="15%">
+        </div>
+    </header>
   </body>
 </html>
