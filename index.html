@@ -11,6 +11,60 @@
     @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&display=swap');
+    
+    @font-face {
+    font-family: 'Acumin Pro';
+    src: url('AcuminPro-Regular.woff2') format('woff2'),
+        url('AcuminPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: 'Hydrophilia';
+    src: url('HydrophiliaIced.woff2') format('woff2'),
+        url('HydrophiliaIced.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: 'ChulaCharasNew';
+    src: url('ChulaCharasNew.woff2') format('woff2'),
+        url('ChulaCharasNew.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+
+    @font-face {
+    font-family: 'DS-Digital';
+    src: url('DS-Digital-Italic.woff2') format('woff2'),
+        url('DS-Digital-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    }
+
+    #acumin{
+        font-family: 'Acumin Pro';
+    }
+
+    #hydro{
+        font-family: 'Hydrophilia';
+    }
+
+    #chula{
+        font-family: 'ChulaCharasNew';
+    }
+
+    #ds-digital{
+        font-family: 'DS-Digital';
+    }
+
     body {
         background: black;
         font-family: sans-serif;
@@ -41,52 +95,64 @@
         margin: auto;
         color: white;
         font-size: 18px;
+        font-family: 'Acumin Pro';
     }
     
     .frame2 p {
         margin: auto;
         color: white;
         font-size: 18px;
+        font-family: 'Acumin Pro';
     }
     
     .frame {
         display: inline-block;
     }
+
+    .frame img{
+        top: 0px;
+    }
     
     .survi {
         display: inline-block;
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'Hydrophilia';
         color: white;
         padding: 100px 0px 0px 180px;
     }
     
     .survi1 {
         display: inline-block;
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'Hydrophilia';
         color: white;
     }
     
     .survi2 {
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'Hydrophilia';
         color: white;
-        margin-top: -120px;
+        margin-top: -80px;
         margin-left: 180px;
     }
     
     .txtsurvi {
-        font-size: 150px;
+        font-size: 130px;
         margin: 0;
+        letter-spacing: -8px;
     }
     
     .txtsurvi1 {
-        font-size: 150px;
+        font-size: 130px;
         margin: 0;
         color: #DBFF00;
+        letter-spacing: -8px;
     }
     
     .txtsurvi2 {
-        font-size: 150px;
+        font-size: 130px;
         margin: 0;
+        letter-spacing: -8px;
     }
     
     .line {
@@ -95,12 +161,13 @@
         height: 1px;
         margin-left: 180px;
         display: inline-block;
-        top: -40px;
+        top: -5px;
         position: relative;
     }
     
     .num3 {
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'DS-Digital';
         color: white;
         right: 5%;
         top: 300px;
@@ -110,8 +177,8 @@
     
     .piccar {
         width: 7%;
-        margin-left: 25%;
-        margin-top: 0%;
+        margin-left: 27%;
+        margin-top: 6%;
         position: fixed;
     }
     
@@ -129,6 +196,12 @@
         color: white;
         font-size: 20px;
     }
+
+    .content p {
+        font-family: 'ChulaCharasNew';
+        color: white;
+        font-size: 20px;
+    }
     
     .content2 {
         font-family: 'IBM Plex Sans Thai', sans-serif;
@@ -143,12 +216,14 @@
         width: 25%;
         height: 1px;
         margin-left: 50%;
+        margin-top: -10px;
     }
     
     .num2 {
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'DS-Digital';
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         right: 5%;
         top: 500px;
         position: absolute;
@@ -156,11 +231,12 @@
     }
     
     .num1 {
-        font-family: 'VT323', monospace;
+        /* font-family: 'VT323', monospace; */
+        font-family: 'DS-Digital';
         color: #DBFF00;
-        font-size: 50px;
+        font-size: 40px;
         right: 15%;
-        top: 665px;
+        top: 670px;
         position: absolute;
         /* display: inline-block; */
     }
@@ -174,7 +250,7 @@
     }
     
     .street {
-        margin-top: 45px;
+        margin-top: 48px;
         width: 100%;
     }
 </style>
@@ -209,16 +285,16 @@
                 </div>
                 <div class="line"></div>
                 <div class="num3">
-                    <p style="font-size: 50px;">003</p>
+                    <p style="font-size: 40px;">003</p>
                 </div>
             </div>
 
             <div class="row">
                 <img class="piccar" src="PIC/DT_CAR_01_edit.png">
-                <div class="content">
+                <div class="content" style="margin-top: 20px;">
                     <b>BKK, BANGKOK, กรุงเทพฯ (n.)</b>
                     <br><br>
-                    <p>เมืองหลวงแห่งความวุ่นวาย<br>เมื่อหันซ้ายหันขวาทีไรก็เจอแต่ความแน่นิ่ง</p>
+                    <p>เมืองหลวงแห่งความวุ่นวาย<br>เมื่อหันซ้ายหันขวาทีไรก็มักจะเจอกับความแน่นิ่ง</p>
                     <div class="num2">
                         002
                     </div>
@@ -231,8 +307,8 @@
                 </div>
                 <br>
                 <div class="content2">
-                    <b>READY. GET. SET. GO!</b>
-                    <p class="num1">001</p>
+                    <p id="acumin" style="font-size: 38px;">READY. GET. SET. GO!</p>
+                    <p class="num1">00 1</p>
                 </div>
                 <div>
                     <img class="arrow" src="PIC/ARROW ICON.png">
