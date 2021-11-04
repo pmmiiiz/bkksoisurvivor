@@ -1,11 +1,21 @@
 body{
     margin: 0;
-    overflow-x: hidden;
+    
 }
 .navbar{
     width: 100vw;
     height: calc(25vh/3);
     background-color:rgb(71, 255, 15);
+}
+.content{
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y proximity;
+    height: 100vh;
+}
+.snap_page {
+    scroll-snap-align: start;
+    height: 100vh;
 }
 .page1_contant{
     width: 100vw;
