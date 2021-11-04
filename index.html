@@ -1,325 +1,53 @@
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <title>BKKSOISURVIVOR</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&display=swap');
-    
-    @font-face {
-    font-family: 'Acumin Pro';
-    src: url('AcuminPro-Regular.woff2') format('woff2'),
-        url('AcuminPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'Hydrophilia';
-    src: url('HydrophiliaIced.woff2') format('woff2'),
-        url('HydrophiliaIced.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    }
-
-    @font-face {
-    font-family: 'ChulaCharasNew';
-    src: url('ChulaCharasNew.woff2') format('woff2'),
-        url('ChulaCharasNew.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    }
-
-
-    @font-face {
-    font-family: 'DS-Digital';
-    src: url('DS-Digital-Italic.woff2') format('woff2'),
-        url('DS-Digital-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-    }
-
-    #acumin{
-        font-family: 'Acumin Pro';
-    }
-
-    #hydro{
-        font-family: 'Hydrophilia';
-    }
-
-    #chula{
-        font-family: 'ChulaCharasNew';
-    }
-
-    #ds-digital{
-        font-family: 'DS-Digital';
-    }
-
-    body {
-        background: black;
-        font-family: sans-serif;
-        margin: 0;
-        height: 1500vh;
-        overflow-x: hidden;
-    }
-    
-    header {
-        background: black;
-        transition: all .3s;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-        display: inline-flex;
-        height: 63px;
-    }
-    
-    #header {
-        padding: 1rem 1rem;
-    }
-    
-    #menu {
-        padding: 0.5rem 1rem;
-    }
-    
-    .frame p {
-        margin: auto;
-        color: white;
-        font-size: 18px;
-        font-family: 'Acumin Pro';
-    }
-    
-    .frame2 p {
-        margin: auto;
-        color: white;
-        font-size: 18px;
-        font-family: 'Acumin Pro';
-    }
-    
-    .frame {
-        display: inline-block;
-    }
-
-    .frame img{
-        top: 0px;
-    }
-    
-    .survi {
-        display: inline-block;
-        /* font-family: 'VT323', monospace; */
-        font-family: 'Hydrophilia';
-        color: white;
-        padding: 100px 0px 0px 180px;
-    }
-    
-    .survi1 {
-        display: inline-block;
-        /* font-family: 'VT323', monospace; */
-        font-family: 'Hydrophilia';
-        color: white;
-    }
-    
-    .survi2 {
-        /* font-family: 'VT323', monospace; */
-        font-family: 'Hydrophilia';
-        color: white;
-        margin-top: -80px;
-        margin-left: 180px;
-    }
-    
-    .txtsurvi {
-        font-size: 130px;
-        margin: 0;
-        letter-spacing: -8px;
-    }
-    
-    .txtsurvi1 {
-        font-size: 130px;
-        margin: 0;
-        color: #DBFF00;
-        letter-spacing: -8px;
-    }
-    
-    .txtsurvi2 {
-        font-size: 130px;
-        margin: 0;
-        letter-spacing: -8px;
-    }
-    
-    .line {
-        background-color: white;
-        width: 63%;
-        height: 1px;
-        margin-left: 180px;
-        display: inline-block;
-        top: -5px;
-        position: relative;
-    }
-    
-    .num3 {
-        /* font-family: 'VT323', monospace; */
-        font-family: 'DS-Digital';
-        color: white;
-        right: 5%;
-        top: 300px;
-        position: absolute;
-        display: inline-block;
-    }
-    
-    .piccar {
-        width: 7%;
-        margin-left: 27%;
-        margin-top: 6%;
-        position: fixed;
-    }
-    
-    .content {
-        /* font-family: 'IBM Plex Sans Thai', sans-serif; */
-        font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 19px;
-        margin-left: 50%;
-        color: white;
-        font-weight: 100;
-    }
-    
-    .content b {
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        color: white;
-        font-size: 20px;
-    }
-
-    .content p {
-        font-family: 'ChulaCharasNew';
-        color: white;
-        font-size: 20px;
-    }
-    
-    .content2 {
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 40px;
-        margin-left: 50%;
-        color: white;
-        display: inline-block;
-    }
-    
-    .line2 {
-        background-color: white;
-        width: 25%;
-        height: 1px;
-        margin-left: 50%;
-        margin-top: -10px;
-    }
-    
-    .num2 {
-        /* font-family: 'VT323', monospace; */
-        font-family: 'DS-Digital';
-        color: white;
-        font-size: 40px;
-        right: 5%;
-        top: 500px;
-        position: absolute;
-        display: inline-block;
-    }
-    
-    .num1 {
-        /* font-family: 'VT323', monospace; */
-        font-family: 'DS-Digital';
-        color: #DBFF00;
-        font-size: 40px;
-        right: 15%;
-        top: 670px;
-        position: absolute;
-        /* display: inline-block; */
-    }
-    
-    .arrow {
-        right: 6%;
-        top: 685px;
-        position: absolute;
-        width: 2%;
-        /* height: ; */
-    }
-    
-    .street {
-        margin-top: 48px;
-        width: 100%;
-    }
-</style>
-</head>
-
 <body>
-    <header>
-        <div id="menu">
-            <div class="frame"><img src="PIC/ARROW-SMALL_01.png"></div>
-            <div class="frame">
-                <p>HOME</p>
-            </div>
-            <div class="frame2">
-                <p>INFO</p>
-            </div>
-        </div>
-        <div id="header">
-            <img src="PIC/LOGO_PG1.png" width="15%">
-        </div>
-    </header>
-    <div class="name">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="survi">
-                    <p class="txtsurvi">BKK-</p>
-                </div>
-                <div class="survi1">
-                    <p class="txtsurvi1">SOI</p>
-                </div>
-                <div class="survi2">
-                    <p class="txtsurvi2">SURVIVOR</p>
-                </div>
-                <div class="line"></div>
-                <div class="num3">
-                    <p style="font-size: 40px;">003</p>
-                </div>
-            </div>
+    <div class="content">
+        <!-- บาร์ด้านบน -->
+        <div class="navbar">
 
-            <div class="row">
-                <img class="piccar" src="PIC/DT_CAR_01_edit.png">
-                <div class="content" style="margin-top: 20px;">
-                    <b>BKK, BANGKOK, กรุงเทพฯ (n.)</b>
-                    <br><br>
-                    <p>เมืองหลวงแห่งความวุ่นวาย<br>เมื่อหันซ้ายหันขวาทีไรก็มักจะเจอกับความแน่นิ่ง</p>
-                    <div class="num2">
-                        002
-                    </div>
-                </div>
-                <br>
-                <div class="line2"></div>
-                <br>
-                <div class="content">
-                    <p>พร้อมหรือยังกับการเป็นสุดยอด SURVIVOR<br>ของมหานคร ที่จะทดสอบความอดทนของคุณ<br>บนถนนเส้นนี้</p>
-                </div>
-                <br>
-                <div class="content2">
-                    <p id="acumin" style="font-size: 38px;">READY. GET. SET. GO!</p>
-                    <p class="num1">00 1</p>
-                </div>
-                <div>
-                    <img class="arrow" src="PIC/ARROW ICON.png">
-                </div>
-            </div>
-
-            <div class="row">
-                <img class="street" src="PIC/STRIPE_01.png">
-            </div>
         </div>
+        <!-- หน้าแรก -->
+        <section class="page1_contant">
+
+        </section>
+        <!-- ตารางหมากรุกของหน้าแรก -->
+        <section class="checkerboardbw">
+
+        </section>
+
+        <!-- หน้าสอง -->
+        <section class="page2_contant">
+
+        </section>
+
+        <!-- หน้าสาม -->
+        <section class="page3_contant" style="background-color: blue;">
+
+        </section>
+
+        <!-- หน้าสี่ -->
+        <section class="page4_contant" style="background-color: pink;">
+
+        </section>
+        <!-- ตารางหมากรุกสีส้ม -->
+        <section class="checkerboardbo">
+
+        </section>
+        <!-- หน้าห้า -->
+        <section class="page3_contant" style="background-color: rgb(138, 0, 23);">
+
+        </section>
+
+        <!-- หน้าหก -->
+        <section class="page4_contant" style="background-color: rgb(189, 132, 142);">
+
+        </section>
     </div>
 </body>
-
 </html>

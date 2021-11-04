@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100vw;
+    height: calc(25vh/3);
+    background-color:rgb(71, 255, 15);
+}
+.page1_contant{
+    width: 100vw;
+    height: calc(100vh - (25vh/3));
+    background-color: black;
+    scroll-snap-align: start;
+}
+.page2_contant, .page3_contant, .page4_contant, .page5_contant, .page6_contant{
+    width: 100vw;
+    height: 100vh;
+}
+.checkerboardbw, .checkerboardbo{
+    width: 100vw;
+    height: 25vh;
+    background-color: coral;
+    scroll-snap-align: start;
+}
