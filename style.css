@@ -186,14 +186,16 @@ body {
 
 .p1car {
     width: 50vw;
-    height: 55vh;
+    height: 335vh;
     position: relative;
 }
 
 .p1carpic {
-    position: fixed;
+    position: sticky;
     width: 8vw;
+    top: 30vh;
     margin-top: 8vh;
+    left: 27vw;
     z-index: 1;
 }
 
