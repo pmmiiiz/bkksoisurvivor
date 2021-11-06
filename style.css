@@ -178,6 +178,7 @@ body{
         padding: 0 0.5vw;
         align-items: center!important;
         text-align: center!important;
+        padding-top: 1vw!important;
         
     }
     .vector301{
@@ -195,7 +196,7 @@ body{
         align-items: center;
         display: inline-block;
         font-size: 4vw!important;
-        margin-bottom: 1.5vw;
+        
         
         
     }
