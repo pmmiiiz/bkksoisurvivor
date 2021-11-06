@@ -196,7 +196,7 @@ body{
     }
     .checkerboardbo{
         width: 100vw;
-        height: 23vh;
+        height: 18vh;
         background-color: black;
         scroll-snap-align: start;
     }
@@ -347,7 +347,7 @@ body{
     }
     .checkerboardbo{
         width: 100vw;
-        height: 15vw;
+        height: 10vw;
         background-color: black;
         scroll-snap-align: start;
     }
@@ -498,7 +498,7 @@ body{
     opacity: 1;
 }
 .checko{
-    width: 110vw;
+    width: 100vw;
     position: relative;
     z-index: 2;
 }
