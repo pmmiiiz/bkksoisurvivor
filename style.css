@@ -88,7 +88,17 @@ body{
     scroll-snap-align: start;
 }
 
+.page4_contant{
+    width: 100vw;
+    height: 90vh;
 
+}
+.checkerboardbo{
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    scroll-snap-align: start;
+}
 
 /* page4 */
 
@@ -269,17 +279,7 @@ body{
 
 /* จอปกติ */
  
-.page4_contant{
-    width: 100vw;
-    height: 90vh;
 
-}
-.checkerboardbo{
-    width: 100vw;
-    height: 30vh;
-    background-color: black;
-    scroll-snap-align: start;
-}
 
   .content_allpage {
     display: flex;
