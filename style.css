@@ -50,6 +50,21 @@
     #ds-digital{
         font-family: 'DS-Digital';
     }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: #DBFF00; 
+    border-radius: 10px;
+}
+      
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
+
 body{
     margin: 0;
     font-family: 'ChulaCharasNew'!important;
@@ -98,6 +113,52 @@ body{
     height: 30vh;
     background-color: black;
     scroll-snap-align: start;
+}
+
+/* page2 */
+
+/* text animation */
+#mainmarquee{
+    width: 100vw;
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin: auto;
+    color: #DBFF00;
+    font-size: 24px;
+    font-family: 'ChulaCharasNew';
+}
+
+#marquee1 {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+
+#marquee2 {
+    display: inline-block;
+    animation: marquee2 15s linear infinite;
+    animation-delay: 7.47s;
+}
+#mainmarquee div:hover{
+    cursor: pointer;
+}
+
+
+@keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+  
+@keyframes marquee2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
 }
 
 /* page4 */
