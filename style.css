@@ -1,132 +1,281 @@
 @font-face {
     font-family: 'Acumin Pro';
-    src: url('AcuminPro-Regular.woff2') format('woff2'),
-        url('AcuminPro-Regular.woff') format('woff');
+    src: url('AcuminPro-Regular.woff2') format('woff2'), url('AcuminPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    }
+}
 
-    @font-face {
+@font-face {
     font-family: 'Hydrophilia';
-    src: url('HydrophiliaIced.woff2') format('woff2'),
-        url('HydrophiliaIced.woff') format('woff');
+    src: url('HydrophiliaIced.woff2') format('woff2'), url('HydrophiliaIced.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    }
+}
 
-    @font-face {
+@font-face {
     font-family: 'ChulaCharasNew';
-    src: url('ChulaCharasNew.woff2') format('woff2'),
-        url('ChulaCharasNew.woff') format('woff');
+    src: url('ChulaCharasNew.woff2') format('woff2'), url('ChulaCharasNew.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    }
+}
 
-
-    @font-face {
+@font-face {
     font-family: 'DS-Digital';
-    src: url('DS-Digital-Italic.woff2') format('woff2'),
-        url('DS-Digital-Italic.woff') format('woff');
+    src: url('DS-Digital-Italic.woff2') format('woff2'), url('DS-Digital-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
-    }
+}
 
-    #acumin{
-        font-family: 'Acumin Pro';
-    }
+#acumin {
+    font-family: 'Acumin Pro';
+}
 
-    #hydro{
-        font-family: 'Hydrophilia';
-    }
+#hydro {
+    font-family: 'Hydrophilia';
+}
 
-    #chula{
-        font-family: 'ChulaCharasNew';
-    }
+#chula {
+    font-family: 'ChulaCharasNew';
+}
 
-    #ds-digital{
-        font-family: 'DS-Digital';
-    }
+#ds-digital {
+    font-family: 'DS-Digital';
+}
 
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-    background-color: black; 
-}
-::-webkit-scrollbar-thumb {
-    background: #DBFF00; 
-    border-radius: 10px;
-}
-      
-::-webkit-scrollbar-thumb:hover {
-    background: white; 
+    background-color: black;
 }
 
-body{
+::-webkit-scrollbar-thumb {
+    background: #DBFF00;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+body {
     margin: 0;
     font-family: 'ChulaCharasNew'!important;
-    
 }
-.navbar{
+
+.navbar {
     width: 100vw;
     height: calc(25vh/3);
-    background-color:rgb(71, 255, 15);
+    background-color: rgb(71, 255, 15);
 }
-.content{
+
+.content {
     overflow-y: auto;
     overflow-x: hidden;
     scroll-snap-type: y proximity;
     height: 100vh;
 }
+
 .snap_page {
     scroll-snap-align: start;
     height: 100vh;
 }
-.page1_contant{
+
+.page1_contant {
     width: 100vw;
     height: calc(100vh - (25vh/3));
     background-color: black;
     scroll-snap-align: start;
 }
-.page2_contant, .page3_contant, .page5_contant, .page6_contant{
+
+.page2_contant,
+.page3_contant,
+.page5_contant,
+.page6_contant {
     width: 100vw;
     height: 100vh;
     z-index: 0;
     position: relative;
 }
 
-.checkerboardbw{
+.checkerboardbw {
     width: 100vw;
     height: 25vh;
-    background-color: coral;
+    background-color: black;
     scroll-snap-align: start;
 }
 
-.page4_contant{
+.page4_contant {
     width: 100vw;
     height: 90vh;
-
 }
-.checkerboardbo{
+
+.checkerboardbo {
     width: 100vw;
     height: 20vh;
     background-color: black;
     scroll-snap-align: start;
 }
-.content_car{
+
+.content_car {
     width: 42vw;
     height: 50vw;
     position: relative;
     top: 10vw;
     z-index: 0;
 }
+
+
+/* page1 จอปกติ */
+
+.p1head {
+    width: 100vw;
+    height: 45vh;
+    background-color: black;
+}
+
+.p1logo1 {
+    font-family: 'Acumin Pro';
+    font-size: 8vw;
+    color: white;
+    position: relative;
+    top: 8vh;
+    left: 12vw;
+}
+
+.p1logo2 {
+    font-family: 'Acumin Pro';
+    font-size: 8vw;
+    color: white;
+    position: relative;
+    top: 2vh;
+    left: 12vw;
+}
+
+.yellow {
+    font-family: 'Hydrophilia';
+    color: #cbed00;
+}
+
+.decor003 {
+    font-family: 'DS-Digital';
+    font-size: 3vw;
+    position: relative;
+    top: -9vh;
+    left: 90vw;
+    color: white;
+}
+
+.p1longline {
+    width: 63vw;
+    height: 0.1vw;
+    background-color: white;
+    position: relative;
+    top: -4vh;
+    left: 12vw;
+}
+
+.p1body {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+}
+
+.p1car {
+    width: 50vw;
+    height: 55vh;
+    position: relative;
+}
+
+.p1carpic {
+    position: fixed;
+    width: 8vw;
+    margin-top: 8vh;
+    z-index: 1;
+}
+
+.p1detail {
+    font-family: 'ChulaCharasNew';
+    width: 50vw;
+    height: 55vh;
+    position: relative;
+    color: white;
+}
+
+.p1detail_head {
+    font-size: 1.6vw;
+    position: relative;
+    top: 3vh;
+    color: white;
+}
+
+.p1detail_1 {
+    font-size: 1.3vw;
+    margin-top: 5vh;
+    color: white;
+}
+
+.decor002 {
+    font-family: 'DS-Digital';
+    font-size: 3vw;
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+    color: white;
+}
+
+.p1shortline {
+    width: 25vw;
+    height: 0.1vw;
+    background-color: white;
+    position: relative;
+    top: 3vh;
+}
+
+.p1detail_2 {
+    font-size: 1.3vw;
+    margin-top: 6vh;
+    color: white;
+}
+
+.p1ready {
+    font-size: 2.9vw;
+    margin-top: 2vh;
+    color: white;
+}
+
+.decor001 {
+    font-family: 'DS-Digital';
+    font-size: 3vw;
+    position: absolute;
+    top: 36.5vh;
+    left: 31vw;
+    color: #cbed00;
+}
+
+.p1arrowpic {
+    position: absolute;
+    width: 2vw;
+    top: 36.5vh;
+    left: 41vw;
+}
+
+.p1stripepic {
+    width: 100vw;
+    height: 25vh;
+    z-index: 0;
+}
+
+
 /* page2 */
 
+
 /* text animation */
-#mainmarquee{
+
+#mainmarquee {
     width: 100vw;
     overflow-x: hidden;
     white-space: nowrap;
@@ -146,32 +295,35 @@ body{
     animation: marquee2 15s linear infinite;
     animation-delay: 7.47s;
 }
-#mainmarquee div:hover{
+
+#mainmarquee div:hover {
     cursor: pointer;
 }
 
-
 @keyframes marquee {
     from {
-      transform: translateX(100%);
+        transform: translateX(100%);
     }
     to {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
 }
-  
+
 @keyframes marquee2 {
     from {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
     to {
-      transform: translateX(-200%);
+        transform: translateX(-200%);
     }
 }
+
 
 /* page4 */
 
+
 /* จอmac */
+
 @media screen and (max-width: 1280px) {
     .content_allpagemac {
         display: flex!important;
@@ -180,62 +332,58 @@ body{
         height: 100%;
         padding-top: 12%!important;
         margin-left: 8%;
-     
     }
-    .page4_contant{
+    .page4_contant {
         width: 100vw;
         height: 90vh;
-    
     }
-    .content_car{
+    .content_car {
         width: 42vw;
         height: 54vh;
         position: relative;
         top: 10vw;
         z-index: 0;
     }
-    .checkerboardbo{
+    .checkerboardbo {
         width: 100vw;
         height: 18vh;
         background-color: black;
         scroll-snap-align: start;
     }
-   
-  }
+}
+
+
 /* ไอแพดกับโทรศัพท์ */
 
-@media screen and (max-width: 1024px) and (min-width: 200px){
+@media screen and (max-width: 1024px) and (min-width: 200px) {
     .content_allpage {
         display: block!important;
         width: 100%!important;
         height: 100%;
         padding-top: 0%!important;
         margin-left: 8%!important;
-     
     }
-     
-    .content_car{
+    .content_car {
         width: 100vw;
         height: 180vw!important;
         position: relative;
         top: 6vw!important;
         z-index: 0;
     }
-    .content_page4text{
+    .content_page4text {
         color: rgb(255, 255, 255);
         top: 0vw!important;
         align-items: center;
         margin-top: -120vw;
     }
-    .topicpage4{
+    .topicpage4 {
         text-align: center!important;
         margin-left: -17%;
         font-size: 7vw!important;
         color: rgb(255, 255, 255);
         font-family: 'ChulaCharasNew';
-        
     }
-    .linepage4{
+    .linepage4 {
         border-bottom: 0.1vw solid rgba(255, 255, 255);
         height: 1vw;
         width: 55%!important;
@@ -243,10 +391,10 @@ body{
         margin-left: 14%;
         margin-top: 4vw;
     }
-    .parapage4{
+    .parapage4 {
         display: none;
     }
-    .boxlr{
+    .boxlr {
         position: relative;
         top: 10vw!important;
         width: 70vw!important;
@@ -257,28 +405,24 @@ body{
         align-items: center!important;
         text-align: center!important;
         padding-top: 1vw!important;
-        
     }
-    .vector301{
+    .vector301 {
         align-items: center;
         padding-top: 1vw;
         display: inline-block;
         /* margin-left: 2.5vw; */
     }
-    .vector3012{
+    .vector3012 {
         align-items: center;
         padding-top: 1vw;
         display: inline-block;
     }
-    .textboxlr{
+    .textboxlr {
         align-items: center;
         display: inline-block;
         font-size: 4vw!important;
-        
-        
-        
     }
-    .arrowdownp4{
+    .arrowdownp4 {
         width: 4vw!important;
         padding-top: 20vw!important;
         padding-left: 82vw!important;
@@ -289,11 +433,9 @@ body{
         top: 18vw!important;
         z-index: -1;
     }
-    
     #changecar>.car {
         position: absolute;
     }
-    
     #leftchangecar {
         position: absolute;
         top: 23vw!important;
@@ -306,7 +448,6 @@ body{
         cursor: pointer;
         z-index: 4;
     }
-    
     #rightchangecar {
         position: absolute;
         top: 23vw!important;
@@ -320,15 +461,13 @@ body{
         cursor: pointer;
         z-index: 4;
     }
-    
     #carpic {
         width: 15vw!important;
-        
     }
-    #mortorpic{
+    #mortorpic {
         width: 16vw!important;
     }
-    .parapage4mobile{
+    .parapage4mobile {
         display: block!important;
         margin-top: 7vw!important;
         text-align: center!important;
@@ -338,71 +477,69 @@ body{
         letter-spacing: 1px!important;
         line-height: 5vw!important;
         margin-left: -15%!important;
-        
     }
-    .page4_contant{
+    .page4_contant {
         width: 100vw;
         height: 160vw!important;
-    
     }
-    .checkerboardbo{
+    .checkerboardbo {
         width: 100vw;
         height: 10vw;
         background-color: black;
         scroll-snap-align: start;
     }
-    .checko{
+    .checko {
         width: 120vw;
-        z-index:2;
+        z-index: 2;
         position: relative;
     }
-   
-  }
+}
+
 
 /* จอปกติ */
- 
 
-
-  .content_allpage {
+.content_allpage {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     padding-top: 8vh;
     margin-left: 8%;
- 
 }
 
-.content_page4text{
+.content_page4text {
     color: rgb(255, 255, 255);
     position: relative;
     top: 0vw;
 }
-.racp4{
+
+.racp4 {
     position: relative;
-    left:32vw;
+    left: 32vw;
     top: -5vw;
     width: 3vw;
 }
-.linepage4{
+
+.linepage4 {
     border-bottom: 0.1vw solid rgba(255, 255, 255);
     height: 1vw;
     width: 90%;
 }
 
-.topicpage4{
+.topicpage4 {
     padding-top: 1.5vw;
     text-align: left;
     font-size: 4.5vw;
     color: rgb(255, 255, 255);
     font-family: 'ChulaCharasNew';
-    
 }
-.hrlime{
-    color:#DBFF00;
+
+.hrlime {
+    color: #DBFF00;
     font-family: 'ChulaCharasNew';
 }
-.parapage4{
+
+.parapage4 {
     margin-top: 2vw;
     text-align: left;
     font-size: 1.2vw;
@@ -411,42 +548,47 @@ body{
     letter-spacing: 1px;
     line-height: 2vw;
 }
-.parapage4mobile{
+
+.parapage4mobile {
     display: none;
-    
 }
-.boxlr{
+
+.boxlr {
     margin-top: 1vw;
     width: 35vw;
     /* height: 3vw; */
     border: 0.1vw solid #F694FF;
     padding: 0 1.5vw;
     align-items: center;
-    text-align: center;   
+    text-align: center;
 }
-.vector301{
+
+.vector301 {
     align-items: center;
     padding-top: 1.5vw;
     display: inline-block;
     /* margin-left: 2.5vw; */
 }
-.vector3012{
+
+.vector3012 {
     align-items: center;
     padding-top: 0.25vw;
     display: inline-block;
 }
-.textboxlr{
+
+.textboxlr {
     align-items: center;
     display: inline-block;
     font-size: 2vw;
     padding: 0 2.5vw;
-    
 }
-.arrowdownp4{
+
+.arrowdownp4 {
     width: 2vw;
     padding-top: 0vw;
     padding-left: 40vw;
 }
+
 #changecar {
     position: sticky;
     margin-left: 19vw;
@@ -486,7 +628,8 @@ body{
 #carpic {
     width: 8vw
 }
-#mortorpic{
+
+#mortorpic {
     width: 9vw
 }
 
@@ -497,7 +640,8 @@ body{
 .car:nth-child(1) {
     opacity: 1;
 }
-.checko{
+
+.checko {
     width: 100vw;
     position: relative;
     z-index: 2;
