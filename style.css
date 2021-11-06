@@ -94,6 +94,8 @@ body{
 .page2_contant, .page3_contant, .page5_contant, .page6_contant{
     width: 100vw;
     height: 100vh;
+    z-index: 0;
+    position: relative;
 }
 
 .checkerboardbw{
@@ -110,11 +112,17 @@ body{
 }
 .checkerboardbo{
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     background-color: black;
     scroll-snap-align: start;
 }
-
+.content_car{
+    width: 42vw;
+    height: 50vw;
+    position: relative;
+    top: 10vw;
+    z-index: 0;
+}
 /* page2 */
 
 /* text animation */
@@ -179,6 +187,13 @@ body{
         height: 90vh;
     
     }
+    .content_car{
+        width: 42vw;
+        height: 54vh;
+        position: relative;
+        top: 10vw;
+        z-index: 0;
+    }
     .checkerboardbo{
         width: 100vw;
         height: 23vh;
@@ -201,14 +216,16 @@ body{
      
     .content_car{
         width: 100vw;
-        height: 16vw;
+        height: 180vw!important;
         position: relative;
         top: 6vw!important;
+        z-index: 0;
     }
     .content_page4text{
         color: rgb(255, 255, 255);
-        top: 35vw!important;
+        top: 0vw!important;
         align-items: center;
+        margin-top: -120vw;
     }
     .topicpage4{
         text-align: center!important;
@@ -267,9 +284,10 @@ body{
         padding-left: 82vw!important;
     }
     #changecar {
-        position: relative;
+        position: sticky;
         margin-left: 35vw!important;
-        top: 5vw!important;
+        top: 18vw!important;
+        z-index: -1;
     }
     
     #changecar>.car {
@@ -278,7 +296,7 @@ body{
     
     #leftchangecar {
         position: absolute;
-        top: 15vw;
+        top: 23vw!important;
         margin-left: 20vw!important;
         background: transparent;
         color: white;
@@ -291,7 +309,7 @@ body{
     
     #rightchangecar {
         position: absolute;
-        top: 15vw;
+        top: 23vw!important;
         margin-right: 0vw!important;
         margin-left: 60vw!important;
         background: transparent;
@@ -335,6 +353,8 @@ body{
     }
     .checko{
         width: 120vw;
+        z-index:2;
+        position: relative;
     }
    
   }
@@ -352,12 +372,7 @@ body{
     margin-left: 8%;
  
 }
-.content_car{
-    width: 42vw;
-    height: 16vw;
-    position: relative;
-    top: 15vw;
-}
+
 .content_page4text{
     color: rgb(255, 255, 255);
     position: relative;
@@ -407,8 +422,7 @@ body{
     border: 0.1vw solid #F694FF;
     padding: 0 1.5vw;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;   
 }
 .vector301{
     align-items: center;
@@ -434,9 +448,9 @@ body{
     padding-left: 40vw;
 }
 #changecar {
-    position: relative;
+    position: sticky;
     margin-left: 19vw;
-    top: -5vw;
+    top: 10vw;
 }
 
 #changecar>.car {
@@ -445,7 +459,7 @@ body{
 
 #leftchangecar {
     position: absolute;
-    /* top: 19vw; */
+    top: 5vw;
     margin-left: 11vw;
     background: transparent;
     color: white;
@@ -458,7 +472,7 @@ body{
 
 #rightchangecar {
     position: absolute;
-    /* top: 19vw; */
+    top: 5vw;
     margin-left: 33vw;
     background: transparent;
     color: white;
@@ -484,5 +498,7 @@ body{
     opacity: 1;
 }
 .checko{
-    width: 100vw;
+    width: 110vw;
+    position: relative;
+    z-index: 2;
 }
