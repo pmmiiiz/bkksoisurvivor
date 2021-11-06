@@ -32,13 +32,66 @@
         </section>
 
         <!-- หน้าสี่ -->
-        <section class="page4_contant snap_page" style="background-color: pink;">
+        <section class="page4_contant snap_page" style="background-color: black;"  >
 
-        </section>
-        <!-- ตารางหมากรุกสีส้ม -->
-        <section class="checkerboardbo snap_page">
 
-        </section>
+           
+            <div class="content_allpage content_allpagemac">
+                <div class="content_car">
+                        <button id="leftchangecar">❰</button>
+                        <div id="changecar">
+                            <div class="car">
+                                <img src="pic/DT_CAR_01_edit.png" id="carpic">
+                            </div>
+                            <div class="car">
+                                <img src="PIC/motorbike2.png" id="mortorpic">
+                            </div>
+                        </div>
+                        <button id="rightchangecar">❱</button>
+                        <img src="PIC/Rectangle 411.png" class="racp4">
+
+                </div>  
+                <div class="content_page4text">
+                    <div class="topicpage4" >
+                    แล้วถ้ารถติดขนาดนี้<br>
+                    เป็น<u class="hrlime">ความผิด</u><br>
+                    ของใครกันแน่ ?<br>
+                    </div>
+                    
+                    <div class="linepage4"></div>
+                    <div class="parapage4mobile" >
+                        ในเมื่อคุณไม่สามารถหาคำตอบได้ และในขณะที่<br>
+                        เห็นหน้าปากซอยอยู่รำไร แต่ก็ไม่มีทางไปต่อ <br>
+                        เราจึงขอเสนอตัวช่วยเป็น ‘วินมอเตอร์ไซค์’<br>
+                        เพื่อลัดเลาะตามทางได้สะดวกกว่าที่เคย<br>
+                    </div>
+                    <div class="parapage4" >
+                        ในเมื่อคุณไม่สามารถหาคำตอบได้ <br>
+                        และในขณะที่เห็นหน้าปากซอยอยู่รำไร แต่ก็ไม่มีทางไปต่อ <br>
+                        เราจึงขอเสนอตัวช่วยเป็น ‘วินมอเตอร์ไซค์’<br>
+                        เพื่อลัดเลาะตามทางได้สะดวกกว่าที่เคย<br>
+                    </div>
+                    <div class="boxlr">
+                        <img src="pic/Vector_301.png" class="vector301">
+                        <div  class = "textboxlr">เลื่อนที่รถเพื่อเปลี่ยนไปขึ้นวิน</div>
+                        <img src="pic/Vector_301.png" class="vector3012">
+                    </div>
+                    <div class="arrowdownpage4">
+                        <img src="PIC/ARROW ICON.png" class="arrowdownp4">
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+            
+        
+    </section>
+    <!-- ตารางหมากรุกสีส้ม -->
+    <section class="checkerboardbo snap_page">
+        <img src="pic/SOI stripe.png" class="checko">
+    </section>
         <!-- หน้าห้า -->
         <section class="page3_contant snap_page" style="background-color: rgb(138, 0, 23);">
 
@@ -50,4 +103,45 @@
         </section>
     </div>
 </body>
+<script>
+    
+   
+    let numstartcar = 0;
+    let endnumcar = 2;
+    const car = document.querySelectorAll(".car");
+    const vocabcar = document.querySelectorAll(".vocabcar");
+    
+    rightchangecar.addEventListener("click", function() {
+        car[numstartcar].style.opacity = "0";
+        numstartcar++;
+
+        if (numstartcar < endnumcar) {
+            car[numstartcar].style.opacity = "1";
+        } else {
+            numstartcar = 0;
+            car[numstartcar].style.opacity = "1";
+        }
+    });
+    leftchangecar.addEventListener("click", function() {
+        car[numstartcar].style.opacity = "0";
+        numstartcar--;
+
+        if (numstartcar > -1) {
+            car[numstartcar].style.opacity = "1";
+        } else {
+            numstartcar = endnumcar - 1;
+            car[numstartcar].style.opacity = "1";
+        }
+
+    });
+    let body = document.body
+    document.body.onscroll = function() {
+    let newY = window.scrollY;
+    let scrollY = window.scrollY;
+    body.style.setProperty("--Y", window.scrollY);
+    // if(newY + window.innerWidth - 300 >= document.querySelector(".page4_contant").offsetTop && numstartcar == 0){
+    //     document.querySelector("#carpic").style.position = "sticky";
+    // }
+};
+</script>
 </html>
