@@ -64,6 +64,8 @@
 body {
     margin: 0;
     font-family: 'ChulaCharasNew'!important;
+    color: white;
+    background-color: black;
 }
 
 .navbar {
@@ -93,14 +95,16 @@ body {
 
 .page2_contant,
 .page3_contant,
-.page5_contant,
-.page6_contant {
+.page5_contant{
     width: 100vw;
     height: 100vh;
     z-index: 0;
     position: relative;
 }
-
+.page6_contant{
+    width: 100vw;
+    height: 130vh;
+}
 .checkerboardbw {
     width: 100vw;
     height: 25vh;
@@ -853,4 +857,287 @@ body {
     width: 100vw;
     position: relative;
     z-index: 2;
+}
+
+
+/* page6 */
+.page6_contant{
+    padding-top: 10%;
+}
+
+.col-1{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border: 0.1vw solid rgba(255, 255, 255, 0.5);
+}
+.col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    margin-left: 8%;
+}
+/* โทรศัพท์ */
+@media screen and (max-width: 415px) {
+    .page6_contant{
+        width: 100vw;
+        height: 80vh;
+        padding-top: 40%;
+    }
+    .col-1-moblie{
+        width: 10px;
+        height: 10px;
+    }
+    .content_text_mobile{
+        opacity: 0;
+        height: 50vw;
+    }
+    .content_text2_mobile{
+        display: block !important;
+        height: 50vw;
+        letter-spacing: 0.5px!important;
+        font-size: 2.5vw !important;
+    }
+    .text_block_mobile {
+        padding-left: 13% !important;
+    }
+    .text_block0_mobile {
+        padding-left: 12.5%  !important;
+        padding-top: 6.5% !important;
+    }
+    #vec1{
+        opacity: 0;
+    }
+    #vec2{
+        margin-top: -63vw !important;
+    }
+    #img-zoomer-box{
+        width: 110% !important;
+    }
+    .content_superblockmap_mobile{
+        padding: 0% !important;
+        flex-basis: 47% !important;
+        text-align: center;
+        height: 61vw;
+    }
+    .content_bottomleft_mobile {
+        flex-basis: 90% !important;
+        padding: 4vh 0;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+        border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    .content_bottomright_mobile {
+        display: none;
+    }
+    #img-2 {
+        opacity: 0 !important;
+    }
+}
+/* ไอแพด */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .page6_contant{
+        width: 100vw;
+        height: 100vh;
+        padding-top: 5%;
+    }
+    .col-1-moblie{
+        width: 10px;
+        height: 10px;
+    }
+    .content_text_mobile{
+        opacity: 0;
+        height: 50vw;
+    }
+    .content_text2_mobile{
+        display: block !important;
+        height: 50vw;
+        font-size: 3vw !important;
+        letter-spacing: 0.5px!important;
+    }
+    .text_block_mobile {
+        padding-left: 14.4% !important;
+    }
+    .text_block0_mobile {
+        padding-left: 14%  !important;
+        padding-top: 5.5% !important;
+    }
+    #vec1{
+        opacity: 0;
+    }
+    #vec2{
+        margin-top: -63vw !important;
+    }
+    #img-zoomer-box{
+        width: 109.5% !important;
+    }
+    .content_superblockmap_mobile{
+        padding: 0% !important;
+        flex-basis: 47% !important;
+        text-align: center;
+        height: 61vw;
+    }
+    .content_bottomleft_mobile {
+        flex-basis: 90% !important;
+        height: 39.5vh !important;
+        padding: 4vh 0;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+        border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    .content_bottomright_mobile {
+        display: none;
+    }
+    #img-2 {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+.text_super{
+    padding-left: 5%;
+    flex-basis: 37%;
+    font-size: 5vw;
+}
+.text_super h1{
+    margin-bottom: -8%;
+    margin-top: -2%;
+    padding-bottom: 0px;
+    color: #DBFF00;
+}
+.content_umbrella{
+    flex-basis: 40%;
+    padding: 0 4.5%;
+    text-align: center;
+    font-size: 18px;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
+}
+.content_umbrella img{
+    margin-top: -54%;
+}
+.content_superblock{
+    flex-basis: 42%;
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 18px;
+}
+.text_block{
+    padding-left: 5%;
+    font-size: 5vw;
+}
+.text_block h1{
+    margin-bottom: -40%;
+    left: -72%;
+    padding-bottom: 0px;
+    color: #DBFF00;
+    transform: rotate(-90deg);
+    position: relative;
+}
+.text_blocko{
+    padding-left: 5%;
+    font-size: 5vw;
+    padding-top: 6%;
+}
+.text_blocko h1{
+    margin-bottom: -37.5%;
+    left: -72%;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 6.8vw;
+    transform: rotate(-90deg);
+    position: relative;
+    font-family: 'Hydrophilia';
+}
+.content_superblockmap{
+    flex-basis: 42.5%;
+    padding: 0 4.5%;
+    text-align: center;
+    font-size: 18px;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
+}
+#vec1{
+    width: 3vw;
+    margin-left: -19vw;
+    margin-top: -3vw;
+    margin-bottom: -7vw;
+    position: absolute;
+}
+#vec2{
+    width: 3vw;
+    position: absolute;
+    margin-top: -43vw;
+    margin-left: -8vw;
+}
+
+.content_text{
+    margin: auto  auto auto 18%;
+    padding: 5%;
+    width: 55%;
+    font-size: 1.4vw;
+    letter-spacing: 0.05vw;
+    text-align: left;
+}
+.super_topic{
+    margin: 10% 0;
+    font-weight: bold;
+}
+.super2_topic{
+    margin: 2% 0;
+    font-weight: bold;
+}
+.content_text2{
+    margin: auto;
+    font-size: 1.4vw;
+    letter-spacing: 0.05vw;
+    text-align: center;
+    display: none;
+}
+/* .img_block{
+    width: 35vw;
+    margin: auto;
+} */
+
+#img-zoomer-box {
+    width: 35vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+  }
+  
+  #img-1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  #img-zoomer-box:hover, #img-zoomer-box:active {
+    cursor: none;
+    display: block;
+  }
+  
+  #img-zoomer-box:hover #img-2, #img-zoomer-box:active #img-2 {
+    opacity: 1;
+  }
+  #img-2 {
+    width: 15vw;
+    height: 15vw;
+    background: url('PIC/superblockdoodle\ 2.png') no-repeat black;
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    border: 0.3vw solid white;
+    z-index: 99;
+    border-radius: 100%;
+    display: block;
+    transition: opacity .2s;
+  }
+.content_bottomleft{
+    flex-basis: 42%;
+    height: 11rem;
+}
+.content_bottomright{
+    flex-basis: 40%;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
+    height: 10rem;
 }

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bkk-soisurvivor</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="PIC/Frame.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -197,8 +198,71 @@
         </section>
 
         <!-- หน้าหก -->
-        <section class="page4_contant snap_page" style="background-color: rgb(189, 132, 142);">
-
+        <section class="page6_contant snap_page" style="background-color: black">
+            <div class="col-1 col-1-moblie"></div>
+            <div class="col-2">
+                <div class="text_super">
+                    <h1>SUPER</h1>
+                </div>
+                <div class="content_umbrella">
+                    <img src="pic/umbrella.png" width="70%" >
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="content_superblock">
+                    <div class="content_text content_text_mobile">
+                        <div class="super_topic">SUPER BLOCK (n.)</div>
+                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา<br>
+                        คันดิน ขนัดสวน ผนวกกับการเดินทาง<br>
+                        ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมาเป็นถนน<br>
+                        กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลัก<br>
+                        เท่านั้น การวางผังเมืองและบล็อกมาตรฐาน<br>
+                        ของกรุงเทพฯ จึงกลายเป็นบล็อกขนาดใหญ่<br>
+                        (Super Block) ที่มีขนาดประมาณ 2,000 x<br>
+                        2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br>
+                        คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็ก<br>
+                        ลงไป ทำให้บ้านที่อยู่ด้านใน Super Block<br> 
+                        เหล่านี้ ไม่สามารถเดินเท้าไปต่อกับระบบ<br>
+                        ขนส่งมวลชนที่ปากซอยได้ต้องอาศัย<br>
+                        รถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง   
+                    </div>  
+                </div>
+                <div class="content_superblockmap content_superblockmap_mobile" id="map">
+                    <div class="text_block text_block_mobile">
+                        <h1>BL&nbsp;&nbsp;CK</h1>
+                    </div>
+                    <div class="text_blocko text_block0_mobile">
+                        <h1>O</h1>
+                    </div>
+                    <div id="img-zoomer-box" class="img-zoomer-box-mobile">
+                        <!-- <img src="pic/SUPERBLOCK-MAP-.png" width="100%" id="myimage"> -->
+                        <img src="PIC/SUPERBLOCK-MAP-.png" id="img-1" />
+                        <div id="img-2"></div>
+                    </div>
+                    <img src="pic/Vector.png" width="100%" id="vec1">
+                    <img src="pic/Rectangle 348.png" width="100%" id="vec2">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="content_bottomleft content_bottomleft_mobile ">
+                    <div class="content_text2 content_text2_mobile">
+                        <div class="super2_topic">SUPER BLOCK (n.)</div><br>
+                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา คันดิน ขนัดสวน<br>
+                        ผนวกกับการเดินทาง ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมา<br>
+                        เป็นถนน กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลักเท่านั้น<br>
+                        การวางผังเมืองและบล็อกมาตรฐานของกรุงเทพฯ จึงกลาย<br>
+                        เป็นบล็อกขนาดใหญ่ (Super Block) ที่มีขนาดประมาณ<br>
+                        2,000 x 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> 
+                        คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็กลงไป<br>
+                        ทำให้บ้านที่อยู่ด้านใน Super Block เหล่านี้ไม่สามารถ<br>
+                        เดินเท้าไปต่อกับระบบขนส่งมวลชนที่ปากซอยได้ <br>
+                        ต้องอาศัยรถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+                        
+                    </div>
+                </div>
+                <div class="content_bottomright content_bottomright_mobile">
+                </div>
+            </div>
         </section>
     </div>
 </body>
@@ -240,8 +304,42 @@
         //     document.querySelector("#carpic").style.position = "sticky";
         // }
     };
+
+    //ซูมแผนที่//
+    let zoomer = function (){
+    document.querySelector('#img-zoomer-box')
+        .addEventListener('mousemove', function(e) {
+
+        let original = document.querySelector('#img-1'),
+            magnified = document.querySelector('#img-2'),
+            style = magnified.style,
+            x = e.pageX - this.offsetLeft,
+            y = e.pageY - this.offsetTop,
+            imgWidth = original.offsetWidth,
+            imgHeight = original.offsetHeight,
+            xperc = ((x/imgWidth) * 100),
+            yperc = ((y/imgHeight) * 100);
+
+        //lets user scroll past right edge of image
+        if(x > (.01 * imgWidth)) {
+        xperc += (.15 * xperc);
+        };
+
+        //lets user scroll past bottom edge of image
+        if(y >= (.01 * imgHeight)) {
+        yperc += (.15 * yperc);
+        };
+
+        style.backgroundPositionX = (xperc - 9) + '%';
+        style.backgroundPositionY = (yperc - 9) + '%';
+
+        style.left = (x - 180) + 'px';
+        style.top = (y - 110) + 'px';
+
+    }, false);
+    }();
     //ตัวหนังสือเลื่อน//
-    $('#maindiv').width($('#div1').width());
+    // $('#maindiv').width($('#div1').width());
 </script>
 
 </html>
