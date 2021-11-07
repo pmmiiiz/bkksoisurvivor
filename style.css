@@ -215,6 +215,10 @@ body {
     /* background-color: darkgreen; */
 }
 
+.p1detailmobile {
+    opacity: 0;
+}
+
 .p1detail_head {
     font-size: 1.6vw;
     position: relative;
@@ -271,6 +275,10 @@ body {
     width: 2vw;
     top: 17.5vw;
     left: 39.5vw;
+}
+
+.p1arrowmobile {
+    opacity: 0;
 }
 
 .p1stripepic {
@@ -515,6 +523,9 @@ body {
         top: 3vw!important;
         left: 12vw;
     }
+    .p1detailmobile {
+        opacity: 0;
+    }
     .p1body {
         width: 100vw;
         height: 80vw;
@@ -523,7 +534,7 @@ body {
     }
     .p1car {
         width: 50vw;
-        height: 331vw!important;
+        height: 207vw!important;
         position: relative;
     }
     .p1carpic {
@@ -779,6 +790,160 @@ body {
         top: 35vw;
         right: 25vw;
     }
+    /* page1 */
+    .p1head {
+        width: 100vw;
+        height: 30vw;
+        /* background-color: darkcyan; */
+    }
+    .p1logo1 {
+        font-family: 'Acumin Pro';
+        font-size: 10vw;
+        color: white;
+        position: relative;
+        top: 4vw;
+        left: 12vw;
+    }
+    .p1logo2 {
+        font-family: 'Acumin Pro';
+        font-size: 10vw;
+        color: white;
+        position: relative;
+        top: 1vw;
+        left: 12vw;
+    }
+    .decor003 {
+        display: none;
+    }
+    .decor003mobile {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 3.2vw;
+        left: 80vw;
+        color: white;
+        display: block;
+    }
+    .p1longline {
+        display: none;
+    }
+    .p1longlinemobile {
+        width: 48vw;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: -2vw;
+        display: block;
+    }
+    .p1body {
+        width: 100vw;
+        height: 70vw;
+        display: block;
+        /* background-color: darkmagenta; */
+    }
+    .p1car {
+        width: 100vw;
+        height: 275vh!important;
+        position: relative;
+        /* background-color: darkgoldenrod; */
+    }
+    .p1carpic {
+        position: sticky;
+        width: 15vw;
+        top: 28vh!important;
+        margin-top: 2vw;
+        left: 43vw;
+        z-index: 1;
+    }
+    .p1detail {
+        display: none;
+    }
+    .p1detailmobile {
+        font-family: 'ChulaCharasNew';
+        width: 100vw;
+        height: 40vw;
+        margin-top: -6vw!important;
+        padding-top: 3vw;
+        padding-left: 12vw;
+        position: relative;
+        color: white;
+        opacity: 1;
+        /* background-color: darkgreen; */
+    }
+    .p1detail_head {
+        font-size: 2.6vw!important;
+        position: relative;
+        top: 1vw;
+        color: white;
+    }
+    .p1detail_1 {
+        font-size: 2.4vw;
+        margin-top: 4vw;
+        color: white;
+    }
+    .decor002 {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 21vw;
+        left: 80vw;
+        color: white;
+    }
+    .p1shortline {
+        width: 37vw!important;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: 2vw;
+    }
+    .p1detail_2 {
+        font-size: 2.4vw!important;
+        margin-top: 4vw;
+        color: white;
+    }
+    .p1ready {
+        font-size: 2.9vw;
+        margin-top: 2vw;
+        color: white;
+    }
+    .decor001 {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 32vw;
+        left: 80vw;
+        color: #cbed00;
+    }
+    .p1arrowpic {
+        display: none;
+    }
+    .p1arrowpicmobile {
+        opacity: 1;
+        position: absolute;
+        width: 4vw;
+        top: 40vw;
+        left: 85vw;
+    }
+    .p1stripepic {
+        width: 100vw;
+        position: relative;
+        z-index: 0;
+    }
+    .checkerboardbw {
+        height: 15vw;
+    }
+}
+
+
+/* page1 mobile */
+
+@media screen and (max-width: 500px) {
+    .page1_contant {
+        height: 160vw;
+    }
+    .checkerboardbw {
+        height: 10vh;
+    }
 }
 
 
@@ -933,19 +1098,22 @@ body {
     z-index: 2;
 }
 
+
 /* page5 */
-.content_sign{
+
+.content_sign {
     flex-basis: 42%;
     padding: 10% 0 0 1%;
     text-align: center;
 }
 
-.content_soi{
+.content_soi {
     flex-basis: 42.5%;
     padding: 10% 5%;
     text-align: center;
 }
-.topic_soi{
+
+.topic_soi {
     font-family: 'Hydrophilia';
     font-size: 5vw;
     text-align: left;
@@ -953,25 +1121,29 @@ body {
     padding-bottom: 2%;
     border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
-.info_soi{
+
+.info_soi {
     padding: 5%;
     width: 70%;
     font-size: 1.4vw;
     letter-spacing: 0.05vw;
     text-align: left;
 }
-.info_soi2{
+
+.info_soi2 {
     width: 90%;
     font-size: 3vw;
     letter-spacing: 0.05vw;
     text-align: center;
     display: none;
 }
-.info_topic{
+
+.info_topic {
     margin: 5% 0;
     font-weight: bold;
 }
-#vec51{
+
+#vec51 {
     width: 3vw;
     margin-left: -1.5vw;
     margin-top: -3vw;
@@ -979,7 +1151,7 @@ body {
     position: absolute;
 }
 
-#vec52{
+#vec52 {
     width: 17vw;
     margin-left: -28vw;
     margin-top: 10vw;
@@ -987,10 +1159,11 @@ body {
     position: absolute;
 }
 
+
 /* โทรศัพท์ */
 
 @media screen and (max-width: 415px) {
-    .page5_contant{
+    .page5_contant {
         width: 100vw;
         height: 130vw;
     }
@@ -1000,10 +1173,10 @@ body {
     .content_soi_mobile {
         flex-basis: 90% !important;
     }
-    .info_soi{
+    .info_soi {
         display: none;
     }
-    .info_soi2{
+    .info_soi2 {
         display: block;
     }
     .topic_soi {
@@ -1021,14 +1194,14 @@ body {
         padding-bottom: 3%;
         border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
     }
-    #vec52{
+    #vec52 {
         width: 25vw;
         margin-left: -67vw;
         margin-top: 17vw;
         margin-bottom: -7vw;
         position: absolute;
     }
-    #vec51{
+    #vec51 {
         width: 5vw;
         margin-left: -3.5vw;
         margin-top: 80vw;
@@ -1037,10 +1210,11 @@ body {
     }
 }
 
+
 /* ไอแพด*/
 
 @media screen and (max-width: 1024px) {
-    .page5_contant{
+    .page5_contant {
         width: 100vw;
         height: 165vw;
     }
@@ -1050,10 +1224,10 @@ body {
     .content_soi_mobile {
         flex-basis: 90% !important;
     }
-    .info_soi{
+    .info_soi {
         display: none;
     }
-    .info_soi2{
+    .info_soi2 {
         display: block;
     }
     .topic_soi {
@@ -1071,14 +1245,14 @@ body {
         padding-bottom: 3%;
         border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
     }
-    #vec52{
+    #vec52 {
         width: 25vw;
         margin-left: -67vw;
         margin-top: 17vw;
         margin-bottom: -7vw;
         position: absolute;
     }
-    #vec51{
+    #vec51 {
         width: 5vw;
         margin-left: -3.5vw;
         margin-top: 80vw;
@@ -1086,8 +1260,6 @@ body {
         position: absolute;
     }
 }
-
-
 
 
 /* page6 */
