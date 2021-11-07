@@ -104,7 +104,6 @@ body {
 
 .page6_contant {
     width: 100vw;
-    height: 130vh;
 }
 
 .checkerboardbw {
@@ -933,6 +932,162 @@ body {
     position: relative;
     z-index: 2;
 }
+
+/* page5 */
+.content_sign{
+    flex-basis: 42%;
+    padding: 10% 0 0 1%;
+    text-align: center;
+}
+
+.content_soi{
+    flex-basis: 42.5%;
+    padding: 10% 5%;
+    text-align: center;
+}
+.topic_soi{
+    font-family: 'Hydrophilia';
+    font-size: 5vw;
+    text-align: left;
+    margin: 0 5%;
+    padding-bottom: 2%;
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+}
+.info_soi{
+    padding: 5%;
+    width: 70%;
+    font-size: 1.4vw;
+    letter-spacing: 0.05vw;
+    text-align: left;
+}
+.info_soi2{
+    width: 90%;
+    font-size: 3vw;
+    letter-spacing: 0.05vw;
+    text-align: center;
+    display: none;
+}
+.info_topic{
+    margin: 5% 0;
+    font-weight: bold;
+}
+#vec51{
+    width: 3vw;
+    margin-left: -1.5vw;
+    margin-top: -3vw;
+    margin-bottom: -7vw;
+    position: absolute;
+}
+
+#vec52{
+    width: 17vw;
+    margin-left: -28vw;
+    margin-top: 10vw;
+    margin-bottom: -7vw;
+    position: absolute;
+}
+
+/* โทรศัพท์ */
+
+@media screen and (max-width: 415px) {
+    .page5_contant{
+        width: 100vw;
+        height: 130vw;
+    }
+    .content_sign_mobile {
+        flex-basis: 90% !important;
+    }
+    .content_soi_mobile {
+        flex-basis: 90% !important;
+    }
+    .info_soi{
+        display: none;
+    }
+    .info_soi2{
+        display: block;
+    }
+    .topic_soi {
+        font-family: 'Hydrophilia';
+        font-size: 8vw;
+        width: 80%;
+        text-align: center;
+        border-bottom: 0vw solid rgba(255, 255, 255, 0.5);
+        margin: 0 5%;
+        padding-bottom: 0%;
+    }
+    .info_topic {
+        margin: 0 0 5% 0;
+        font-weight: bold;
+        padding-bottom: 3%;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    #vec52{
+        width: 25vw;
+        margin-left: -67vw;
+        margin-top: 17vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    #vec51{
+        width: 5vw;
+        margin-left: -3.5vw;
+        margin-top: 80vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+}
+
+/* ไอแพด*/
+
+@media screen and (max-width: 1024px) {
+    .page5_contant{
+        width: 100vw;
+        height: 165vw;
+    }
+    .content_sign_mobile {
+        flex-basis: 90% !important;
+    }
+    .content_soi_mobile {
+        flex-basis: 90% !important;
+    }
+    .info_soi{
+        display: none;
+    }
+    .info_soi2{
+        display: block;
+    }
+    .topic_soi {
+        font-family: 'Hydrophilia';
+        font-size: 8vw;
+        width: 80%;
+        text-align: center;
+        border-bottom: 0vw solid rgba(255, 255, 255, 0.5);
+        margin: 0 5%;
+        padding-bottom: 0%;
+    }
+    .info_topic {
+        margin: 0 0 5% 0;
+        font-weight: bold;
+        padding-bottom: 3%;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    #vec52{
+        width: 25vw;
+        margin-left: -67vw;
+        margin-top: 17vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    #vec51{
+        width: 5vw;
+        margin-left: -3.5vw;
+        margin-top: 80vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+}
+
+
 
 
 /* page6 */
