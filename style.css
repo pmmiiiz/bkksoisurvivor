@@ -68,10 +68,315 @@ body {
     background-color: black;
 }
 
-.navbar {
+
+.navbar{
     width: 100vw;
     height: calc(25vh/3);
-    background-color: rgb(71, 255, 15);
+    background-color: black;
+    transition: all .3s;
+    position: fixed;
+    z-index: 1;
+    display: inline-flex;
+}
+
+.logobkk{
+    width: 7vw;
+}
+
+#header {
+    padding: 0.9vw;
+}
+
+#headerbar{
+    padding: 0.9vw;
+}
+
+.logobar{
+    width: 18vw;
+}
+
+.menu {
+    padding: 0.8vw 0.8vw;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.frame1 p {
+    margin: auto;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame2 p {
+    margin: auto;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame1,.frame2{
+    display: inline-block;
+}
+
+.arrow1{
+    opacity: 1;
+    display: inline-block;
+}
+
+.arrow2{
+    opacity: 0;
+    display: inline-block;
+}
+
+.menubar {
+    padding: 5vw 5vw;
+    width: 50vw;
+    height: 80vw;
+    background-color: black;
+    z-index: 50;
+    right: 0vw;
+    position: absolute;
+    display: none;
+}
+
+.bar hr{
+    border: 0.06vw solid white;
+    display: none;
+}
+
+.bar{
+    width: 6vw;
+    float: right;
+    margin-top: -0.5vh;
+    display: none;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: white;
+}
+
+.frame1bar p {
+    margin: auto;
+    color: white;
+    font-size: 7vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame2bar p {
+    margin: auto;
+    color: white;
+    font-size: 7vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame1bar,.frame2bar{
+    display: inline-block;
+}
+
+.arrow1bar{
+    margin: 2vw;
+    opacity: 1;
+    display: inline-block;
+}
+
+.arrow1bar img{
+    width: 5vw;
+}
+
+.arrow2bar{
+    margin: 2vw;
+    opacity: 0;
+    display: inline-block;
+}
+
+.arrow2bar img{
+    width: 5vw;
+}
+
+.homebtnbar{
+    margin: 7vw 0vw;
+}
+
+.infobtnbar{
+    margin: 7vw 0vw;
+}
+
+.picclose{
+    width: 10vw;
+    float: right;
+}
+
+.close{
+    width: 100vw;
+    top: 2vh;
+    right: 4vw;
+    position: absolute;
+}
+/* navbar moblie*/
+@media screen and (max-width: 1024px) and (min-width: 200px){
+    .menu{
+        display: none;
+    }
+
+    .navbar{
+        width: 100vw;
+        height: 10.5vw;
+        background-color:black;
+        transition: all .3s;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        display: inline-flex;
+    }
+
+    .menubar {
+        padding: 5vw 5vw;
+        width: 30vw;
+        height: 50vw;
+        background-color: black;
+        border: 0.2vw solid #DBFF00;
+        z-index: 50;
+        right: 0vw;
+        position: absolute;
+        display: none;
+    }
+
+    .logobkk{
+        width: 18vw;
+    }
+    
+    #header {
+        padding: 2vw 2vw;
+        width: 100vw;
+    }
+    
+
+    #headerbar{
+        padding: 0vw;
+    }
+    
+    .logobar{
+        width: 18vw;
+    }
+
+    .menu {
+        padding: 0.8vw 0.8vw;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .line1{
+        border: 0.06vw solid white;
+        width: 100%;
+        margin: 5vw 0vw;
+        float: center;
+    }
+    
+    .bar hr{
+        /* border: 0.06vw solid white; */
+        margin: 1.5vw 0vw;
+        background-color: white;
+        height: 0.4vw;
+        display: block;
+    }
+    
+    .bar{
+        width: 6vw;
+        float: right;
+        margin-top: -0.5vh;
+        display: block;
+    }
+    
+    .frame1 p {
+        margin: auto;
+        color: white;
+        font-size: 1.25vw;
+        font-family: 'Acumin Pro';
+    }
+    
+    .frame2 p {
+        margin: auto;
+        color: white;
+        font-size: 1.25vw;
+        font-family: 'Acumin Pro';
+    }
+    
+    .frame1,.frame2{
+        display: inline-block;
+    }
+    
+    .menubar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .frame1bar p {
+        margin: auto;
+        color: white;
+        font-size: 4vw;
+        font-family: 'Acumin Pro';
+    }
+    
+    .frame2bar p {
+        margin: auto;
+        color: white;
+        font-size: 4vw;
+        font-family: 'Acumin Pro';
+    }
+    
+    .frame1bar,.frame2bar{
+        display: inline-block;
+    }
+    
+    .arrow1bar{
+        margin: 2vw;
+        opacity: 1;
+        display: inline-block;
+    }
+    
+    .arrow1bar img{
+        width: 3vw;
+    }
+    
+    .arrow2bar{
+        margin: 2vw;
+        opacity: 0;
+        display: inline-block;
+    }
+    
+    .arrow2bar img{
+        width: 3vw;
+    }
+    
+    .homebtnbar{
+        margin: 3vw 0vw;
+    }
+    
+    .infobtnbar{
+        margin: 3vw 0vw;
+    }
+    
+    .picclose{
+        width: 7vw;
+        float: right;
+        padding: 1vw;
+    }
+    
+    .close{
+        width: 100vw;
+        top: 2vh;
+        right: 4vw;
+        position: absolute;
+    }
+
 }
 
 .content {
