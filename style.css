@@ -95,19 +95,21 @@ body {
 
 .page2_contant,
 .page3_contant,
-.page5_contant{
+.page5_contant {
     width: 100vw;
     height: 100vh;
     z-index: 0;
     position: relative;
 }
-.page6_contant{
+
+.page6_contant {
     width: 100vw;
     height: 130vh;
 }
+
 .checkerboardbw {
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     background-color: black;
     scroll-snap-align: start;
 }
@@ -137,9 +139,8 @@ body {
 
 .p1head {
     width: 100vw;
-    height: 45vh;
-    background-color: black;
-
+    height: 20vw;
+    /* background-color: darkcyan; */
 }
 
 .p1logo1 {
@@ -147,7 +148,7 @@ body {
     font-size: 8vw;
     color: white;
     position: relative;
-    top: 8vh;
+    top: 4vw;
     left: 12vw;
 }
 
@@ -156,7 +157,7 @@ body {
     font-size: 8vw;
     color: white;
     position: relative;
-    top: 2vh;
+    top: 1vw;
     left: 12vw;
 }
 
@@ -169,8 +170,8 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: relative;
-    top: -9vh;
-    left: 90vw;
+    top: -2vw;
+    left: 88vw;
     color: white;
 }
 
@@ -179,27 +180,29 @@ body {
     height: 0.1vw;
     background-color: white;
     position: relative;
-    top: -4vh;
+    top: -3vw;
     left: 12vw;
 }
 
 .p1body {
     width: 100vw;
-    height: 55vh;
+    height: 80vw;
     display: flex;
+    /* background-color: darkmagenta; */
 }
 
 .p1car {
     width: 50vw;
-    height: 335vh;
+    height: 332.5vh;
     position: relative;
+    /* background-color: darkgoldenrod; */
 }
 
 .p1carpic {
     position: sticky;
     width: 8vw;
     top: 30vh;
-    margin-top: 8vh;
+    margin-top: 6vh;
     left: 27vw;
     z-index: 1;
 }
@@ -207,9 +210,10 @@ body {
 .p1detail {
     font-family: 'ChulaCharasNew';
     width: 50vw;
-    height: 55vh;
+    height: 80vw;
     position: relative;
     color: white;
+    /* background-color: darkgreen; */
 }
 
 .p1detail_head {
@@ -230,7 +234,7 @@ body {
     font-size: 3vw;
     position: absolute;
     top: 15vh;
-    left: 40vw;
+    left: 38vw;
     color: white;
 }
 
@@ -258,32 +262,34 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: absolute;
-    top: 36.5vh;
-    left: 31vw;
+    top: 17.2vw;
+    left: 30vw;
     color: #cbed00;
 }
 
 .p1arrowpic {
     position: absolute;
     width: 2vw;
-    top: 36.5vh;
-    left: 41vw;
+    top: 17.5vw;
+    left: 39.5vw;
 }
 
 .p1stripepic {
     width: 100vw;
-    height: 25vh;
+    position: relative;
     z-index: 0;
 }
 
 
 /* page2 */
+
 .content_allpage2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
+
 
 /* text animation */
 
@@ -328,97 +334,116 @@ body {
         transform: translateX(-200%);
     }
 }
+
+
 /* ตกแต่ง*/
-.car1{
+
+.car1 {
     position: relative;
     top: -10vw;
     left: 75vw;
 }
-.car2{
+
+.car2 {
     position: relative;
     top: -7vw;
     left: 40vw;
 }
-.car3{
+
+.car3 {
     position: relative;
     top: 15vw;
     left: 60vw;
 }
-.car4{
+
+.car4 {
     position: relative;
     top: 8vw;
     left: 30vw;
 }
-.car5{
+
+.car5 {
     position: relative;
     top: 8vw;
     left: 30vw;
 }
-.car6{
+
+.car6 {
     position: relative;
     top: 15vw;
     left: 4vw;
 }
-.car7{
+
+.car7 {
     position: relative;
     top: 5vw;
     right: 40vw;
 }
-#car{
+
+#car {
     width: 8vw;
 }
-#traffic{
+
+#traffic {
     width: 4vw;
-    
 }
-.traffic{
+
+.traffic {
     position: relative;
     top: 2vw;
     left: 53vw;
     z-index: 5;
 }
-.arrowdownp2{
+
+.arrowdownp2 {
     position: relative;
     width: 2vw;
     top: 27vw;
     left: 30vw;
 }
-#square{
+
+#square {
     position: relative;
     width: 5vw;
     top: 10vw;
     right: 20vw;
 }
-#circle{
+
+#circle {
     position: relative;
     width: 2.5vw;
     top: 20vw;
     left: 10vw;
 }
-#circle2{
+
+#circle2 {
     position: relative;
     width: 2.5vw;
     top: 4vw;
     right: 28vw;
 }
-#circle3{
+
+#circle3 {
     position: relative;
     width: 2.5vw;
     top: -10vw;
     right: 50vw;
 }
-#circle4{
+
+#circle4 {
     position: relative;
     width: 4vw;
     top: -12vw;
     right: 22vw;
 }
-#circle5{
+
+#circle5 {
     position: relative;
     width: 4vw;
     top: -7vw;
     left: -68vw;
 }
+
 
 /* page4 */
 
@@ -451,7 +476,6 @@ body {
         background-color: black;
         scroll-snap-align: start;
     }
-
     /*ball*/
     .content_allpagemac2 {
         display: flex!important;
@@ -602,7 +626,6 @@ body {
         z-index: 2;
         position: relative;
     }
-
     /*ball*/
     .content_allpage2 {
         display: flex!important;
@@ -610,96 +633,96 @@ body {
         width: 100%!important;
         height: 100%;
     }
-    .page2_contant{
+    .page2_contant {
         width: 100vw;
         height: 110vw!important;
     }
-    #car{
+    #car {
         width: 15vw;
     }
-    .car1{
+    .car1 {
         position: relative;
         top: -30vw;
         left: 90vw;
     }
-    .car2{
+    .car2 {
         position: relative;
         top: -30vw;
         left: 50vw;
     }
-    .car3{
+    .car3 {
         position: relative;
         top: 20vw;
         left: 40vw;
     }
-    .car4{
+    .car4 {
         position: relative;
         top: 8vw;
         left: -25vw;
     }
-    .car5{
+    .car5 {
         position: relative;
         top: 8vw;
         left: 30vw;
         display: none;
     }
-    .car6{
+    .car6 {
         position: relative;
         top: 15vw;
         left: 4vw;
         display: none;
     }
-    .car7{
+    .car7 {
         position: relative;
         top: 5vw;
         right: 40vw;
         display: none;
     }
-    .traffic{
+    .traffic {
         position: relative;
         top: 2vw;
         left: 53vw;
         z-index: 5;
         display: none;
     }
-    .arrowdownp2{
+    .arrowdownp2 {
         position: relative;
         width: 4vw!important;
         top: 58vw;
         left: 30vw;
     }
-    #circle{
+    #circle {
         position: relative;
         width: 5vw;
         top: 60vw;
         left: 0vw;
     }
-    #circle2{
+    #circle2 {
         position: relative;
         width: 5vw;
         top: 12vw;
         right: 35vw;
     }
-    #circle3{
+    #circle3 {
         position: relative;
         width: 2.5vw;
         top: -10vw;
         right: 50vw;
         display: none;
     }
-    #circle4{
+    #circle4 {
         position: relative;
         width: 8vw;
         top: 11vw;
         left: 0vw;
     }
-    #circle5{
+    #circle5 {
         position: relative;
         width: 8vw;
         top: -12vw;
         left: -68vw;
     }
-    #square{
+    #square {
         position: relative;
         width: 6vw;
         top: 35vw;
@@ -861,16 +884,18 @@ body {
 
 
 /* page6 */
-.page6_contant{
+
+.page6_contant {
     padding-top: 10%;
 }
 
-.col-1{
+.col-1 {
     margin: auto;
     width: 40px;
     height: 40px;
     border: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
+
 .col-2 {
     display: flex;
     flex-wrap: wrap;
@@ -878,22 +903,25 @@ body {
     position: relative;
     margin-left: 8%;
 }
+
+
 /* โทรศัพท์ */
+
 @media screen and (max-width: 415px) {
-    .page6_contant{
+    .page6_contant {
         width: 100vw;
         height: 80vh;
         padding-top: 40%;
     }
-    .col-1-moblie{
+    .col-1-moblie {
         width: 10px;
         height: 10px;
     }
-    .content_text_mobile{
+    .content_text_mobile {
         opacity: 0;
         height: 50vw;
     }
-    .content_text2_mobile{
+    .content_text2_mobile {
         display: block !important;
         height: 50vw;
         letter-spacing: 0.5px!important;
@@ -903,19 +931,19 @@ body {
         padding-left: 13% !important;
     }
     .text_block0_mobile {
-        padding-left: 12.5%  !important;
+        padding-left: 12.5% !important;
         padding-top: 6.5% !important;
     }
-    #vec1{
+    #vec1 {
         opacity: 0;
     }
-    #vec2{
+    #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box{
+    #img-zoomer-box {
         width: 110% !important;
     }
-    .content_superblockmap_mobile{
+    .content_superblockmap_mobile {
         padding: 0% !important;
         flex-basis: 47% !important;
         text-align: center;
@@ -934,22 +962,25 @@ body {
         opacity: 0 !important;
     }
 }
+
+
 /* ไอแพด */
-@media screen and (max-width: 1024px) and (min-width: 768px){
-    .page6_contant{
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .page6_contant {
         width: 100vw;
         height: 100vh;
         padding-top: 5%;
     }
-    .col-1-moblie{
+    .col-1-moblie {
         width: 10px;
         height: 10px;
     }
-    .content_text_mobile{
+    .content_text_mobile {
         opacity: 0;
         height: 50vw;
     }
-    .content_text2_mobile{
+    .content_text2_mobile {
         display: block !important;
         height: 50vw;
         font-size: 3vw !important;
@@ -959,19 +990,19 @@ body {
         padding-left: 14.4% !important;
     }
     .text_block0_mobile {
-        padding-left: 14%  !important;
+        padding-left: 14% !important;
         padding-top: 5.5% !important;
     }
-    #vec1{
+    #vec1 {
         opacity: 0;
     }
-    #vec2{
+    #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box{
+    #img-zoomer-box {
         width: 109.5% !important;
     }
-    .content_superblockmap_mobile{
+    .content_superblockmap_mobile {
         padding: 0% !important;
         flex-basis: 47% !important;
         text-align: center;
@@ -993,38 +1024,44 @@ body {
     }
 }
 
-.text_super{
+.text_super {
     padding-left: 5%;
     flex-basis: 37%;
     font-size: 5vw;
 }
-.text_super h1{
+
+.text_super h1 {
     margin-bottom: -8%;
     margin-top: -2%;
     padding-bottom: 0px;
     color: #DBFF00;
 }
-.content_umbrella{
+
+.content_umbrella {
     flex-basis: 40%;
     padding: 0 4.5%;
     text-align: center;
     font-size: 18px;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
-.content_umbrella img{
+
+.content_umbrella img {
     margin-top: -54%;
 }
-.content_superblock{
+
+.content_superblock {
     flex-basis: 42%;
     border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 18px;
 }
-.text_block{
+
+.text_block {
     padding-left: 5%;
     font-size: 5vw;
 }
-.text_block h1{
+
+.text_block h1 {
     margin-bottom: -40%;
     left: -72%;
     padding-bottom: 0px;
@@ -1032,12 +1069,14 @@ body {
     transform: rotate(-90deg);
     position: relative;
 }
-.text_blocko{
+
+.text_blocko {
     padding-left: 5%;
     font-size: 5vw;
     padding-top: 6%;
 }
-.text_blocko h1{
+
+.text_blocko h1 {
     margin-bottom: -37.5%;
     left: -72%;
     padding-bottom: 0px;
@@ -1047,7 +1086,8 @@ body {
     position: relative;
     font-family: 'Hydrophilia';
 }
-.content_superblockmap{
+
+.content_superblockmap {
     flex-basis: 42.5%;
     padding: 0 4.5%;
     text-align: center;
@@ -1056,43 +1096,50 @@ body {
     border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
     border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
-#vec1{
+
+#vec1 {
     width: 3vw;
     margin-left: -19vw;
     margin-top: -3vw;
     margin-bottom: -7vw;
     position: absolute;
 }
-#vec2{
+
+#vec2 {
     width: 3vw;
     position: absolute;
     margin-top: -43vw;
     margin-left: -8vw;
 }
 
-.content_text{
-    margin: auto  auto auto 18%;
+.content_text {
+    margin: auto auto auto 18%;
     padding: 5%;
     width: 55%;
     font-size: 1.4vw;
     letter-spacing: 0.05vw;
     text-align: left;
 }
-.super_topic{
+
+.super_topic {
     margin: 10% 0;
     font-weight: bold;
 }
-.super2_topic{
+
+.super2_topic {
     margin: 2% 0;
     font-weight: bold;
 }
-.content_text2{
+
+.content_text2 {
     margin: auto;
     font-size: 1.4vw;
     letter-spacing: 0.05vw;
     text-align: center;
     display: none;
 }
+
+
 /* .img_block{
     width: 35vw;
     margin: auto;
@@ -1103,26 +1150,29 @@ body {
     margin: auto;
     position: relative;
     z-index: 0;
-  }
-  
-  #img-1 {
+}
+
+#img-1 {
     width: 100%;
     height: auto;
-  }
-  
-  #img-zoomer-box:hover, #img-zoomer-box:active {
+}
+
+#img-zoomer-box:hover,
+#img-zoomer-box:active {
     cursor: none;
     display: block;
-  }
-  
-  #img-zoomer-box:hover #img-2, #img-zoomer-box:active #img-2 {
+}
+
+#img-zoomer-box:hover #img-2,
+#img-zoomer-box:active #img-2 {
     opacity: 1;
-  }
-  #img-2 {
+}
+
+#img-2 {
     width: 15vw;
     height: 15vw;
     background: url('PIC/superblockdoodle\ 2.png') no-repeat black;
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
     pointer-events: none;
     position: absolute;
     opacity: 0;
@@ -1131,12 +1181,14 @@ body {
     border-radius: 100%;
     display: block;
     transition: opacity .2s;
-  }
-.content_bottomleft{
+}
+
+.content_bottomleft {
     flex-basis: 42%;
     height: 11rem;
 }
-.content_bottomright{
+
+.content_bottomright {
     flex-basis: 40%;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
     height: 10rem;
