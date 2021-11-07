@@ -202,7 +202,7 @@ body {
     position: sticky;
     width: 8vw;
     top: 30vh;
-    margin-top: 6vw;
+    margin-top: 2vw;
     left: 27vw;
     z-index: 1;
 }
@@ -219,13 +219,13 @@ body {
 .p1detail_head {
     font-size: 1.6vw;
     position: relative;
-    top: 2vw;
+    top: 1vw;
     color: white;
 }
 
 .p1detail_1 {
     font-size: 1.3vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
     color: white;
 }
 
@@ -233,7 +233,7 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: absolute;
-    top: 9vw;
+    top: 7vw;
     left: 38vw;
     color: white;
 }
@@ -243,12 +243,12 @@ body {
     height: 0.1vw;
     background-color: white;
     position: relative;
-    top: 2vw;
+    top: 1vw;
 }
 
 .p1detail_2 {
     font-size: 1.3vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
     color: white;
 }
 
@@ -262,7 +262,7 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: absolute;
-    top: 21.2vw;
+    top: 17.2vw;
     left: 30vw;
     color: #cbed00;
 }
@@ -270,7 +270,7 @@ body {
 .p1arrowpic {
     position: absolute;
     width: 2vw;
-    top: 21.5vw;
+    top: 17.5vw;
     left: 39.5vw;
 }
 
