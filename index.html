@@ -254,10 +254,12 @@
     let numstartcar = 0;
     let endnumcar = 2;
     const car = document.querySelectorAll(".car");
+    const p1car = document.querySelectorAll(".p1carpic");
     const vocabcar = document.querySelectorAll(".vocabcar");
 
     rightchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
+        p1car[0].style.display = "none";
         numstartcar++;
 
         if (numstartcar < endnumcar) {
@@ -269,6 +271,7 @@
     });
     leftchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
+        p1car[0].style.display = "none";
         numstartcar--;
 
         if (numstartcar > -1) {
