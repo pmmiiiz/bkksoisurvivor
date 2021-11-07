@@ -135,6 +135,7 @@ body {
     width: 100vw;
     height: 45vh;
     background-color: black;
+
 }
 
 .p1logo1 {
@@ -273,7 +274,12 @@ body {
 
 
 /* page2 */
-
+.content_allpage2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
 
 /* text animation */
 
@@ -319,7 +325,97 @@ body {
         transform: translateX(-200%);
     }
 }
-
+/* ตกแต่ง*/
+.car1{
+    position: relative;
+    top: -10vw;
+    left: 75vw;
+}
+.car2{
+    position: relative;
+    top: -7vw;
+    left: 40vw;
+}
+.car3{
+    position: relative;
+    top: 15vw;
+    left: 60vw;
+}
+.car4{
+    position: relative;
+    top: 8vw;
+    left: 30vw;
+}
+.car5{
+    position: relative;
+    top: 8vw;
+    left: 30vw;
+}
+.car6{
+    position: relative;
+    top: 15vw;
+    left: 4vw;
+}
+.car7{
+    position: relative;
+    top: 5vw;
+    right: 40vw;
+}
+#car{
+    width: 8vw;
+}
+#traffic{
+    width: 4vw;
+    
+}
+.traffic{
+    position: relative;
+    top: 2vw;
+    left: 53vw;
+    z-index: 5;
+}
+.arrowdownp2{
+    position: relative;
+    width: 2vw;
+    top: 27vw;
+    left: 30vw;
+}
+#square{
+    position: relative;
+    width: 5vw;
+    top: 10vw;
+    right: 20vw;
+}
+#circle{
+    position: relative;
+    width: 2.5vw;
+    top: 20vw;
+    left: 10vw;
+}
+#circle2{
+    position: relative;
+    width: 2.5vw;
+    top: 4vw;
+    right: 28vw;
+}
+#circle3{
+    position: relative;
+    width: 2.5vw;
+    top: -10vw;
+    right: 50vw;
+}
+#circle4{
+    position: relative;
+    width: 4vw;
+    top: -12vw;
+    right: 22vw;
+}
+#circle5{
+    position: relative;
+    width: 4vw;
+    top: -7vw;
+    left: -68vw;
+}
 
 /* page4 */
 
@@ -351,6 +447,14 @@ body {
         height: 18vh;
         background-color: black;
         scroll-snap-align: start;
+    }
+
+    /*ball*/
+    .content_allpagemac2 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -494,6 +598,109 @@ body {
         width: 120vw;
         z-index: 2;
         position: relative;
+    }
+
+    /*ball*/
+    .content_allpage2 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%!important;
+        height: 100%;
+    }
+    .page2_contant{
+        width: 100vw;
+        height: 110vw!important;
+    }
+    #car{
+        width: 15vw;
+    }
+    .car1{
+        position: relative;
+        top: -30vw;
+        left: 90vw;
+    }
+    .car2{
+        position: relative;
+        top: -30vw;
+        left: 50vw;
+    }
+    .car3{
+        position: relative;
+        top: 20vw;
+        left: 40vw;
+    }
+    .car4{
+        position: relative;
+        top: 8vw;
+        left: -25vw;
+    }
+    .car5{
+        position: relative;
+        top: 8vw;
+        left: 30vw;
+        display: none;
+    }
+    .car6{
+        position: relative;
+        top: 15vw;
+        left: 4vw;
+        display: none;
+    }
+    .car7{
+        position: relative;
+        top: 5vw;
+        right: 40vw;
+        display: none;
+    }
+    .traffic{
+        position: relative;
+        top: 2vw;
+        left: 53vw;
+        z-index: 5;
+        display: none;
+    }
+    .arrowdownp2{
+        position: relative;
+        width: 4vw!important;
+        top: 58vw;
+        left: 30vw;
+    }
+    #circle{
+        position: relative;
+        width: 5vw;
+        top: 60vw;
+        left: 0vw;
+    }
+    #circle2{
+        position: relative;
+        width: 5vw;
+        top: 12vw;
+        right: 35vw;
+    }
+    #circle3{
+        position: relative;
+        width: 2.5vw;
+        top: -10vw;
+        right: 50vw;
+        display: none;
+    }
+    #circle4{
+        position: relative;
+        width: 8vw;
+        top: 11vw;
+        left: 0vw;
+    }
+    #circle5{
+        position: relative;
+        width: 8vw;
+        top: -12vw;
+        left: -68vw;
+    }
+    #square{
+        position: relative;
+        width: 6vw;
+        top: 35vw;
+        right: 25vw;
     }
 }
 
