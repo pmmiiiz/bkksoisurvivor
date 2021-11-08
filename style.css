@@ -996,7 +996,7 @@ body {
     }
     .p1car {
         width: 50vw;
-        height: 470vh!important;
+        height: 425vh!important;
         position: relative;
         /* background-color: darkgoldenrod; */
     }
@@ -1012,7 +1012,7 @@ body {
         }
         .p1car {
             width: 50vw;
-            height: 350vh!important;
+            height: 270vh!important;
             position: relative;
             /* background-color: darkgoldenrod; */
         }
@@ -1575,9 +1575,9 @@ body {
 }
 
 .parapage4 {
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: rgb(255, 255, 255);
     font-family: 'ChulaCharasNew';
     letter-spacing: 1px;
