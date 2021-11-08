@@ -897,7 +897,7 @@ body {
     }
     .checkerboardbo {
         width: 100vw;
-        height: 18vh;
+        height: 16vh;
         background-color: black;
         scroll-snap-align: start;
     }
@@ -907,6 +907,25 @@ body {
         top: 21vw!important;
         margin-top: 2vw!important;
         z-index: 1;
+    }
+    /* .checko {
+        width: 100vw!important;
+        position: relative;
+        z-index: 3;
+    } */
+    .motorcycle{
+        position: sticky!important;
+        margin: 6% -0.6vw!important;
+        width: 9vw;
+        top:5vw!important;
+        
+
+    }
+    .p5toup{
+        margin-top: -540vw!important;
+    }
+    .linemotor{
+        height: 540vw!important;
     }
     /*ball*/
     .content_allpagemac2 {
@@ -1016,6 +1035,24 @@ body {
     }
 }
 
+/* จอใหญ่มาก */
+@media screen and (max-width: 2048px) and (min-width: 1920px) {
+       
+    .motorcycle{
+        position: sticky!important;
+        padding: 6% 3.7vw!important;
+        width: 9vw!important;
+        top:7vw!important;
+        
+    
+    }
+    .p5toup{
+        margin-top: -375vw!important;
+    }
+    .linemotor{
+        height: 375vw!important;
+    }
+}
 
 /* ไอแพดกับโทรศัพท์ */
 
@@ -1091,6 +1128,7 @@ body {
         padding-top: 20vw!important;
         padding-left: 82vw!important;
     }
+
     #changecar>.car {
         position: absolute;
     }
@@ -1147,9 +1185,26 @@ body {
         scroll-snap-align: start;
     }
     .checko {
-        width: 120vw;
+        width: 160vw;
         z-index: 3;
         position: relative;
+    }
+
+   
+
+    .motorcycle{
+        position: sticky;
+        padding: 10% 1vw!important;
+        width: 9vw;
+        top:4vw!important;
+        
+    
+    }
+    .p5toup{
+        margin-top: -930vw!important;
+    }
+    .linemotor{
+        height: 930vw!important;
     }
     /*ball*/
     .content_allpage2 {
@@ -1770,7 +1825,7 @@ body {
 }
 
 .checko {
-    width: 100vw;
+    /* width: 100vw; */
     position: relative;
     z-index: 3;
 }
@@ -1785,6 +1840,7 @@ body {
 
 
 /* page5 */
+
 
 .content_sign {
     flex-basis: 42%;
@@ -1844,12 +1900,21 @@ body {
     position: absolute;
 }
 
-.motorcycle {
-    position: absolute;
-    margin: 6% 45px;
-    width: 9vw;
-}
 
+.motorcycle{
+    position: sticky;
+    padding: 10% 3vw;
+    width: 9vw;
+    top:4vw;
+    
+
+}
+.p5toup{
+    margin-top: -445vw;
+}
+.linemotor{
+    height: 445vw;
+}
 
 /* โทรศัพท์ */
 
@@ -1905,8 +1970,23 @@ body {
         margin-bottom: -7vw;
         position: absolute;
     }
+    .motorcycle{
+        position: sticky;
+        padding: 10% 1vw!important;
+        top:15vw!important;
+        
+    
+    }
+    #mortorline{
+        width: 15vw;
+    }
+    .p5toup{
+        margin-top: -900vw!important;
+    }
+    .linemotor{
+        height: 900vw!important;
+    }
 }
-
 
 /* ไอแพด*/
 
@@ -1956,7 +2036,22 @@ body {
         margin-bottom: -7vw;
         position: absolute;
     }
-}
+    /* .motorcycle{
+        position: sticky!important;
+        margin: 6% 0.4vw!important;
+        width: 9vw;
+        top:5vw!important;
+        
+
+    }
+    .p5toup{
+        margin-top: -720vw!important;
+    }
+    .linemotor{
+        height: 720vw!important;
+    }
+} */
+    
 
 
 /* page6 */
