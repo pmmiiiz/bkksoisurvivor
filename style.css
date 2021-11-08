@@ -2330,7 +2330,7 @@ body {
     width: 35vw;
     margin: auto;
     position: relative;
-    z-index: 90;
+    z-index: 50;
 }
 
 #img-1 {
