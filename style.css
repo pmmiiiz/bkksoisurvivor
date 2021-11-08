@@ -68,8 +68,10 @@ body {
     background-color: black;
 }
 
+
 /*navbar desktop*/
-.navbar{
+
+.navbar {
     width: 100vw;
     height: calc(25vh/3);
     background-color: black;
@@ -79,7 +81,7 @@ body {
     display: inline-flex;
 }
 
-.logobkk{
+.logobkk {
     width: 7vw;
 }
 
@@ -87,11 +89,11 @@ body {
     padding: 0.9vw;
 }
 
-#headerbar{
+#headerbar {
     padding: 0.9vw;
 }
 
-.logobar{
+.logobar {
     width: 18vw;
 }
 
@@ -99,7 +101,7 @@ body {
     padding: 0.8vw 0.8vw;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: white;
 }
@@ -118,16 +120,17 @@ body {
     font-family: 'Acumin Pro';
 }
 
-.frame1,.frame2{
+.frame1,
+.frame2 {
     display: inline-block;
 }
 
-.arrow1{
+.arrow1 {
     opacity: 1;
     display: inline-block;
 }
 
-.arrow2{
+.arrow2 {
     opacity: 0;
     display: inline-block;
 }
@@ -143,19 +146,19 @@ body {
     display: none;
 }
 
-.bar hr{
+.bar hr {
     border: 0.06vw solid white;
     display: none;
 }
 
-.bar{
+.bar {
     width: 6vw;
     float: right;
     margin-top: -0.5vh;
     display: none;
 }
 
-.menubar a{
+.menubar a {
     text-decoration: none;
     color: white;
 }
@@ -174,66 +177,68 @@ body {
     font-family: 'Acumin Pro';
 }
 
-.frame1bar,.frame2bar{
+.frame1bar,
+.frame2bar {
     display: inline-block;
 }
 
-.arrow1bar{
+.arrow1bar {
     margin: 2vw;
     opacity: 1;
     display: inline-block;
 }
 
-.arrow1bar img{
+.arrow1bar img {
     width: 5vw;
 }
 
-.arrow2bar{
+.arrow2bar {
     margin: 2vw;
     opacity: 0;
     display: inline-block;
 }
 
-.arrow2bar img{
+.arrow2bar img {
     width: 5vw;
 }
 
-.homebtnbar{
+.homebtnbar {
     margin: 7vw 0vw;
 }
 
-.infobtnbar{
+.infobtnbar {
     margin: 7vw 0vw;
 }
 
-.picclose{
+.picclose {
     width: 10vw;
     float: right;
 }
 
-.close{
+.close {
     width: 100vw;
     top: 2vh;
     right: 4vw;
     position: absolute;
 }
+
+
 /* navbar moblie*/
-@media screen and (max-width: 1024px) and (min-width: 200px){
-    .menu{
+
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+    .menu {
         display: none;
     }
-
-    .navbar{
+    .navbar {
         width: 100vw;
         height: 10.5vw;
-        background-color:black;
+        background-color: black;
         transition: all .3s;
         position: fixed;
         width: 100%;
         z-index: 10;
         display: inline-flex;
     }
-
     .menubar {
         padding: 5vw 5vw;
         width: 30vw;
@@ -245,138 +250,114 @@ body {
         position: absolute;
         display: none;
     }
-
-    .logobkk{
+    .logobkk {
         width: 18vw;
     }
-    
     #header {
         padding: 2vw 2vw;
         width: 100vw;
     }
-    
-
-    #headerbar{
+    #headerbar {
         padding: 0vw;
     }
-    
-    .logobar{
+    .logobar {
         width: 18vw;
     }
-
     .menu {
         padding: 0.8vw 0.8vw;
     }
-    
-    .menu a{
+    .menu a {
         text-decoration: none;
         color: white;
     }
-
-    .line1{
+    .line1 {
         border: 0.06vw solid white;
         width: 100%;
         margin: 5vw 0vw;
         float: center;
     }
-    
-    .bar hr{
+    .bar hr {
         /* border: 0.06vw solid white; */
         margin: 1.5vw 0vw;
         background-color: white;
         height: 0.4vw;
         display: block;
     }
-    
-    .bar{
+    .bar {
         width: 6vw;
         float: right;
         margin-top: -0.5vh;
         display: block;
     }
-    
     .frame1 p {
         margin: auto;
         color: white;
         font-size: 1.25vw;
         font-family: 'Acumin Pro';
     }
-    
     .frame2 p {
         margin: auto;
         color: white;
         font-size: 1.25vw;
         font-family: 'Acumin Pro';
     }
-    
-    .frame1,.frame2{
+    .frame1,
+    .frame2 {
         display: inline-block;
     }
-    
-    .menubar a{
+    .menubar a {
         text-decoration: none;
         color: white;
     }
-    
     .frame1bar p {
         margin: auto;
         color: white;
         font-size: 4vw;
         font-family: 'Acumin Pro';
     }
-    
     .frame2bar p {
         margin: auto;
         color: white;
         font-size: 4vw;
         font-family: 'Acumin Pro';
     }
-    
-    .frame1bar,.frame2bar{
+    .frame1bar,
+    .frame2bar {
         display: inline-block;
     }
-    
-    .arrow1bar{
+    .arrow1bar {
         margin: 2vw;
         opacity: 1;
         display: inline-block;
     }
-    
-    .arrow1bar img{
+    .arrow1bar img {
         width: 3vw;
     }
-    
-    .arrow2bar{
+    .arrow2bar {
         margin: 2vw;
         opacity: 0;
         display: inline-block;
     }
-    
-    .arrow2bar img{
+    .arrow2bar img {
         width: 3vw;
     }
-    
-    .homebtnbar{
+    .homebtnbar {
         margin: 3vw 0vw;
     }
-    
-    .infobtnbar{
+    .infobtnbar {
         margin: 3vw 0vw;
     }
-    
-    .picclose{
+    .picclose {
         width: 7vw;
         float: right;
         padding: 1vw;
     }
-    
-    .close{
+    .close {
         width: 100vw;
         top: 2vh;
         right: 4vw;
         position: absolute;
     }
-
 }
 
 .content {
@@ -399,11 +380,10 @@ body {
 }
 
 .page2_contant,
-.page3_contant{
+.page3_contant {
     width: 100vw;
     height: 100vh;
 }
-
 
 .page5_contant {
     width: 100vw;
@@ -524,6 +504,7 @@ body {
     height: 80vw;
     position: relative;
     color: white;
+    margin-left: -25vw;
     /* background-color: darkgreen; */
 }
 
@@ -764,7 +745,10 @@ body {
     top: -7vw;
     left: -68vw;
 }
+
+
 /* page3 */
+
 .content_allpage3 {
     display: flex;
     flex-wrap: wrap;
@@ -773,12 +757,14 @@ body {
     padding-top: 8vh;
     margin-left: 8%;
 }
+
 .content_page2text {
     color: rgb(255, 255, 255);
     position: relative;
     top: 6vw;
     left: 42vw;
 }
+
 .topicpage2 {
     padding-top: 1.5vw;
     text-align: left;
@@ -786,11 +772,13 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'ChulaCharasNew';
 }
+
 .linepage2 {
     border-bottom: 0.1vw solid rgba(255, 255, 255);
     height: 1vw;
     width: 35vw;
 }
+
 .btnyes {
     background-color: black;
     color: rgb(255, 255, 255);
@@ -803,6 +791,7 @@ body {
     cursor: pointer;
     border: 2px solid #DBFF00;
 }
+
 .btnno {
     background-color: black;
     color: rgb(255, 255, 255);
@@ -816,55 +805,64 @@ body {
     cursor: pointer;
     border: 2px solid #F694FF;
 }
-#square2{
+
+#square2 {
     position: relative;
     width: 5vw;
     top: 0vw;
     left: -1vw;
 }
-#square3{
+
+#square3 {
     position: relative;
     width: 3vw;
     top: 5vw;
     left: -15vw;
 }
-#square4{
+
+#square4 {
     position: relative;
     width: 3vw;
     top: 13vw;
     left: -32vw;
 }
-#square5{
+
+#square5 {
     position: relative;
     width: 3vw;
     top: 32vw;
     left: -10vw;
 }
-#square6{
+
+#square6 {
     position: relative;
     width: 5.5vw;
     top: 32vw;
     left: -40vw;
 }
-#square7{
+
+#square7 {
     position: relative;
     width: 3vw;
     top: 29.1vw;
     left: -40.2vw;
 }
-#circle6{
+
+#circle6 {
     position: relative;
     width: 4vw;
     top: 1vw;
     left: 1vw;
 }
-#square8{
+
+#square8 {
     position: relative;
     width: 5vw;
     top: 38vw;
     left: 10vw;
 }
-.arrowdownp2_2{
+
+.arrowdownp2_2 {
     position: relative;
     width: 2vw;
     top: 39.5vw;
@@ -910,7 +908,6 @@ body {
         margin-top: 2vw!important;
         z-index: 1;
     }
-    
     /*ball*/
     .content_allpagemac2 {
         display: flex!important;
@@ -986,13 +983,14 @@ body {
         z-index: 1;
     }
 }
+
 @media screen and (max-width: 1024px) {
-#changecar {
-    position: sticky;
-    margin-left: 43vw!important;
-    top: 18vw!important;
-    z-index: -1;
-    margin-top: 15vw!important;
+    #changecar {
+        position: sticky;
+        margin-left: 43vw!important;
+        top: 18vw!important;
+        z-index: -1;
+        margin-top: 15vw!important;
     }
     .p1car {
         width: 50vw;
@@ -1009,15 +1007,14 @@ body {
         top: 18vw!important;
         z-index: -1;
         margin-top: 25vw!important;
-        }
-        .p1car {
-            width: 50vw;
-            height: 270vh!important;
-            position: relative;
-            /* background-color: darkgoldenrod; */
-        }
-      
-    } 
+    }
+    .p1car {
+        width: 50vw;
+        height: 270vh!important;
+        position: relative;
+        /* background-color: darkgoldenrod; */
+    }
+}
 
 
 /* ไอแพดกับโทรศัพท์ */
@@ -1094,7 +1091,6 @@ body {
         padding-top: 20vw!important;
         padding-left: 82vw!important;
     }
-
     #changecar>.car {
         position: absolute;
     }
@@ -1258,14 +1254,13 @@ body {
         right: 25vw;
     }
     /*ball2*/
-
     .content_allpage3 {
         display: flex!important;
         flex-wrap: wrap!important;
         width: 100%!important;
         height: 100%;
     }
-    .page3_contant{
+    .page3_contant {
         width: 100vw;
         height: 110vw!important;
     }
@@ -1318,71 +1313,72 @@ body {
         border: 2px solid #F694FF;
         text-align: center;
     }
-    #square2{
+    #square2 {
         position: relative;
         width: 6vw;
         top: 35vw;
         left: 15vw;
     }
-    #square3{
+    #square3 {
         position: relative;
         width: 4vw;
         top: 20vw;
         left: -15vw;
     }
-    #square4{
+    #square4 {
         position: relative;
         width: 4vw;
         top: 26vw;
         left: -22vw;
     }
-    #square5{
+    #square5 {
         position: relative;
         width: 3vw;
         top: 32vw;
         left: -10vw;
         display: none;
     }
-    #square6{
+    #square6 {
         position: relative;
         width: 7.5vw;
         top: 90vw;
         left: -29vw;
     }
-    #square7{
+    #square7 {
         position: relative;
         width: 4vw;
         top: 93.6vw;
         left: -40.3vw;
     }
-    #circle6{
+    #circle6 {
         position: relative;
         width: 8vw;
         top: 71vw;
         left: -7vw;
     }
-    #square8{
+    #square8 {
         position: relative;
         width: 6vw;
         top: 51.5vw;
         left: -53vw;
     }
-    .arrowdownp2_2{
+    .arrowdownp2_2 {
         position: relative;
         width: 4vw!important;
         top: 93vw;
         left: 1vw;
     }
-
     /* page1 */
     .p1head {
         width: 100vw;
         height: 30vw;
+        top: 8vw!important;
+        position: relative;
         /* background-color: darkcyan; */
     }
     .p1logo1 {
         font-family: 'Acumin Pro';
-        font-size: 10vw;
+        font-size: 12vw!important;
         color: white;
         position: relative;
         top: 4vw;
@@ -1390,10 +1386,10 @@ body {
     }
     .p1logo2 {
         font-family: 'Acumin Pro';
-        font-size: 10vw;
+        font-size: 12vw!important;
         color: white;
         position: relative;
-        top: 1vw;
+        top: 6vw!important;
         left: 12vw;
     }
     .decor003 {
@@ -1403,7 +1399,7 @@ body {
         font-family: 'DS-Digital';
         font-size: 4vw;
         position: absolute;
-        top: 3.2vw;
+        top: 14vw;
         left: 80vw;
         color: white;
         display: block;
@@ -1412,7 +1408,7 @@ body {
         display: none;
     }
     .p1longlinemobile {
-        width: 48vw;
+        width: 56vw!important;
         height: 0.1vw;
         background-color: white;
         position: relative;
@@ -1445,9 +1441,9 @@ body {
     .p1detailmobile {
         font-family: 'ChulaCharasNew';
         width: 100vw;
-        height: 40vw;
+        height: 30vw;
         margin-top: -6vw!important;
-        padding-top: 3vw;
+        padding-top: 13vw;
         padding-left: 12vw;
         position: relative;
         color: white;
@@ -1455,13 +1451,13 @@ body {
         /* background-color: darkgreen; */
     }
     .p1detail_head {
-        font-size: 2.6vw!important;
+        font-size: 3.4vw!important;
         position: relative;
         top: 1vw;
         color: white;
     }
     .p1detail_1 {
-        font-size: 2.4vw;
+        font-size: 3.2vw!important;
         margin-top: 4vw;
         color: white;
     }
@@ -1469,24 +1465,24 @@ body {
         font-family: 'DS-Digital';
         font-size: 4vw;
         position: absolute;
-        top: 21vw;
+        top: 34.5vw;
         left: 80vw;
         color: white;
     }
     .p1shortline {
-        width: 37vw!important;
+        width: 49vw!important;
         height: 0.1vw;
         background-color: white;
         position: relative;
-        top: 2vw;
+        top: 1vw;
     }
     .p1detail_2 {
-        font-size: 2.4vw!important;
+        font-size: 3.2vw!important;
         margin-top: 4vw;
         color: white;
     }
     .p1ready {
-        font-size: 2.9vw;
+        font-size: 3.8vw;
         margin-top: 2vw;
         color: white;
     }
@@ -1494,19 +1490,23 @@ body {
         font-family: 'DS-Digital';
         font-size: 4vw;
         position: absolute;
-        top: 32vw;
+        top: 50.5vw!important;
         left: 80vw;
         color: #cbed00;
     }
     .p1arrowpic {
         display: none;
     }
-    .p1arrowpicmobile {
+    .p1arrowmobile {
         opacity: 1;
         position: absolute;
+        top: 24vw;
+        left: 80.5vw;
+        /* background-color: red; */
+    }
+    .p1arrowpicmobile {
         width: 4vw;
-        top: 40vw;
-        left: 85vw;
+        /* background-color: red; */
     }
     .p1stripepic {
         width: 100vw;
@@ -1523,10 +1523,101 @@ body {
 
 @media screen and (max-width: 500px) {
     .page1_contant {
-        height: 160vw;
+        height: 163vw;
     }
     .checkerboardbw {
         height: 10vh;
+    }
+    .p1detailmobile {
+        font-family: 'ChulaCharasNew';
+        width: 100vw;
+        height: 30vw;
+        margin-top: -6vw!important;
+        padding-top: 13vw;
+        padding-left: 12vw;
+        position: relative;
+        color: white;
+        opacity: 1;
+        /* background-color: darkgreen; */
+    }
+    .p1logo1 {
+        font-family: 'Acumin Pro';
+        font-size: 13vw;
+        color: white;
+        position: relative;
+        top: 4vw;
+        left: 12vw;
+    }
+    .p1logo2 {
+        font-family: 'Acumin Pro';
+        font-size: 13vw;
+        color: white;
+        position: relative;
+        top: 1vw;
+        left: 12vw;
+    }
+    .p1longlinemobile {
+        width: 62vw;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: 4vw;
+        display: block;
+    }
+    .p1detail_head {
+        font-size: 4vw!important;
+        position: relative;
+        top: 8vw;
+    }
+    .p1detail_1 {
+        font-size: 3.8vw;
+        margin-top: 12vw;
+    }
+    .p1shortline {
+        width: 58vw!important;
+        top: 1vw;
+    }
+    .p1detail_2 {
+        font-size: 3.8vw!important;
+        margin-top: 8vw;
+    }
+    .p1ready {
+        font-size: 4vw;
+        margin-top: 4vw;
+        color: white;
+    }
+    .p1car {
+        width: 50vw;
+        height: 350vh!important;
+        position: relative;
+        margin-top: 45vw;
+        /* background-color: red; */
+    }
+    .decor003mobile {
+        font-size: 5vw;
+        position: absolute;
+        top: 21vw;
+        left: 85vw;
+        display: block;
+    }
+    .decor002 {
+        font-size: 5vw;
+        position: absolute;
+        top: 47vw;
+        left: 85vw;
+    }
+    .decor001 {
+        font-size: 5vw;
+        position: absolute;
+        top: 66vw!important;
+        left: 85vw;
+    }
+    .p1arrowmobile {
+        opacity: 1;
+        position: absolute;
+        top: 30vw;
+        left: 85.5vw;
+        /* background-color: red; */
     }
 }
 
@@ -1683,11 +1774,15 @@ body {
     position: relative;
     z-index: 3;
 }
+
+
 /*linepage5*/
-.linepage5{
+
+.linepage5 {
     position: absolute;
     margin: 6%;
 }
+
 
 /* page5 */
 
@@ -1748,11 +1843,13 @@ body {
     margin-bottom: -7vw;
     position: absolute;
 }
-.motorcycle{
+
+.motorcycle {
     position: absolute;
     margin: 6% 45px;
     width: 9vw;
 }
+
 
 /* โทรศัพท์ */
 
@@ -1882,11 +1979,13 @@ body {
     position: relative;
     margin-left: 8%;
 }
-@media screen and (max-width: 1280px){
+
+@media screen and (max-width: 1280px) {
     .page6_contant {
         padding-top: 0%;
     }
 }
+
 
 /* โทรศัพท์ */
 
@@ -1896,7 +1995,7 @@ body {
         height: 80vh;
         padding-top: 5%;
     }
-    .linepage5{
+    .linepage5 {
         position: absolute;
         margin: 10% 5%;
         width: 24%;
@@ -2031,7 +2130,6 @@ body {
     text-align: center;
     font-size: 18px;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
-    
 }
 
 .content_umbrella img {
