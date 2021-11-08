@@ -382,7 +382,7 @@ body {
 .content {
     overflow-y: auto;
     overflow-x: hidden;
-    /* scroll-snap-type: y proximity; */
+    scroll-snap-type: y proximity;
     height: 100vh;
 }
 
@@ -1753,6 +1753,12 @@ body {
 /* โทรศัพท์ */
 
 @media screen and (max-width: 415px) {
+    .content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scroll-snap-type: none;
+        height: 100vh;
+    }
     .page5_contant {
         width: 100vw;
         height: 130vw;
