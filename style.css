@@ -1748,7 +1748,11 @@ body {
     margin-bottom: -7vw;
     position: absolute;
 }
-
+.motorcycle{
+    position: absolute;
+    margin: 6% 45px;
+    width: 9vw;
+}
 
 /* โทรศัพท์ */
 
@@ -1892,6 +1896,11 @@ body {
         height: 80vh;
         padding-top: 5%;
     }
+    .linepage5{
+        position: absolute;
+        margin: 10% 5%;
+        width: 24%;
+    }
     .col-1-moblie {
         width: 10px;
         height: 10px;
@@ -1945,7 +1954,7 @@ body {
 
 /* ไอแพด */
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 540px) {
     .page6_contant {
         width: 100vw;
         height: 100vh;
