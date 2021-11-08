@@ -68,8 +68,10 @@ body {
     background-color: black;
 }
 
+
 /*navbar desktop*/
-.navbar{
+
+.navbar {
     width: 100vw;
     height: calc(25vh/3);
     background-color: black;
@@ -79,7 +81,7 @@ body {
     display: inline-flex;
 }
 
-.logobkk{
+.logobkk {
     width: 7vw;
 }
 
@@ -87,11 +89,11 @@ body {
     padding: 0.9vw;
 }
 
-#headerbar{
+#headerbar {
     padding: 0.9vw;
 }
 
-.logobar{
+.logobar {
     width: 18vw;
 }
 
@@ -99,7 +101,7 @@ body {
     padding: 0.8vw 0.8vw;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: white;
 }
@@ -118,16 +120,17 @@ body {
     font-family: 'Acumin Pro';
 }
 
-.frame1,.frame2{
+.frame1,
+.frame2 {
     display: inline-block;
 }
 
-.arrow1{
+.arrow1 {
     opacity: 1;
     display: inline-block;
 }
 
-.arrow2{
+.arrow2 {
     opacity: 0;
     display: inline-block;
 }
@@ -143,19 +146,19 @@ body {
     display: none;
 }
 
-.bar hr{
+.bar hr {
     border: 0.06vw solid white;
     display: none;
 }
 
-.bar{
+.bar {
     width: 6vw;
     float: right;
     margin-top: -0.5vh;
     display: none;
 }
 
-.menubar a{
+.menubar a {
     text-decoration: none;
     color: white;
 }
@@ -174,66 +177,68 @@ body {
     font-family: 'Acumin Pro';
 }
 
-.frame1bar,.frame2bar{
+.frame1bar,
+.frame2bar {
     display: inline-block;
 }
 
-.arrow1bar{
+.arrow1bar {
     margin: 2vw;
     opacity: 1;
     display: inline-block;
 }
 
-.arrow1bar img{
+.arrow1bar img {
     width: 5vw;
 }
 
-.arrow2bar{
+.arrow2bar {
     margin: 2vw;
     opacity: 0;
     display: inline-block;
 }
 
-.arrow2bar img{
+.arrow2bar img {
     width: 5vw;
 }
 
-.homebtnbar{
+.homebtnbar {
     margin: 7vw 0vw;
 }
 
-.infobtnbar{
+.infobtnbar {
     margin: 7vw 0vw;
 }
 
-.picclose{
+.picclose {
     width: 10vw;
     float: right;
 }
 
-.close{
+.close {
     width: 100vw;
     top: 2vh;
     right: 4vw;
     position: absolute;
 }
+
+
 /* navbar moblie*/
-@media screen and (max-width: 1024px) and (min-width: 200px){
-    .menu{
+
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+    .menu {
         display: none;
     }
-
-    .navbar{
+    .navbar {
         width: 100vw;
         height: 10.5vw;
-        background-color:black;
+        background-color: black;
         transition: all .3s;
         position: fixed;
         width: 100%;
         z-index: 2;
         display: inline-flex;
     }
-
     .menubar {
         padding: 5vw 5vw;
         width: 30vw;
@@ -245,138 +250,114 @@ body {
         position: absolute;
         display: none;
     }
-
-    .logobkk{
+    .logobkk {
         width: 18vw;
     }
-    
     #header {
         padding: 2vw 2vw;
         width: 100vw;
     }
-    
-
-    #headerbar{
+    #headerbar {
         padding: 0vw;
     }
-    
-    .logobar{
+    .logobar {
         width: 18vw;
     }
-
     .menu {
         padding: 0.8vw 0.8vw;
     }
-    
-    .menu a{
+    .menu a {
         text-decoration: none;
         color: white;
     }
-
-    .line1{
+    .line1 {
         border: 0.06vw solid white;
         width: 100%;
         margin: 5vw 0vw;
         float: center;
     }
-    
-    .bar hr{
+    .bar hr {
         /* border: 0.06vw solid white; */
         margin: 1.5vw 0vw;
         background-color: white;
         height: 0.4vw;
         display: block;
     }
-    
-    .bar{
+    .bar {
         width: 6vw;
         float: right;
         margin-top: -0.5vh;
         display: block;
     }
-    
     .frame1 p {
         margin: auto;
         color: white;
         font-size: 1.25vw;
         font-family: 'Acumin Pro';
     }
-    
     .frame2 p {
         margin: auto;
         color: white;
         font-size: 1.25vw;
         font-family: 'Acumin Pro';
     }
-    
-    .frame1,.frame2{
+    .frame1,
+    .frame2 {
         display: inline-block;
     }
-    
-    .menubar a{
+    .menubar a {
         text-decoration: none;
         color: white;
     }
-    
     .frame1bar p {
         margin: auto;
         color: white;
         font-size: 4vw;
         font-family: 'Acumin Pro';
     }
-    
     .frame2bar p {
         margin: auto;
         color: white;
         font-size: 4vw;
         font-family: 'Acumin Pro';
     }
-    
-    .frame1bar,.frame2bar{
+    .frame1bar,
+    .frame2bar {
         display: inline-block;
     }
-    
-    .arrow1bar{
+    .arrow1bar {
         margin: 2vw;
         opacity: 1;
         display: inline-block;
     }
-    
-    .arrow1bar img{
+    .arrow1bar img {
         width: 3vw;
     }
-    
-    .arrow2bar{
+    .arrow2bar {
         margin: 2vw;
         opacity: 0;
         display: inline-block;
     }
-    
-    .arrow2bar img{
+    .arrow2bar img {
         width: 3vw;
     }
-    
-    .homebtnbar{
+    .homebtnbar {
         margin: 3vw 0vw;
     }
-    
-    .infobtnbar{
+    .infobtnbar {
         margin: 3vw 0vw;
     }
-    
-    .picclose{
+    .picclose {
         width: 7vw;
         float: right;
         padding: 1vw;
     }
-    
-    .close{
+    .close {
         width: 100vw;
         top: 2vh;
         right: 4vw;
         position: absolute;
     }
-
 }
 
 .content {
@@ -396,10 +377,18 @@ body {
     height: calc(100vh - (25vh/3));
     background-color: black;
     scroll-snap-align: start;
+    z-index: -2;
+    position: relative;
 }
 
 .page2_contant,
-.page3_contant,
+.page3_contant {
+    width: 100vw;
+    height: 100vh;
+    z-index: -3;
+    position: relative;
+}
+
 .page5_contant {
     width: 100vw;
     height: 100vh;
@@ -416,6 +405,8 @@ body {
     height: 20vh;
     background-color: black;
     scroll-snap-align: start;
+    z-index: -3;
+    position: relative;
 }
 
 .page4_contant {
@@ -508,7 +499,8 @@ body {
     top: 30vh;
     margin-top: 2vw;
     left: 27vw;
-    z-index: 1;
+    z-index: -1;
+    display: none;
 }
 
 .p1detail {
@@ -788,6 +780,12 @@ body {
         background-color: black;
         scroll-snap-align: start;
     }
+    #changecar {
+        position: sticky;
+        margin-left: 19vw;
+        top: 22vw!important;
+        margin-top: -300vh!important;
+    }
     /*ball*/
     .content_allpagemac2 {
         display: flex!important;
@@ -849,6 +847,7 @@ body {
         margin-top: 2vw;
         left: 27vw;
         z-index: 1;
+        display: none;
     }
 }
 
@@ -932,6 +931,7 @@ body {
         margin-left: 35vw!important;
         top: 18vw!important;
         z-index: -1;
+        margin-top: 0vh!important;
     }
     #changecar>.car {
         position: absolute;
@@ -1159,6 +1159,7 @@ body {
         margin-top: 2vw;
         left: 43vw;
         z-index: 1;
+        display: block;
     }
     .p1detail {
         display: none;
@@ -1248,6 +1249,15 @@ body {
     }
     .checkerboardbw {
         height: 10vh;
+    }
+}
+
+@media screen and (max-width:2480px) and (min-width: 1300px) {
+    #changecar {
+        position: sticky;
+        margin-left: 19vw;
+        top: 14vw!important;
+        margin-top: -168vw!important;
     }
 }
 
@@ -1348,7 +1358,8 @@ body {
 #changecar {
     position: sticky;
     margin-left: 19vw;
-    top: 10vw;
+    top: 13vw;
+    margin-top: -138vw;
 }
 
 #changecar>.car {
@@ -1402,11 +1413,15 @@ body {
     position: relative;
     z-index: 2;
 }
+
+
 /*linepage5*/
-.linepage5{
+
+.linepage5 {
     position: absolute;
     margin: 6%;
 }
+
 
 /* page5 */
 
@@ -1591,11 +1606,13 @@ body {
     position: relative;
     margin-left: 8%;
 }
-@media screen and (max-width: 1280px){
+
+@media screen and (max-width: 1280px) {
     .page6_contant {
         padding-top: 0%;
     }
 }
+
 
 /* โทรศัพท์ */
 

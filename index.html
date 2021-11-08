@@ -16,15 +16,19 @@
             <div class="menu">
                 <div class="homebtn" id="homebtn" onclick="home()">
                     <div class="arrow1"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                    <div class="frame1"><a href="#home">
-                        <p>HOME</p>
-                </a></div>
+                    <div class="frame1">
+                        <a href="#home">
+                            <p>HOME</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="infobtn" id="infobtn" onclick="info()">
                     <div class="arrow2"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                    <div class="frame2"><a href="#info">
+                    <div class="frame2">
+                        <a href="#info">
                             <p>INFO</p>
-                    </a></div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="header">
@@ -43,19 +47,23 @@
             <hr class="line1">
             <div class="homebtnbar" onclick="homebar()">
                 <div class="arrow1bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                <div class="frame1bar"><a href="#home">
-                    <p>HOME</p>
-            </a></div>
+                <div class="frame1bar">
+                    <a href="#home">
+                        <p>HOME</p>
+                    </a>
+                </div>
             </div>
             <div class="infobtnbar" onclick="infobar()">
                 <div class="arrow2bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                <div class="frame2bar"><a href="#info">
+                <div class="frame2bar">
+                    <a href="#info">
                         <p>INFO</p>
-                </a></div>
+                    </a>
+                </div>
             </div>
-          </a>
-          <div class="close" onclick="closesmallbar()">
-            <img src="PIC/navbar/MB-CLOSE button-pg8.2.png" class="picclose">
+            </a>
+            <div class="close" onclick="closesmallbar()">
+                <img src="PIC/navbar/MB-CLOSE button-pg8.2.png" class="picclose">
             </div>
         </div>
 
@@ -222,6 +230,8 @@
                         </div>
                     </div>
                     <button id="rightchangecar">❱</button>
+                </div>
+                <div class="smracp4">
                     <img src="PIC/page_4/Rectangle 411.png" class="racp4">
                 </div>
                 <div class="content_page4text">
@@ -278,7 +288,8 @@
                     <div class="info_soi2">
                         <div class="info_topic">SOI, ซอย (n.)</div>
                         ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบทุนนิยม<br> ตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมืองทำให้มีคนจาก<br> ต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ อย่างล้นหลาม<br> นักพัฒนาที่ดินจึงได้กว้านซื้อที่และแบ่งส่วนตัดเป็นถนนย่อย
-                        ๆ<br> ออกเพื่อจะขายซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิดซอยแคบ ๆ เต็มไปหมด<br>
+                        ๆ
+                        <br> ออกเพื่อจะขายซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิดซอยแคบ ๆ เต็มไปหมด<br>
                     </div>
                 </div>
             </div>
@@ -338,52 +349,50 @@
 </body>
 <script>
     //navbar mobile//
-    function home(){
+    function home() {
         document.querySelector(".arrow1").style.opacity = "1";
         document.querySelector(".arrow2").style.opacity = "0";
         document.querySelector(".frame2").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame1").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function info(){
+    function info() {
         document.querySelector(".arrow1").style.opacity = "0";
         document.querySelector(".arrow2").style.opacity = "1";
         document.querySelector(".frame1").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame2").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function homebar(){
+    function homebar() {
         document.querySelector(".arrow1bar").style.opacity = "1";
         document.querySelector(".arrow2bar").style.opacity = "0";
         document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function infobar(){
+    function infobar() {
         document.querySelector(".arrow1bar").style.opacity = "0";
         document.querySelector(".arrow2bar").style.opacity = "1";
         document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function smallbar(){
+    function smallbar() {
         document.querySelector(".menubar").style.display = "block";
     }
 
-    function closesmallbar(){
+    function closesmallbar() {
         document.querySelector(".menubar").style.display = "none";
     }
 
-    
+
     let numstartcar = 0;
     let endnumcar = 2;
     const car = document.querySelectorAll(".car");
-    const p1car = document.querySelectorAll(".p1carpic");
     const vocabcar = document.querySelectorAll(".vocabcar");
 
     rightchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
-        p1car[0].style.display = "none";
         numstartcar++;
 
         if (numstartcar < endnumcar) {
@@ -395,7 +404,6 @@
     });
     leftchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
-        p1car[0].style.display = "none";
         numstartcar--;
 
         if (numstartcar > -1) {
@@ -451,7 +459,6 @@
     }();
     //ตัวหนังสือเลื่อน//
     // $('#maindiv').width($('#div1').width());
-
 </script>
 
 </html>
