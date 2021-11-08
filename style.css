@@ -764,6 +764,112 @@ body {
     top: -7vw;
     left: -68vw;
 }
+/* page3 */
+.content_allpage3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-top: 8vh;
+    margin-left: 8%;
+}
+.content_page2text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 6vw;
+    left: 42vw;
+}
+.topicpage2 {
+    padding-top: 1.5vw;
+    text-align: left;
+    font-size: 4.5vw;
+    color: rgb(255, 255, 255);
+    font-family: 'ChulaCharasNew';
+}
+.linepage2 {
+    border-bottom: 0.1vw solid rgba(255, 255, 255);
+    height: 1vw;
+    width: 35vw;
+}
+.btnyes {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 2px solid #DBFF00;
+}
+.btnno {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 6vw;
+    left: -10.3vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 2px solid #F694FF;
+}
+#square2{
+    position: relative;
+    width: 5vw;
+    top: 0vw;
+    left: -1vw;
+}
+#square3{
+    position: relative;
+    width: 3vw;
+    top: 5vw;
+    left: -15vw;
+}
+#square4{
+    position: relative;
+    width: 3vw;
+    top: 13vw;
+    left: -32vw;
+}
+#square5{
+    position: relative;
+    width: 3vw;
+    top: 32vw;
+    left: -10vw;
+}
+#square6{
+    position: relative;
+    width: 5.5vw;
+    top: 32vw;
+    left: -40vw;
+}
+#square7{
+    position: relative;
+    width: 3vw;
+    top: 29.1vw;
+    left: -40.2vw;
+}
+#circle6{
+    position: relative;
+    width: 4vw;
+    top: 1vw;
+    left: 1vw;
+}
+#square8{
+    position: relative;
+    width: 5vw;
+    top: 38vw;
+    left: 10vw;
+}
+.arrowdownp2_2{
+    position: relative;
+    width: 2vw;
+    top: 39.5vw;
+    left: 15vw;
+}
 
 
 /* page4 */
@@ -1139,6 +1245,123 @@ body {
         top: 35vw;
         right: 25vw;
     }
+    /*ball2*/
+
+    .content_allpage3 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%!important;
+        height: 100%;
+    }
+    .page3_contant{
+        width: 100vw;
+        height: 110vw!important;
+    }
+    .content_page2text {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 40vw!important;
+        align-items: center;
+        left: 26vw;
+    }
+    .topicpage2 {
+        text-align: center!important;
+        margin-left: -17%;
+        font-size: 7vw!important;
+        color: rgb(255, 255, 255);
+        font-family: 'ChulaCharasNew';
+    }
+    .linepage2 {
+        border-bottom: 0.1vw solid rgba(255, 255, 255);
+        position: relative;
+        height: 3vw;
+        left: -0.9vw;
+        width: 40w;
+    }
+    .btnyes {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 5vw;
+        width: 20vw;
+        left: -5vw;
+        height: 4.5vw;
+        font-size: 3vw;
+        font-family: 'ChulaCharasNew';
+        cursor: pointer;
+        border: 2px solid #DBFF00;
+        text-align: center;
+    }
+    .btnno {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 5vw;
+        left: -1.5vw;
+        width: 20vw;
+        height: 4.5vw;
+        font-size: 3vw;
+        font-family: 'ChulaCharasNew';
+        cursor: pointer;
+        border: 2px solid #F694FF;
+        text-align: center;
+    }
+    #square2{
+        position: relative;
+        width: 6vw;
+        top: 35vw;
+        left: 15vw;
+    }
+    #square3{
+        position: relative;
+        width: 4vw;
+        top: 20vw;
+        left: -15vw;
+    }
+    #square4{
+        position: relative;
+        width: 4vw;
+        top: 26vw;
+        left: -22vw;
+    }
+    #square5{
+        position: relative;
+        width: 3vw;
+        top: 32vw;
+        left: -10vw;
+        display: none;
+    }
+    #square6{
+        position: relative;
+        width: 7.5vw;
+        top: 90vw;
+        left: -29vw;
+    }
+    #square7{
+        position: relative;
+        width: 4vw;
+        top: 93.6vw;
+        left: -40.3vw;
+    }
+    #circle6{
+        position: relative;
+        width: 8vw;
+        top: 71vw;
+        left: -7vw;
+    }
+    #square8{
+        position: relative;
+        width: 6vw;
+        top: 51.5vw;
+        left: -53vw;
+    }
+    .arrowdownp2_2{
+        position: relative;
+        width: 4vw!important;
+        top: 93vw;
+        left: 1vw;
+    }
+
     /* page1 */
     .p1head {
         width: 100vw;
