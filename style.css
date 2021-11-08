@@ -2288,6 +2288,7 @@ body {
     margin-top: -3vw;
     margin-bottom: -7vw;
     position: absolute;
+    z-index: 55;
 }
 
 #vec2 {
@@ -2295,6 +2296,7 @@ body {
     position: absolute;
     margin-top: -43vw;
     margin-left: -8vw;
+    z-index: 55;
 }
 
 .content_text {
