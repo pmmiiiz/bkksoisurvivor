@@ -382,7 +382,7 @@ body {
 .content {
     overflow-y: auto;
     overflow-x: hidden;
-    scroll-snap-type: y proximity;
+    /* scroll-snap-type: y proximity; */
     height: 100vh;
 }
 
