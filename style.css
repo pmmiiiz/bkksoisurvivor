@@ -68,10 +68,296 @@ body {
     background-color: black;
 }
 
+
+/*navbar desktop*/
+
 .navbar {
     width: 100vw;
     height: calc(25vh/3);
-    background-color: rgb(71, 255, 15);
+    background-color: black;
+    transition: all .3s;
+    position: fixed;
+    z-index: 100;
+    display: inline-flex;
+}
+
+.logobkk {
+    width: 7vw;
+}
+
+#header {
+    padding: 0.9vw;
+}
+
+#headerbar {
+    padding: 0.9vw;
+}
+
+.logobar {
+    width: 18vw;
+}
+
+.menu {
+    padding: 0.8vw 0.8vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.frame1 p {
+    margin: auto;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame2 p {
+    margin: auto;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame1,
+.frame2 {
+    display: inline-block;
+}
+
+.arrow1 {
+    opacity: 1;
+    display: inline-block;
+}
+
+.arrow2 {
+    opacity: 0;
+    display: inline-block;
+}
+
+.menubar {
+    padding: 5vw 5vw;
+    width: 50vw;
+    height: 80vw;
+    background-color: black;
+    z-index: 50;
+    right: 0vw;
+    position: absolute;
+    display: none;
+}
+
+.bar hr {
+    border: 0.06vw solid white;
+    display: none;
+}
+
+.bar {
+    width: 6vw;
+    float: right;
+    margin-top: -0.5vh;
+    display: none;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: white;
+}
+
+.frame1bar p {
+    margin: auto;
+    color: white;
+    font-size: 7vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame2bar p {
+    margin: auto;
+    color: white;
+    font-size: 7vw;
+    font-family: 'Acumin Pro';
+}
+
+.frame1bar,
+.frame2bar {
+    display: inline-block;
+}
+
+.arrow1bar {
+    margin: 2vw;
+    opacity: 1;
+    display: inline-block;
+}
+
+.arrow1bar img {
+    width: 5vw;
+}
+
+.arrow2bar {
+    margin: 2vw;
+    opacity: 0;
+    display: inline-block;
+}
+
+.arrow2bar img {
+    width: 5vw;
+}
+
+.homebtnbar {
+    margin: 7vw 0vw;
+}
+
+.infobtnbar {
+    margin: 7vw 0vw;
+}
+
+.picclose {
+    width: 10vw;
+    float: right;
+}
+
+.close {
+    width: 100vw;
+    top: 2vh;
+    right: 4vw;
+    position: absolute;
+}
+
+
+/* navbar moblie*/
+
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+    .menu {
+        display: none;
+    }
+    .navbar {
+        width: 100vw;
+        height: 10.5vw;
+        background-color: black;
+        transition: all .3s;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        display: inline-flex;
+    }
+    .menubar {
+        padding: 5vw 5vw;
+        width: 30vw;
+        height: 50vw;
+        background-color: black;
+        border: 0.2vw solid #DBFF00;
+        z-index: 50;
+        right: 0vw;
+        position: absolute;
+        display: none;
+    }
+    .logobkk {
+        width: 18vw;
+    }
+    #header {
+        padding: 2vw 2vw;
+        width: 100vw;
+    }
+    #headerbar {
+        padding: 0vw;
+    }
+    .logobar {
+        width: 18vw;
+    }
+    .menu {
+        padding: 0.8vw 0.8vw;
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+    }
+    .line1 {
+        border: 0.06vw solid white;
+        width: 100%;
+        margin: 5vw 0vw;
+        float: center;
+    }
+    .bar hr {
+        /* border: 0.06vw solid white; */
+        margin: 1.5vw 0vw;
+        background-color: white;
+        height: 0.4vw;
+        display: block;
+    }
+    .bar {
+        width: 6vw;
+        float: right;
+        margin-top: -0.5vh;
+        display: block;
+    }
+    .frame1 p {
+        margin: auto;
+        color: white;
+        font-size: 1.25vw;
+        font-family: 'Acumin Pro';
+    }
+    .frame2 p {
+        margin: auto;
+        color: white;
+        font-size: 1.25vw;
+        font-family: 'Acumin Pro';
+    }
+    .frame1,
+    .frame2 {
+        display: inline-block;
+    }
+    .menubar a {
+        text-decoration: none;
+        color: white;
+    }
+    .frame1bar p {
+        margin: auto;
+        color: white;
+        font-size: 4vw;
+        font-family: 'Acumin Pro';
+    }
+    .frame2bar p {
+        margin: auto;
+        color: white;
+        font-size: 4vw;
+        font-family: 'Acumin Pro';
+    }
+    .frame1bar,
+    .frame2bar {
+        display: inline-block;
+    }
+    .arrow1bar {
+        margin: 2vw;
+        opacity: 1;
+        display: inline-block;
+    }
+    .arrow1bar img {
+        width: 3vw;
+    }
+    .arrow2bar {
+        margin: 2vw;
+        opacity: 0;
+        display: inline-block;
+    }
+    .arrow2bar img {
+        width: 3vw;
+    }
+    .homebtnbar {
+        margin: 3vw 0vw;
+    }
+    .infobtnbar {
+        margin: 3vw 0vw;
+    }
+    .picclose {
+        width: 7vw;
+        float: right;
+        padding: 1vw;
+    }
+    .close {
+        width: 100vw;
+        top: 2vh;
+        right: 4vw;
+        position: absolute;
+    }
 }
 
 .content {
@@ -94,22 +380,29 @@ body {
 }
 
 .page2_contant,
-.page3_contant,
-.page5_contant{
+.page3_contant {
     width: 100vw;
     height: 100vh;
-    z-index: 0;
+}
+
+.page5_contant {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
     position: relative;
 }
-.page6_contant{
+
+.page6_contant {
     width: 100vw;
-    height: 130vh;
 }
+
 .checkerboardbw {
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     background-color: black;
     scroll-snap-align: start;
+    z-index: -1;
+    position: relative;
 }
 
 .page4_contant {
@@ -137,9 +430,8 @@ body {
 
 .p1head {
     width: 100vw;
-    height: 45vh;
-    background-color: black;
-
+    height: 20vw;
+    /* background-color: darkcyan; */
 }
 
 .p1logo1 {
@@ -147,7 +439,7 @@ body {
     font-size: 8vw;
     color: white;
     position: relative;
-    top: 8vh;
+    top: 4vw;
     left: 12vw;
 }
 
@@ -156,7 +448,7 @@ body {
     font-size: 8vw;
     color: white;
     position: relative;
-    top: 2vh;
+    top: 1vw;
     left: 12vw;
 }
 
@@ -169,8 +461,8 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: relative;
-    top: -9vh;
-    left: 90vw;
+    top: -2vw;
+    left: 88vw;
     color: white;
 }
 
@@ -179,27 +471,29 @@ body {
     height: 0.1vw;
     background-color: white;
     position: relative;
-    top: -4vh;
+    top: -3vw;
     left: 12vw;
 }
 
 .p1body {
     width: 100vw;
-    height: 55vh;
+    height: 80vw;
     display: flex;
+    /* background-color: darkmagenta; */
 }
 
 .p1car {
     width: 50vw;
-    height: 335vh;
+    height: 400vh;
     position: relative;
+    /* background-color: darkgoldenrod; */
 }
 
 .p1carpic {
     position: sticky;
     width: 8vw;
     top: 30vh;
-    margin-top: 8vh;
+    margin-top: 2vw;
     left: 27vw;
     z-index: 1;
 }
@@ -207,21 +501,27 @@ body {
 .p1detail {
     font-family: 'ChulaCharasNew';
     width: 50vw;
-    height: 55vh;
+    height: 80vw;
     position: relative;
     color: white;
+    margin-left: -25vw;
+    /* background-color: darkgreen; */
+}
+
+.p1detailmobile {
+    opacity: 0;
 }
 
 .p1detail_head {
     font-size: 1.6vw;
     position: relative;
-    top: 3vh;
+    top: 1vw;
     color: white;
 }
 
 .p1detail_1 {
     font-size: 1.3vw;
-    margin-top: 5vh;
+    margin-top: 2vw;
     color: white;
 }
 
@@ -229,8 +529,8 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: absolute;
-    top: 15vh;
-    left: 40vw;
+    top: 7vw;
+    left: 38vw;
     color: white;
 }
 
@@ -239,18 +539,18 @@ body {
     height: 0.1vw;
     background-color: white;
     position: relative;
-    top: 3vh;
+    top: 1vw;
 }
 
 .p1detail_2 {
     font-size: 1.3vw;
-    margin-top: 6vh;
+    margin-top: 2vw;
     color: white;
 }
 
 .p1ready {
     font-size: 2.9vw;
-    margin-top: 2vh;
+    margin-top: 2vw;
     color: white;
 }
 
@@ -258,32 +558,38 @@ body {
     font-family: 'DS-Digital';
     font-size: 3vw;
     position: absolute;
-    top: 36.5vh;
-    left: 31vw;
+    top: 17.2vw;
+    left: 30vw;
     color: #cbed00;
 }
 
 .p1arrowpic {
     position: absolute;
     width: 2vw;
-    top: 36.5vh;
-    left: 41vw;
+    top: 17.5vw;
+    left: 39.5vw;
+}
+
+.p1arrowmobile {
+    opacity: 0;
 }
 
 .p1stripepic {
     width: 100vw;
-    height: 25vh;
+    position: relative;
     z-index: 0;
 }
 
 
 /* page2 */
+
 .content_allpage2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
+
 
 /* text animation */
 
@@ -294,6 +600,8 @@ body {
     color: #DBFF00;
     font-size: 24px;
     font-family: 'ChulaCharasNew';
+    z-index: 0;
+    position: relative;
 }
 
 #marquee1 {
@@ -328,97 +636,248 @@ body {
         transform: translateX(-200%);
     }
 }
+
+
 /* ตกแต่ง*/
-.car1{
+
+.car1 {
     position: relative;
     top: -10vw;
     left: 75vw;
 }
-.car2{
+
+.car2 {
     position: relative;
     top: -7vw;
     left: 40vw;
 }
-.car3{
+
+.car3 {
     position: relative;
     top: 15vw;
     left: 60vw;
 }
-.car4{
+
+.car4 {
     position: relative;
     top: 8vw;
     left: 30vw;
 }
-.car5{
+
+.car5 {
     position: relative;
     top: 8vw;
     left: 30vw;
 }
-.car6{
+
+.car6 {
     position: relative;
     top: 15vw;
     left: 4vw;
 }
-.car7{
+
+.car7 {
     position: relative;
     top: 5vw;
     right: 40vw;
 }
-#car{
+
+#car {
     width: 8vw;
 }
-#traffic{
+
+#traffic {
     width: 4vw;
-    
 }
-.traffic{
+
+.traffic {
     position: relative;
     top: 2vw;
     left: 53vw;
     z-index: 5;
 }
-.arrowdownp2{
+
+.arrowdownp2 {
     position: relative;
     width: 2vw;
     top: 27vw;
     left: 30vw;
 }
-#square{
+
+#square {
     position: relative;
     width: 5vw;
     top: 10vw;
     right: 20vw;
 }
-#circle{
+
+#circle {
     position: relative;
     width: 2.5vw;
     top: 20vw;
     left: 10vw;
 }
-#circle2{
+
+#circle2 {
     position: relative;
     width: 2.5vw;
     top: 4vw;
     right: 28vw;
 }
-#circle3{
+
+#circle3 {
     position: relative;
     width: 2.5vw;
     top: -10vw;
     right: 50vw;
 }
-#circle4{
+
+#circle4 {
     position: relative;
     width: 4vw;
     top: -12vw;
     right: 22vw;
 }
-#circle5{
+
+#circle5 {
     position: relative;
     width: 4vw;
     top: -7vw;
     left: -68vw;
 }
+
+
+/* page3 */
+
+.content_allpage3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-top: 8vh;
+    margin-left: 8%;
+}
+
+.content_page2text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 6vw;
+    left: 42vw;
+}
+
+.topicpage2 {
+    padding-top: 1.5vw;
+    text-align: left;
+    font-size: 4.5vw;
+    color: rgb(255, 255, 255);
+    font-family: 'ChulaCharasNew';
+}
+
+.linepage2 {
+    border-bottom: 0.1vw solid rgba(255, 255, 255);
+    height: 1vw;
+    width: 35vw;
+}
+
+.btnyes {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 2px solid #DBFF00;
+}
+.btnyes:hover {
+    background-color: #DBFF00;
+    color: black;
+}
+
+.btnno {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 6vw;
+    left: -10.3vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 2px solid #F694FF;
+}
+.btnno:hover {
+    background-color: #F694FF;
+    color: black;
+    
+}
+
+#square2 {
+    position: relative;
+    width: 5vw;
+    top: 0vw;
+    left: -1vw;
+}
+
+#square3 {
+    position: relative;
+    width: 3vw;
+    top: 5vw;
+    left: -15vw;
+}
+
+#square4 {
+    position: relative;
+    width: 3vw;
+    top: 13vw;
+    left: -32vw;
+}
+
+#square5 {
+    position: relative;
+    width: 3vw;
+    top: 32vw;
+    left: -10vw;
+}
+
+#square6 {
+    position: relative;
+    width: 5.5vw;
+    top: 32vw;
+    left: -40vw;
+}
+
+#square7 {
+    position: relative;
+    width: 3vw;
+    top: 29.1vw;
+    left: -40.2vw;
+}
+
+#circle6 {
+    position: relative;
+    width: 4vw;
+    top: 1vw;
+    left: 1vw;
+}
+
+#square8 {
+    position: relative;
+    width: 5vw;
+    top: 38vw;
+    left: 10vw;
+}
+
+.arrowdownp2_2 {
+    position: relative;
+    width: 2vw;
+    top: 39.5vw;
+    left: 15vw;
+}
+
 
 /* page4 */
 
@@ -447,11 +906,36 @@ body {
     }
     .checkerboardbo {
         width: 100vw;
-        height: 18vh;
+        height: 16vh;
         background-color: black;
         scroll-snap-align: start;
     }
+    #changecar {
+        position: sticky;
+        margin-left: 2vw;
+        top: 21vw!important;
+        margin-top: 2vw!important;
+        z-index: 1;
+    }
+    /* .checko {
+        width: 100vw!important;
+        position: relative;
+        z-index: 3;
+    } */
+    .motorcycle{
+        position: sticky!important;
+        margin: 6% -0.6vw!important;
+        width: 9vw;
+        top:5vw!important;
+        
 
+    }
+    .p5toup{
+        margin-top: -540vw!important;
+    }
+    .linemotor{
+        height: 540vw!important;
+    }
     /*ball*/
     .content_allpagemac2 {
         display: flex!important;
@@ -459,8 +943,125 @@ body {
         width: 100%;
         height: 100%;
     }
+    .content_allpagemac3 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%;
+        height: 100%;
+    }
+    .content_page2text {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 13vw!important;
+        left: 40vw;
+    }
+    /* page1 */
+    .p1logo1 {
+        font-family: 'Acumin Pro';
+        font-size: 8vw;
+        color: white;
+        position: relative;
+        top: 10vw!important;
+        left: 12vw;
+    }
+    .p1logo2 {
+        font-family: 'Acumin Pro';
+        font-size: 8vw;
+        color: white;
+        position: relative;
+        top: 7vw!important;
+        left: 12vw;
+    }
+    .decor003 {
+        font-family: 'DS-Digital';
+        font-size: 3vw;
+        position: relative;
+        top: 2vw!important;
+        left: 88vw;
+        color: white;
+    }
+    .p1longline {
+        width: 63vw;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: 3vw!important;
+        left: 12vw;
+    }
+    .p1detailmobile {
+        opacity: 0;
+    }
+    .p1body {
+        width: 100vw;
+        height: 80vw;
+        margin-top: 6vw!important;
+        display: flex;
+    }
+    .p1car {
+        width: 50vw;
+        height: 250vw!important;
+        position: relative;
+    }
+    .p1carpic {
+        position: sticky;
+        width: 8vw;
+        top: 35vh!important;
+        margin-top: 2vw;
+        left: 27vw;
+        z-index: 1;
+    }
 }
 
+@media screen and (max-width: 1024px) {
+    #changecar {
+        position: sticky;
+        margin-left: 43vw!important;
+        top: 18vw!important;
+        z-index: -1;
+        margin-top: 15vw!important;
+    }
+    .p1car {
+        width: 50vw;
+        height: 425vh!important;
+        position: relative;
+        /* background-color: darkgoldenrod; */
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #changecar {
+        position: sticky;
+        margin-left: 43vw!important;
+        top: 18vw!important;
+        z-index: -1;
+        margin-top: 25vw!important;
+    }
+    .p1car {
+        width: 50vw;
+        height: 270vh!important;
+        position: relative;
+        /* background-color: darkgoldenrod; */
+    }
+}
+
+/* จอใหญ่มาก */
+@media screen and (max-width: 2048px) and (min-width: 1920px) {
+       
+    .motorcycle{
+        position: sticky!important;
+        padding: 6% 3.7vw!important;
+        width: 9vw!important;
+        top:7vw!important;
+        
+    
+    }
+    .p5toup{
+        margin-top: -375vw!important;
+    }
+    .linemotor{
+        height: 375vw!important;
+    }
+}
 
 /* ไอแพดกับโทรศัพท์ */
 
@@ -536,12 +1137,7 @@ body {
         padding-top: 20vw!important;
         padding-left: 82vw!important;
     }
-    #changecar {
-        position: sticky;
-        margin-left: 35vw!important;
-        top: 18vw!important;
-        z-index: -1;
-    }
+
     #changecar>.car {
         position: absolute;
     }
@@ -598,11 +1194,27 @@ body {
         scroll-snap-align: start;
     }
     .checko {
-        width: 120vw;
-        z-index: 2;
+        width: 160vw;
+        z-index: 3;
         position: relative;
     }
 
+   
+
+    .motorcycle{
+        position: sticky;
+        padding: 10% 1vw!important;
+        width: 9vw;
+        top:4vw!important;
+        
+    
+    }
+    .p5toup{
+        margin-top: -930vw!important;
+    }
+    .linemotor{
+        height: 930vw!important;
+    }
     /*ball*/
     .content_allpage2 {
         display: flex!important;
@@ -610,100 +1222,466 @@ body {
         width: 100%!important;
         height: 100%;
     }
-    .page2_contant{
+    .page2_contant {
         width: 100vw;
         height: 110vw!important;
     }
-    #car{
+    #car {
         width: 15vw;
     }
-    .car1{
+    .car1 {
         position: relative;
         top: -30vw;
         left: 90vw;
     }
-    .car2{
+    .car2 {
         position: relative;
         top: -30vw;
         left: 50vw;
     }
-    .car3{
+    .car3 {
         position: relative;
         top: 20vw;
         left: 40vw;
     }
-    .car4{
+    .car4 {
         position: relative;
         top: 8vw;
         left: -25vw;
     }
-    .car5{
+    .car5 {
         position: relative;
         top: 8vw;
         left: 30vw;
         display: none;
     }
-    .car6{
+    .car6 {
         position: relative;
         top: 15vw;
         left: 4vw;
         display: none;
     }
-    .car7{
+    .car7 {
         position: relative;
         top: 5vw;
         right: 40vw;
         display: none;
     }
-    .traffic{
+    .traffic {
         position: relative;
         top: 2vw;
         left: 53vw;
         z-index: 5;
         display: none;
     }
-    .arrowdownp2{
+    .arrowdownp2 {
         position: relative;
         width: 4vw!important;
         top: 58vw;
         left: 30vw;
     }
-    #circle{
+    #circle {
         position: relative;
         width: 5vw;
         top: 60vw;
         left: 0vw;
     }
-    #circle2{
+    #circle2 {
         position: relative;
         width: 5vw;
         top: 12vw;
         right: 35vw;
     }
-    #circle3{
+    #circle3 {
         position: relative;
         width: 2.5vw;
         top: -10vw;
         right: 50vw;
         display: none;
     }
-    #circle4{
+    #circle4 {
         position: relative;
         width: 8vw;
         top: 11vw;
         left: 0vw;
     }
-    #circle5{
+    #circle5 {
         position: relative;
         width: 8vw;
         top: -12vw;
         left: -68vw;
     }
-    #square{
+    #square {
         position: relative;
         width: 6vw;
         top: 35vw;
         right: 25vw;
+    }
+    /*ball2*/
+    .content_allpage3 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%!important;
+        height: 100%;
+    }
+    .page3_contant {
+        width: 100vw;
+        height: 110vw!important;
+    }
+    .content_page2text {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 40vw!important;
+        align-items: center;
+        left: 26vw;
+    }
+    .topicpage2 {
+        text-align: center!important;
+        margin-left: -17%;
+        font-size: 7vw!important;
+        color: rgb(255, 255, 255);
+        font-family: 'ChulaCharasNew';
+    }
+    .linepage2 {
+        border-bottom: 0.1vw solid rgba(255, 255, 255);
+        position: relative;
+        height: 3vw;
+        left: -0.9vw;
+        width: 40w;
+    }
+    .btnyes {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 5vw;
+        width: 20vw;
+        left: -5vw;
+        height: 4.5vw;
+        font-size: 3vw;
+        font-family: 'ChulaCharasNew';
+        cursor: pointer;
+        border: 2px solid #DBFF00;
+        text-align: center;
+    }
+    .btnno {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 5vw;
+        left: -1.5vw;
+        width: 20vw;
+        height: 4.5vw;
+        font-size: 3vw;
+        font-family: 'ChulaCharasNew';
+        cursor: pointer;
+        border: 2px solid #F694FF;
+        text-align: center;
+    }
+    #square2 {
+        position: relative;
+        width: 6vw;
+        top: 35vw;
+        left: 15vw;
+    }
+    #square3 {
+        position: relative;
+        width: 4vw;
+        top: 20vw;
+        left: -15vw;
+    }
+    #square4 {
+        position: relative;
+        width: 4vw;
+        top: 26vw;
+        left: -22vw;
+    }
+    #square5 {
+        position: relative;
+        width: 3vw;
+        top: 32vw;
+        left: -10vw;
+        display: none;
+    }
+    #square6 {
+        position: relative;
+        width: 7.5vw;
+        top: 90vw;
+        left: -29vw;
+    }
+    #square7 {
+        position: relative;
+        width: 4vw;
+        top: 93.6vw;
+        left: -40.3vw;
+    }
+    #circle6 {
+        position: relative;
+        width: 8vw;
+        top: 71vw;
+        left: -7vw;
+    }
+    #square8 {
+        position: relative;
+        width: 6vw;
+        top: 51.5vw;
+        left: -53vw;
+    }
+    .arrowdownp2_2 {
+        position: relative;
+        width: 4vw!important;
+        top: 93vw;
+        left: 1vw;
+    }
+    /* page1 */
+    .p1head {
+        width: 100vw;
+        height: 30vw;
+        top: 8vw!important;
+        position: relative;
+        /* background-color: darkcyan; */
+    }
+    .p1logo1 {
+        font-family: 'Acumin Pro';
+        font-size: 12vw!important;
+        color: white;
+        position: relative;
+        top: 4vw;
+        left: 12vw;
+    }
+    .p1logo2 {
+        font-family: 'Acumin Pro';
+        font-size: 12vw!important;
+        color: white;
+        position: relative;
+        top: 6vw!important;
+        left: 12vw;
+    }
+    .decor003 {
+        display: none;
+    }
+    .decor003mobile {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 14vw;
+        left: 80vw;
+        color: white;
+        display: block;
+    }
+    .p1longline {
+        display: none;
+    }
+    .p1longlinemobile {
+        width: 56vw!important;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: -2vw;
+        display: block;
+    }
+    .p1body {
+        width: 100vw;
+        height: 70vw;
+        display: block;
+        /* background-color: darkmagenta; */
+    }
+    /* .p1car {
+        width: 100vw;
+        height: 275vh!important;
+        position: relative;
+        background-color: darkgoldenrod;
+    } */
+    .p1carpic {
+        position: sticky;
+        width: 15vw;
+        top: 28vh!important;
+        margin-top: 2vw;
+        left: 43vw;
+        z-index: 1;
+    }
+    .p1detail {
+        display: none;
+    }
+    .p1detailmobile {
+        font-family: 'ChulaCharasNew';
+        width: 100vw;
+        height: 30vw;
+        margin-top: -6vw!important;
+        padding-top: 13vw;
+        padding-left: 12vw;
+        position: relative;
+        color: white;
+        opacity: 1;
+        /* background-color: darkgreen; */
+    }
+    .p1detail_head {
+        font-size: 3.4vw!important;
+        position: relative;
+        top: 1vw;
+        color: white;
+    }
+    .p1detail_1 {
+        font-size: 3.2vw!important;
+        margin-top: 4vw;
+        color: white;
+    }
+    .decor002 {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 34.5vw;
+        left: 80vw;
+        color: white;
+    }
+    .p1shortline {
+        width: 49vw!important;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: 1vw;
+    }
+    .p1detail_2 {
+        font-size: 3.2vw!important;
+        margin-top: 4vw;
+        color: white;
+    }
+    .p1ready {
+        font-size: 3.8vw;
+        margin-top: 2vw;
+        color: white;
+    }
+    .decor001 {
+        font-family: 'DS-Digital';
+        font-size: 4vw;
+        position: absolute;
+        top: 50.5vw!important;
+        left: 80vw;
+        color: #cbed00;
+    }
+    .p1arrowpic {
+        display: none;
+    }
+    .p1arrowmobile {
+        opacity: 1;
+        position: absolute;
+        top: 24vw;
+        left: 80.5vw;
+        /* background-color: red; */
+    }
+    .p1arrowpicmobile {
+        width: 4vw;
+        /* background-color: red; */
+    }
+    .p1stripepic {
+        width: 100vw;
+        position: relative;
+        z-index: 0;
+    }
+    .checkerboardbw {
+        height: 15vw;
+    }
+}
+
+
+/* page1 mobile */
+
+@media screen and (max-width: 500px) {
+    .page1_contant {
+        height: 163vw;
+    }
+    .checkerboardbw {
+        height: 10vh;
+    }
+    .p1detailmobile {
+        font-family: 'ChulaCharasNew';
+        width: 100vw;
+        height: 30vw;
+        margin-top: -6vw!important;
+        padding-top: 13vw;
+        padding-left: 12vw;
+        position: relative;
+        color: white;
+        opacity: 1;
+        /* background-color: darkgreen; */
+    }
+    .p1logo1 {
+        font-family: 'Acumin Pro';
+        font-size: 13vw;
+        color: white;
+        position: relative;
+        top: 4vw;
+        left: 12vw;
+    }
+    .p1logo2 {
+        font-family: 'Acumin Pro';
+        font-size: 13vw;
+        color: white;
+        position: relative;
+        top: 1vw;
+        left: 12vw;
+    }
+    .p1longlinemobile {
+        width: 62vw;
+        height: 0.1vw;
+        background-color: white;
+        position: relative;
+        top: 4vw;
+        display: block;
+    }
+    .p1detail_head {
+        font-size: 4vw!important;
+        position: relative;
+        top: 8vw;
+    }
+    .p1detail_1 {
+        font-size: 3.8vw;
+        margin-top: 12vw;
+    }
+    .p1shortline {
+        width: 58vw!important;
+        top: 1vw;
+    }
+    .p1detail_2 {
+        font-size: 3.8vw!important;
+        margin-top: 8vw;
+    }
+    .p1ready {
+        font-size: 4vw;
+        margin-top: 4vw;
+        color: white;
+    }
+    .p1car {
+        width: 50vw;
+        height: 330vh!important;
+        position: relative;
+        margin-top: 45vw;
+        /* background-color: red; */
+    }
+    .decor003mobile {
+        font-size: 5vw;
+        position: absolute;
+        top: 21vw;
+        left: 85vw;
+        display: block;
+    }
+    .decor002 {
+        font-size: 5vw;
+        position: absolute;
+        top: 47vw;
+        left: 85vw;
+    }
+    .decor001 {
+        font-size: 5vw;
+        position: absolute;
+        top: 66vw!important;
+        left: 85vw;
+    }
+    .p1arrowmobile {
+        opacity: 1;
+        position: absolute;
+        top: 30vw;
+        left: 85.5vw;
+        /* background-color: red; */
     }
 }
 
@@ -752,9 +1730,9 @@ body {
 }
 
 .parapage4 {
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: rgb(255, 255, 255);
     font-family: 'ChulaCharasNew';
     letter-spacing: 1px;
@@ -803,8 +1781,10 @@ body {
 
 #changecar {
     position: sticky;
-    margin-left: 19vw;
-    top: 10vw;
+    margin-left: 2vw;
+    top: 13vw;
+    margin-top: 1vw;
+    z-index: 1;
 }
 
 #changecar>.car {
@@ -854,23 +1834,249 @@ body {
 }
 
 .checko {
-    width: 100vw;
+    /* width: 100vw; */
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
+
+
+/*linepage5*/
+
+.linepage5 {
+    position: absolute;
+    margin: 6%;
+}
+
+
+/* page5 */
+
+
+.content_sign {
+    flex-basis: 42%;
+    padding: 10% 0 0 1%;
+    text-align: center;
+}
+
+.content_soi {
+    flex-basis: 42.5%;
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.topic_soi {
+    font-family: 'Hydrophilia';
+    font-size: 5vw;
+    text-align: left;
+    margin: 0 5%;
+    padding-bottom: 2%;
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+}
+
+.info_soi {
+    padding: 5%;
+    width: 70%;
+    font-size: 1.4vw;
+    letter-spacing: 0.05vw;
+    text-align: left;
+}
+
+.info_soi2 {
+    width: 90%;
+    font-size: 3vw;
+    letter-spacing: 0.05vw;
+    text-align: center;
+    display: none;
+}
+
+.info_topic {
+    margin: 5% 0;
+    font-weight: bold;
+}
+
+#vec51 {
+    width: 3vw;
+    margin-left: -1.5vw;
+    margin-top: -3vw;
+    margin-bottom: -7vw;
+    position: absolute;
+}
+
+#vec52 {
+    width: 17vw;
+    margin-left: -28vw;
+    margin-top: 10vw;
+    margin-bottom: -7vw;
+    position: absolute;
+}
+
+
+.motorcycle{
+    position: sticky;
+    padding: 10% 3vw;
+    width: 9vw;
+    top:4vw;
+    
+
+}
+.p5toup{
+    margin-top: -445vw;
+}
+.linemotor{
+    height: 445vw;
+}
+
+/* โทรศัพท์ */
+
+@media screen and (max-width: 415px) {
+    .content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scroll-snap-type: none;
+        height: 100vh;
+    }
+    .page5_contant {
+        width: 100vw;
+        height: 130vw;
+    }
+    .content_sign_mobile {
+        flex-basis: 90% !important;
+    }
+    .content_soi_mobile {
+        flex-basis: 90% !important;
+    }
+    .info_soi {
+        display: none;
+    }
+    .info_soi2 {
+        display: block;
+    }
+    .topic_soi {
+        font-family: 'Hydrophilia';
+        font-size: 8vw;
+        width: 80%;
+        text-align: center;
+        border-bottom: 0vw solid rgba(255, 255, 255, 0.5);
+        margin: 0 5%;
+        padding-bottom: 0%;
+    }
+    .info_topic {
+        margin: 0 0 5% 0;
+        font-weight: bold;
+        padding-bottom: 3%;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    #vec52 {
+        width: 25vw;
+        margin-left: -67vw;
+        margin-top: 17vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    #vec51 {
+        width: 5vw;
+        margin-left: -3.5vw;
+        margin-top: 80vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    .motorcycle{
+        position: sticky;
+        padding: 10% 1vw!important;
+        top:15vw!important;
+        
+    
+    }
+    #mortorline{
+        width: 15vw;
+    }
+    .p5toup{
+        margin-top: -900vw!important;
+    }
+    .linemotor{
+        height: 900vw!important;
+    }
+}
+
+/* ไอแพด*/
+
+@media screen and (max-width: 1024px) {
+    .page5_contant {
+        width: 100vw;
+        height: 165vw;
+    }
+    .content_sign_mobile {
+        flex-basis: 90% !important;
+    }
+    .content_soi_mobile {
+        flex-basis: 90% !important;
+    }
+    .info_soi {
+        display: none;
+    }
+    .info_soi2 {
+        display: block;
+    }
+    .topic_soi {
+        font-family: 'Hydrophilia';
+        font-size: 8vw;
+        width: 80%;
+        text-align: center;
+        border-bottom: 0vw solid rgba(255, 255, 255, 0.5);
+        margin: 0 5%;
+        padding-bottom: 0%;
+    }
+    .info_topic {
+        margin: 0 0 5% 0;
+        font-weight: bold;
+        padding-bottom: 3%;
+        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    #vec52 {
+        width: 25vw;
+        margin-left: -67vw;
+        margin-top: 17vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    #vec51 {
+        width: 5vw;
+        margin-left: -3.5vw;
+        margin-top: 80vw;
+        margin-bottom: -7vw;
+        position: absolute;
+    }
+    /* .motorcycle{
+        position: sticky!important;
+        margin: 6% 0.4vw!important;
+        width: 9vw;
+        top:5vw!important;
+        
+
+    }
+    .p5toup{
+        margin-top: -720vw!important;
+    }
+    .linemotor{
+        height: 720vw!important;
+    }
+/* }  */
+}
+    
 
 
 /* page6 */
-.page6_contant{
+
+.page6_contant {
     padding-top: 10%;
 }
 
-.col-1{
+.col-1 {
     margin: auto;
     width: 40px;
     height: 40px;
     border: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
+
 .col-2 {
     display: flex;
     flex-wrap: wrap;
@@ -878,22 +2084,36 @@ body {
     position: relative;
     margin-left: 8%;
 }
+
+@media screen and (max-width: 1280px) {
+    .page6_contant {
+        padding-top: 0%;
+    }
+}
+
+
 /* โทรศัพท์ */
+
 @media screen and (max-width: 415px) {
-    .page6_contant{
+    .page6_contant {
         width: 100vw;
         height: 80vh;
-        padding-top: 40%;
+        padding-top: 5%;
     }
-    .col-1-moblie{
+    .linepage5 {
+        position: absolute;
+        margin: 10% 5%;
+        width: 24%;
+    }
+    .col-1-moblie {
         width: 10px;
         height: 10px;
     }
-    .content_text_mobile{
+    .content_text_mobile {
         opacity: 0;
         height: 50vw;
     }
-    .content_text2_mobile{
+    .content_text2_mobile {
         display: block !important;
         height: 50vw;
         letter-spacing: 0.5px!important;
@@ -903,19 +2123,19 @@ body {
         padding-left: 13% !important;
     }
     .text_block0_mobile {
-        padding-left: 12.5%  !important;
+        padding-left: 12.5% !important;
         padding-top: 6.5% !important;
     }
-    #vec1{
+    #vec1 {
         opacity: 0;
     }
-    #vec2{
+    #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box{
+    #img-zoomer-box {
         width: 110% !important;
     }
-    .content_superblockmap_mobile{
+    .content_superblockmap_mobile {
         padding: 0% !important;
         flex-basis: 47% !important;
         text-align: center;
@@ -934,22 +2154,25 @@ body {
         opacity: 0 !important;
     }
 }
+
+
 /* ไอแพด */
-@media screen and (max-width: 1024px) and (min-width: 768px){
-    .page6_contant{
+
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+    .page6_contant {
         width: 100vw;
         height: 100vh;
         padding-top: 5%;
     }
-    .col-1-moblie{
-        width: 10px;
-        height: 10px;
+    .col-1-moblie {
+        width: 20px;
+        height: 20px;
     }
-    .content_text_mobile{
+    .content_text_mobile {
         opacity: 0;
         height: 50vw;
     }
-    .content_text2_mobile{
+    .content_text2_mobile {
         display: block !important;
         height: 50vw;
         font-size: 3vw !important;
@@ -959,19 +2182,19 @@ body {
         padding-left: 14.4% !important;
     }
     .text_block0_mobile {
-        padding-left: 14%  !important;
+        padding-left: 14% !important;
         padding-top: 5.5% !important;
     }
-    #vec1{
+    #vec1 {
         opacity: 0;
     }
-    #vec2{
+    #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box{
+    #img-zoomer-box {
         width: 109.5% !important;
     }
-    .content_superblockmap_mobile{
+    .content_superblockmap_mobile {
         padding: 0% !important;
         flex-basis: 47% !important;
         text-align: center;
@@ -993,38 +2216,46 @@ body {
     }
 }
 
-.text_super{
+.text_super {
     padding-left: 5%;
     flex-basis: 37%;
     font-size: 5vw;
 }
-.text_super h1{
+
+.text_super h1 {
     margin-bottom: -8%;
     margin-top: -2%;
     padding-bottom: 0px;
     color: #DBFF00;
 }
-.content_umbrella{
+
+.content_umbrella {
     flex-basis: 40%;
     padding: 0 4.5%;
     text-align: center;
     font-size: 18px;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
-.content_umbrella img{
+
+.content_umbrella img {
     margin-top: -54%;
+    position: relative;
+    z-index: 2;
 }
-.content_superblock{
+
+.content_superblock {
     flex-basis: 42%;
     border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 18px;
 }
-.text_block{
+
+.text_block {
     padding-left: 5%;
     font-size: 5vw;
 }
-.text_block h1{
+
+.text_block h1 {
     margin-bottom: -40%;
     left: -72%;
     padding-bottom: 0px;
@@ -1032,12 +2263,14 @@ body {
     transform: rotate(-90deg);
     position: relative;
 }
-.text_blocko{
+
+.text_blocko {
     padding-left: 5%;
     font-size: 5vw;
     padding-top: 6%;
 }
-.text_blocko h1{
+
+.text_blocko h1 {
     margin-bottom: -37.5%;
     left: -72%;
     padding-bottom: 0px;
@@ -1047,7 +2280,8 @@ body {
     position: relative;
     font-family: 'Hydrophilia';
 }
-.content_superblockmap{
+
+.content_superblockmap {
     flex-basis: 42.5%;
     padding: 0 4.5%;
     text-align: center;
@@ -1056,73 +2290,79 @@ body {
     border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
     border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
 }
-#vec1{
+
+#vec1 {
     width: 3vw;
     margin-left: -19vw;
     margin-top: -3vw;
     margin-bottom: -7vw;
     position: absolute;
+    z-index: 55;
 }
-#vec2{
+
+#vec2 {
     width: 3vw;
     position: absolute;
     margin-top: -43vw;
     margin-left: -8vw;
+    z-index: 55;
 }
 
-.content_text{
-    margin: auto  auto auto 18%;
+.content_text {
+    margin: auto auto auto 18%;
     padding: 5%;
     width: 55%;
     font-size: 1.4vw;
     letter-spacing: 0.05vw;
     text-align: left;
 }
-.super_topic{
+
+.super_topic {
     margin: 10% 0;
     font-weight: bold;
 }
-.super2_topic{
+
+.super2_topic {
     margin: 2% 0;
     font-weight: bold;
 }
-.content_text2{
+
+.content_text2 {
     margin: auto;
     font-size: 1.4vw;
     letter-spacing: 0.05vw;
     text-align: center;
     display: none;
 }
-/* .img_block{
-    width: 35vw;
-    margin: auto;
-} */
 
 #img-zoomer-box {
     width: 35vw;
     margin: auto;
     position: relative;
-    z-index: 0;
-  }
-  
-  #img-1 {
+    z-index: 50;
+}
+
+#img-1 {
     width: 100%;
     height: auto;
-  }
-  
-  #img-zoomer-box:hover, #img-zoomer-box:active {
+}
+
+#img-zoomer-box:hover,
+#img-zoomer-box:active {
     cursor: none;
     display: block;
-  }
-  
-  #img-zoomer-box:hover #img-2, #img-zoomer-box:active #img-2 {
+}
+
+#img-zoomer-box:hover #img-2,
+#img-zoomer-box:active #img-2 {
     opacity: 1;
-  }
-  #img-2 {
+}
+
+#img-2 {
     width: 15vw;
     height: 15vw;
-    background: url('PIC/superblockdoodle\ 2.png') no-repeat black;
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+    background: url('PIC/page_6/superblockdoodle\ 2.png') no-repeat black;
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
     pointer-events: none;
     position: absolute;
     opacity: 0;
@@ -1131,12 +2371,14 @@ body {
     border-radius: 100%;
     display: block;
     transition: opacity .2s;
-  }
-.content_bottomleft{
+}
+
+.content_bottomleft {
     flex-basis: 42%;
     height: 11rem;
 }
-.content_bottomright{
+
+.content_bottomright {
     flex-basis: 40%;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
     height: 10rem;

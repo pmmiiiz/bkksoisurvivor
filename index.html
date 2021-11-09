@@ -6,15 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bkk-soisurvivor</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="PIC/Frame.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="PIC/logo_icon/BKK_WEB_ICON.png" type="image/x-icon" />
 </head>
 
 <body>
     <div class="content">
         <!-- บาร์ด้านบน -->
         <div class="navbar">
-
+            <div class="menu">
+                <div class="homebtn" id="homebtn" onclick="home()">
+                    <div class="arrow1"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
+                    <div class="frame1"><a href="#home">
+                        <p>HOME</p>
+                </a></div>
+                </div>
+                <div class="infobtn" id="infobtn" onclick="info()">
+                    <div class="arrow2"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
+                    <div class="frame2"><a href="#info">
+                            <p>INFO</p>
+                    </a></div>
+                </div>
+            </div>
+            <div id="header">
+                <img src="PIC/navbar/LOGO_PG1.png" class="logobkk">
+                <div class="bar" onclick="smallbar()">
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+            </div>
         </div>
+        <div class="menubar">
+            <div id="headerbar">
+                <img src="PIC/navbar/LOGO_PG1.png" class="logobar">
+            </div>
+            <hr class="line1">
+            <div class="homebtnbar" onclick="homebar()">
+                <div class="arrow1bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
+                <div class="frame1bar"><a href="#home">
+                    <p>HOME</p>
+            </a></div>
+            </div>
+            <div class="infobtnbar" onclick="infobar()">
+                <div class="arrow2bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
+                <div class="frame2bar"><a href="#info">
+                        <p>INFO</p>
+                </a></div>
+            </div>
+          </a>
+          <div class="close" onclick="closesmallbar()">
+            <img src="PIC/navbar/MB-CLOSE button-pg8.2.png" class="picclose">
+            </div>
+        </div>
+
         <!-- หน้าแรก -->
         <section class="page1_contant snap_page">
             <div class="p1head">
@@ -23,7 +67,7 @@
                     <br>
                 </div>
                 <div class="p1logo2">
-                    SURVIV<span class="yellow">O</span>R
+                    SURVIV<span id="hydro">O</span>R
                 </div>
 
                 <div class="decor003">003</div>
@@ -31,8 +75,44 @@
             </div>
 
             <div class="p1body">
-                <div class="p1car">=
-                    <img src="/PIC/DT_CAR_01_edit.png" class="p1carpic">
+                <div class="p1detailmobile">
+                    <div class="p1longlinemobile"></div>
+                    <div class="p1detail_head">
+                        <b>BKK, BANGKOK, กรุงเทพฯ (n.)</b>
+                    </div>
+                    <div class="decor003mobile">003</div>
+                    <div class="p1detail_1">
+                        เมืองหลวงแห่งความวุ่นวาย<br> เมื่อหันซ้ายหันขวาทีไรก็มักจะเจอกับความแน่นิ่ง
+                    </div>
+
+                    <div class="decor002">002</div>
+                    <div class="p1shortline"></div>
+
+                    <div class="p1detail_2">
+                        พร้อมหรือยังกับการเป็นสุดยอด SURVIVOR<br> ของมหานคร ที่จะทดสอบความอดทนของคุณ<br> บนถนนเส้นนี้
+                    </div>
+                    <div class="p1ready">
+                        <b>READY. GET. SET. GO!</b>
+                    </div>
+
+                    <div class="decor001">001</div>
+                    <div class="p1arrow">
+                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic">
+                    </div>
+                </div>
+
+                <div class="p1car">
+                    <div id="changecar">
+                        <div class="car">
+                            <img src="pic/car/DT_CAR_01_edit.png" id="carpic">
+                        </div>
+                        <div class="car">
+                            <img src="PIC/car/motorbike2.png" id="mortorpic">
+                        </div>
+                    </div>
+                    <div class="p1arrowmobile">
+                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpicmobile">
+                    </div>
                 </div>
 
                 <div class="p1detail">
@@ -55,7 +135,7 @@
 
                     <div class="decor001">001</div>
                     <div class="p1arrow">
-                        <img src="/PIC/ARROW ICON.png" class="p1arrowpic">
+                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic">
                     </div>
                 </div>
             </div>
@@ -64,7 +144,7 @@
         <!-- ตารางหมากรุกของหน้าแรก -->
         <section class="checkerboardbw snap_page">
             <div class="p1stripe">
-                <img src="/PIC/STRIPE_01.png" class="p1stripepic">
+                <img src="PIC/page_check/STRIPE_01.png" class="p1stripepic">
             </div>
         </section>
 
@@ -83,77 +163,109 @@
                 </div>
 
                 <div class="car1">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="car2">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="traffic">
-                    <img src="PIC/traffic.png" id="traffic">
+                    <img src="PIC/page_2/traffic.png" id="traffic">
                 </div>
                 <div class="car3">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="car4">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="car5">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="car6">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="car7">
-                    <img src="PIC/car2.png" id="car">
+                    <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="arrowdownpage2">
-                    <img src="PIC/ARROW ICON.png" class="arrowdownp2">
+                    <img src="PIC/page_2/ARROW ICON.png" class="arrowdownp2">
                 </div>
                 <div class="square">
-                    <img src="PIC/pic1.png" id="square">
+                    <img src="PIC/page_2/pic1.png" id="square">
                 </div>
                 <div class="circle">
-                    <img src="PIC/circle.png" id="circle">
+                    <img src="PIC/page_2/circle.png" id="circle">
                 </div>
                 <div class="circle">
-                    <img src="PIC/circle.png" id="circle2">
+                    <img src="PIC/page_2/circle.png" id="circle2">
                 </div>
                 <div class="circle">
-                    <img src="PIC/circle.png" id="circle3">
+                    <img src="PIC/page_2/circle.png" id="circle3">
                 </div>
                 <div class="circle">
-                    <img src="PIC/cirle2.png" id="circle4">
+                    <img src="PIC/page_2/cirle2.png" id="circle4">
                 </div>
                 <div class="circle">
-                    <img src="PIC/cirle2.png" id="circle5">
+                    <img src="PIC/page_2/cirle2.png" id="circle5">
                 </div>
             </div>
         </section>
 
         <!-- หน้าสาม -->
-        <section class="page3_contant snap_page" style="background-color: burlywood;">
+        <section class="page3_contant snap_page" style="background-color: black;">
+            <div class="content_allpage3 content_allpagemac3">
 
+                <div class="content_page2text">
+                    <div class="topicpage2">
+                        คุณเคยเจอ<br> 
+                        ปัญหารถติด<br> 
+                        หรือไม่?<br>
+                    </div>
+
+                    <div class="linepage2"></div>
+
+                    <a href="#b4"><button class="btnyes">YES</button></a>
+                    <a href="#b4"><button class="btnno">NO</button></a>
+
+                </div>
+
+                <div class="square2">
+                    <img src="PIC/page_3/pic1.png" id="square2">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/Rectangle 348.png" id="square3">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/Rectangle 348.png" id="square4">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/Rectangle 348.png" id="square5">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/Union.png" id="square6">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/Rectangle 348.png" id="square7">
+                </div>
+                <div class="circle2">
+                    <img src="PIC/page_3/cirle2.png" id="circle6">
+                </div>
+                <div class="square2">
+                    <img src="PIC/page_3/pic1.png" id="square8">
+                </div>
+                <div class="arrowdownpage3">
+                    <img src="PIC/page_3/ARROW ICON.png" class="arrowdownp2_2">
+                </div>
+                
+            </div>
         </section>
 
         <!-- หน้าสี่ -->
-        <section class="page4_contant snap_page" style="background-color: black;">
-
-
-
+        <section id="b4"class="page4_contant snap_page" style="background-color: black;">
             <div class="content_allpage content_allpagemac">
                 <div class="content_car">
                     <button id="leftchangecar">❰</button>
-                    <div id="changecar">
-                        <div class="car">
-                            <img src="pic/DT_CAR_01_edit.png" id="carpic">
-                        </div>
-                        <div class="car">
-                            <img src="PIC/motorbike2.png" id="mortorpic">
-                        </div>
-                    </div>
                     <button id="rightchangecar">❱</button>
-                    <img src="PIC/Rectangle 411.png" class="racp4">
-
+                    <img src="PIC/page_4/Rectangle 411.png" class="racp4">
                 </div>
                 <div class="content_page4text">
                     <div class="topicpage4">
@@ -171,61 +283,75 @@
                         <br>
                     </div>
                     <div class="boxlr">
-                        <img src="pic/Vector_301.png" class="vector301">
+                        <img src="pic/page_4/Vector_301.png" class="vector301">
                         <div class="textboxlr">เลื่อนที่รถเพื่อเปลี่ยนไปขึ้นวิน</div>
-                        <img src="pic/Vector_301.png" class="vector3012">
+                        <img src="pic/page_4/Vector_301.png" class="vector3012">
                     </div>
                     <div class="arrowdownpage4">
-                        <img src="PIC/ARROW ICON.png" class="arrowdownp4">
+                        <img src="PIC/page_4/ARROW ICON.png" class="arrowdownp4">
 
                     </div>
                 </div>
-
-
-
             </div>
-
-
-
         </section>
+
         <!-- ตารางหมากรุกสีส้ม -->
-        <section class="checkerboardbo snap_page">
-            <img src="pic/SOI stripe.png" class="checko">
+        <section class="checkerboardbo">
+            <img src="pic/page_check/SOI stripe.png" class="checko">
         </section>
-        <!-- หน้าห้า -->
-        <section class="page3_contant snap_page" style="background-color: rgb(138, 0, 23);">
 
+        <!-- หน้าห้า -->
+        <section class="page5_contant" style="background-color: black">
+            <div class="linemotor">
+                <div class="linepage5">
+                    <img src="pic/line53.png" width="25%">
+                </div>
+                <div class="motorcycle">
+                    <img src="pic/car/motorbike2.png" id="mortorline">
+                </div>
+            </div>
+            <div class="col-2 p5toup">
+                <div class="content_sign content_sign_mobile">
+                    <img src="pic/page_5/sign5.png" width="60%">
+                    <img src="pic/page_5/Vector2.png" width="100%" id="vec51">
+                    <img src="pic/page_5/Vector5.png" width="100%" id="vec52">
+                </div>
+                <div class="content_soi content_soi_mobile">
+                    <div class="topic_soi">SOI</div>
+                    <div class="info_soi">
+                        <div class="info_topic">SOI, ซอย (n.)</div>
+                        ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบ<br> ทุนนิยมตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมือง<br> ทำให้มีคนจากต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ
+                        <br> อย่างล้นหลาม นักพัฒนาที่ดินจึงได้กว้านซื้อที่<br> และแบ่งส่วนตัดเป็นถนนย่อย ๆ ออกเพื่อจะขาย<br> ซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิด<br> ซอยแคบ ๆ เต็มไปหมด
+                    </div>
+                    <div class="info_soi2">
+                        <div class="info_topic">SOI, ซอย (n.)</div>
+                        ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบทุนนิยม<br> ตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมืองทำให้มีคนจาก<br> ต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ อย่างล้นหลาม<br> นักพัฒนาที่ดินจึงได้กว้านซื้อที่และแบ่งส่วนตัดเป็นถนนย่อย
+                        ๆ<br> ออกเพื่อจะขายซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิดซอยแคบ ๆ เต็มไปหมด<br>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- หน้าหก -->
-        <section class="page6_contant snap_page" style="background-color: black">
+        <section class="page6_contant" style="background-color: black">
             <div class="col-1 col-1-moblie"></div>
             <div class="col-2">
                 <div class="text_super">
                     <h1>SUPER</h1>
                 </div>
                 <div class="content_umbrella">
-                    <img src="pic/umbrella.png" width="70%" >
+                    <img src="pic/page_6/umbrella.png" width="70%">
                 </div>
             </div>
             <div class="col-2">
                 <div class="content_superblock">
                     <div class="content_text content_text_mobile">
                         <div class="super_topic">SUPER BLOCK (n.)</div>
-                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา<br>
-                        คันดิน ขนัดสวน ผนวกกับการเดินทาง<br>
-                        ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมาเป็นถนน<br>
-                        กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลัก<br>
-                        เท่านั้น การวางผังเมืองและบล็อกมาตรฐาน<br>
-                        ของกรุงเทพฯ จึงกลายเป็นบล็อกขนาดใหญ่<br>
-                        (Super Block) ที่มีขนาดประมาณ 2,000 x<br>
-                        2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br>
-                        คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็ก<br>
-                        ลงไป ทำให้บ้านที่อยู่ด้านใน Super Block<br> 
-                        เหล่านี้ ไม่สามารถเดินเท้าไปต่อกับระบบ<br>
-                        ขนส่งมวลชนที่ปากซอยได้ต้องอาศัย<br>
-                        รถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง   
-                    </div>  
+                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา<br> คันดิน ขนัดสวน ผนวกกับการเดินทาง<br> ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมาเป็นถนน<br> กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลัก
+                        <br> เท่านั้น การวางผังเมืองและบล็อกมาตรฐาน<br> ของกรุงเทพฯ จึงกลายเป็นบล็อกขนาดใหญ่<br> (Super Block) ที่มีขนาดประมาณ 2,000 x<br> 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็ก<br> ลงไป
+                        ทำให้บ้านที่อยู่ด้านใน Super Block<br> เหล่านี้ ไม่สามารถเดินเท้าไปต่อกับระบบ<br> ขนส่งมวลชนที่ปากซอยได้ต้องอาศัย
+                        <br> รถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+                    </div>
                 </div>
                 <div class="content_superblockmap content_superblockmap_mobile" id="map">
                     <div class="text_block text_block_mobile">
@@ -235,29 +361,21 @@
                         <h1>O</h1>
                     </div>
                     <div id="img-zoomer-box" class="img-zoomer-box-mobile">
-                        <!-- <img src="pic/SUPERBLOCK-MAP-.png" width="100%" id="myimage"> -->
-                        <img src="PIC/SUPERBLOCK-MAP-.png" id="img-1" />
+                        <img src="PIC/page_6/SUPERBLOCK-MAP-.png" id="img-1" />
                         <div id="img-2"></div>
                     </div>
-                    <img src="pic/Vector.png" width="100%" id="vec1">
-                    <img src="pic/Rectangle 348.png" width="100%" id="vec2">
+                    <img src="pic/page_6/Vector2.png" width="100%" id="vec1">
+                    <img src="pic/page_6/Rectangle 348.png" width="100%" id="vec2">
                 </div>
             </div>
             <div class="col-2">
                 <div class="content_bottomleft content_bottomleft_mobile ">
                     <div class="content_text2 content_text2_mobile">
-                        <div class="super2_topic">SUPER BLOCK (n.)</div><br>
-                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา คันดิน ขนัดสวน<br>
-                        ผนวกกับการเดินทาง ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมา<br>
-                        เป็นถนน กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลักเท่านั้น<br>
-                        การวางผังเมืองและบล็อกมาตรฐานของกรุงเทพฯ จึงกลาย<br>
-                        เป็นบล็อกขนาดใหญ่ (Super Block) ที่มีขนาดประมาณ<br>
-                        2,000 x 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> 
-                        คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็กลงไป<br>
-                        ทำให้บ้านที่อยู่ด้านใน Super Block เหล่านี้ไม่สามารถ<br>
-                        เดินเท้าไปต่อกับระบบขนส่งมวลชนที่ปากซอยได้ <br>
-                        ต้องอาศัยรถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
-                        
+                        <div class="super2_topic">SUPER BLOCK (n.)</div><br> ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา คันดิน ขนัดสวน<br> ผนวกกับการเดินทาง ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมา<br> เป็นถนน กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลักเท่านั้น<br> การวางผังเมืองและบล็อกมาตรฐานของกรุงเทพฯ
+                        จึงกลาย
+                        <br> เป็นบล็อกขนาดใหญ่ (Super Block) ที่มีขนาดประมาณ<br> 2,000 x 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็กลงไป<br> ทำให้บ้านที่อยู่ด้านใน Super Block เหล่านี้ไม่สามารถ<br> เดินเท้าไปต่อกับระบบขนส่งมวลชนที่ปากซอยได้
+                        <br> ต้องอาศัยรถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+
                     </div>
                 </div>
                 <div class="content_bottomright content_bottomright_mobile">
@@ -267,13 +385,52 @@
     </div>
 </body>
 <script>
+    //navbar mobile//
+    function home(){
+        document.querySelector(".arrow1").style.opacity = "1";
+        document.querySelector(".arrow2").style.opacity = "0";
+        document.querySelector(".frame2").style.margin = "0vw 0vw 0vw -1.5vw";
+        document.querySelector(".frame1").style.margin = "0vw 0vw 0vw 0vw";
+    }
+
+    function info(){
+        document.querySelector(".arrow1").style.opacity = "0";
+        document.querySelector(".arrow2").style.opacity = "1";
+        document.querySelector(".frame1").style.margin = "0vw 0vw 0vw -1.5vw";
+        document.querySelector(".frame2").style.margin = "0vw 0vw 0vw 0vw";
+    }
+
+    function homebar(){
+        document.querySelector(".arrow1bar").style.opacity = "1";
+        document.querySelector(".arrow2bar").style.opacity = "0";
+        document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw -1.5vw";
+        document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw 0vw";
+    }
+
+    function infobar(){
+        document.querySelector(".arrow1bar").style.opacity = "0";
+        document.querySelector(".arrow2bar").style.opacity = "1";
+        document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw -1.5vw";
+        document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw 0vw";
+    }
+
+    function smallbar(){
+        document.querySelector(".menubar").style.display = "block";
+    }
+
+    function closesmallbar(){
+        document.querySelector(".menubar").style.display = "none";
+    }
+
+    
     let numstartcar = 0;
     let endnumcar = 2;
     const car = document.querySelectorAll(".car");
-    const vocabcar = document.querySelectorAll(".vocabcar");
+    
 
     rightchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
+        
         numstartcar++;
 
         if (numstartcar < endnumcar) {
@@ -285,6 +442,7 @@
     });
     leftchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
+        
         numstartcar--;
 
         if (numstartcar > -1) {
@@ -306,40 +464,41 @@
     };
 
     //ซูมแผนที่//
-    let zoomer = function (){
-    document.querySelector('#img-zoomer-box')
-        .addEventListener('mousemove', function(e) {
+    let zoomer = function() {
+        document.querySelector('#img-zoomer-box')
+            .addEventListener('mousemove', function(e) {
 
-        let original = document.querySelector('#img-1'),
-            magnified = document.querySelector('#img-2'),
-            style = magnified.style,
-            x = e.pageX - this.offsetLeft,
-            y = e.pageY - this.offsetTop,
-            imgWidth = original.offsetWidth,
-            imgHeight = original.offsetHeight,
-            xperc = ((x/imgWidth) * 100),
-            yperc = ((y/imgHeight) * 100);
+                let original = document.querySelector('#img-1'),
+                    magnified = document.querySelector('#img-2'),
+                    style = magnified.style,
+                    x = e.pageX - this.offsetLeft,
+                    y = e.pageY - this.offsetTop,
+                    imgWidth = original.offsetWidth,
+                    imgHeight = original.offsetHeight,
+                    xperc = ((x / imgWidth) * 100),
+                    yperc = ((y / imgHeight) * 100);
 
-        //lets user scroll past right edge of image
-        if(x > (.01 * imgWidth)) {
-        xperc += (.15 * xperc);
-        };
+                //lets user scroll past right edge of image
+                if (x > (.01 * imgWidth)) {
+                    xperc += (.15 * xperc);
+                };
 
-        //lets user scroll past bottom edge of image
-        if(y >= (.01 * imgHeight)) {
-        yperc += (.15 * yperc);
-        };
+                //lets user scroll past bottom edge of image
+                if (y >= (.01 * imgHeight)) {
+                    yperc += (.15 * yperc);
+                };
 
-        style.backgroundPositionX = (xperc - 9) + '%';
-        style.backgroundPositionY = (yperc - 9) + '%';
+                style.backgroundPositionX = (xperc - 9) + '%';
+                style.backgroundPositionY = (yperc - 18) + '%';
 
-        style.left = (x - 180) + 'px';
-        style.top = (y - 110) + 'px';
+                style.left = (x - 180) + 'px';
+                style.top = (y - 220) + 'px';
 
-    }, false);
+            }, false);
     }();
     //ตัวหนังสือเลื่อน//
     // $('#maindiv').width($('#div1').width());
+
 </script>
 
 </html>
