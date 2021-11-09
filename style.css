@@ -791,6 +791,10 @@ body {
     cursor: pointer;
     border: 2px solid #DBFF00;
 }
+.btnyes:hover {
+    background-color: #DBFF00;
+    color: black;
+}
 
 .btnno {
     background-color: black;
@@ -804,6 +808,11 @@ body {
     font-family: 'ChulaCharasNew';
     cursor: pointer;
     border: 2px solid #F694FF;
+}
+.btnno:hover {
+    background-color: #F694FF;
+    color: black;
+    
 }
 
 #square2 {
