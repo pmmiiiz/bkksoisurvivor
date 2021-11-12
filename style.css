@@ -402,7 +402,7 @@ body {
     width: 100vw;
 }
 .page7_contant{
-    height: 300vh;
+    width: 100vw;
 }
 
 .page12_contant{
@@ -2397,7 +2397,21 @@ body {
 }
 
 /* page7*/
-
+#clone{
+    width: 10vw;
+    padding-left: 33vw;
+    padding-bottom: 5vw;
+}
+.content_chaosoi{
+    background-image: url(pic/page_7/table.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    height: 98.55vw;
+    position: relative;
+    margin-left: 8%;
+}
 
 /* page8*/
 
@@ -2412,10 +2426,82 @@ body {
 
 
 /* page12*/
+.content_signtun{
+    margin-top: -42vw;
+}
 .sign{
-    margin: 15vw auto -2.4vw;
+    margin: 15vw auto -16.5vw;
     width: 15vw;
     position: relative;
+}
+
+#union{
+    width: 5vw;
+    top: -22vw;
+    margin-left: -48vw;
+    position: relative;
+}
+#rec{
+    width: 3vw;
+    top: -32vw;
+    margin-left: 62vw;
+    position: relative;
+}
+#vec111{
+    width: 5vw;
+    top: -32vw;
+    margin-left: 68vw;
+    position: relative;
+}
+#vec112{
+    width: 3vw;
+    top: -5vw;
+    margin-left: 10vw;
+    position: relative;
+}
+
+/* text animation */
+
+#mainmarqueetun {
+    width: 100vw;
+    margin: 2vw auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    color: #DBFF00;
+    font-size: 7vw;
+    font-family: 'Hydrophilia';
+    z-index: 0;
+    position: relative;
+}
+
+#marquee1tun {
+    display: inline-block;
+    animation: marquee11 15s linear infinite;
+}
+
+#marquee2tun {
+    display: inline-block;
+    animation: marquee22 15s linear infinite;
+    animation-delay: 7.3s;
+}
+
+
+@keyframes marquee11 {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee22 {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
 }
 
 /* ตารางหมากรุก */
@@ -2423,6 +2509,24 @@ body {
     width: 100vw;
     background-color: black;
     scroll-snap-align: start;
+}
+#rec1{
+    width: 3vw;
+    top: 9.5vw;
+    margin-left: -15vw;
+    position: relative;
+}
+#rec2{
+    width: 3vw;
+    top: 15vw;
+    margin-left: 80.5vw;
+    position: relative;
+}
+#vec1122{
+    width: 3vw;
+    top: 11.5vw;
+    margin-left: 51.5vw;
+    position: relative;
 }
 
 /* page13*/
