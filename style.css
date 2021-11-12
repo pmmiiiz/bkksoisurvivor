@@ -2746,6 +2746,8 @@ body {
     .p14clonetele img{
         width: 60vw!important;
         margin-left: 12.5vw;
+        position: relative;
+        top:-2vw!important;
 
     }
     footer{
