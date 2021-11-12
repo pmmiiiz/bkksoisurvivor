@@ -2434,6 +2434,15 @@ body {
     padding-left: 33vw;
     padding-bottom: 5vw;
 }
+.topic_chaosoi{
+    font-family: 'SukhumvitSet-Bold';
+    font-size: 8vw;
+    line-height: 7vw;
+    padding-top: 7vw;
+    -webkit-text-stroke: 1px #DBFF00;
+	-webkit-text-fill-color: transparent;
+}
+
 .content_chaosoi{
     background-image: url(pic/page_7/table.png);
     background-size: 100%;
@@ -2443,6 +2452,42 @@ body {
     height: 98.55vw;
     position: relative;
     margin-left: 8%;
+}
+.comment_one {
+    flex-basis: 42%;
+    text-align: center;
+    margin-top: -9vw;
+    padding: 5vw;
+}
+.picsoi1 {
+    flex-basis: 40%;
+    text-align: center;
+    margin-top: 12vw;
+    margin-left: 3vw;
+}
+.clone_red{
+    flex-basis: 42%;
+    text-align: center;
+    margin-top: -11.5vw;
+    margin-left: -15vw;
+}
+.comment_two {
+    flex-basis: 42%;
+    text-align: center;
+    margin-top: -8vw;
+    margin-left: 18vw;
+}
+.comment_three {
+    flex-basis: 42%;
+    text-align: center;
+    margin-top: -28.5vw;
+    margin-left: 0.4vw;
+}
+.picsoi3 {
+    flex-basis: 40%;
+    text-align: right;
+    margin-top: -13vw;
+    margin-left: 12vw;
 }
 
 /* page8*/
