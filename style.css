@@ -380,7 +380,13 @@ body {
 }
 
 .page2_contant,
-.page3_contant {
+.page3_contant,
+.page8_contant,
+.page9_contant,
+.page10_contant,
+.page11_contant,
+.page13_contant,
+.page14_contant {
     width: 100vw;
     height: 100vh;
 }
@@ -395,7 +401,13 @@ body {
 .page6_contant {
     width: 100vw;
 }
+.page7_contant{
+    height: 300vh;
+}
 
+.page12_contant{
+    width: 100vw;
+}
 .checkerboardbw {
     width: 100vw;
     height: 20vh;
@@ -2383,3 +2395,36 @@ body {
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
     height: 10rem;
 }
+
+/* page7*/
+
+
+/* page8*/
+
+
+/* page9*/
+
+
+/* page10*/
+
+
+/* page11*/
+
+
+/* page12*/
+.sign{
+    margin: 15vw auto -2.4vw;
+    width: 15vw;
+    position: relative;
+}
+
+/* ตารางหมากรุก */
+.checkerboardbl {
+    width: 100vw;
+    background-color: black;
+    scroll-snap-align: start;
+}
+
+/* page13*/
+
+/* pageinfo*/
