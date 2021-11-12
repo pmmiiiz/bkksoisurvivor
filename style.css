@@ -385,8 +385,8 @@ body {
 .page9_contant,
 .page10_contant,
 .page11_contant,
-.page13_contant,
-.page14_contant {
+.page13_contant
+{
     width: 100vw;
     height: 100vh;
 }
@@ -407,6 +407,10 @@ body {
 
 .page12_contant{
     width: 100vw;
+}
+.page14_contant{
+    width: 100vw;
+    height: 117vh;
 }
 .checkerboardbw {
     width: 100vw;
@@ -2532,3 +2536,109 @@ body {
 /* page13*/
 
 /* pageinfo*/
+.allinfo{
+    padding-top: 4.5vh;
+}
+.topicinfo{
+position: relative;
+ font-size: 9vw;
+ font-family: 'Acumin Pro';
+ color: #cbed00;
+ margin-left: 12vw;
+ width: 70vw;
+ height: 10vw;
+ border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+ z-index: 2;
+}
+.topicinfo_o{
+    font-size: 10vw;
+    font-family: 'Hydrophilia';
+    color: #cbed00;
+   }
+.p14text{
+    padding-left: 12vw;
+    position: relative;
+    top:-7vw;
+}
+.p14boxl{
+    display: inline-block;
+  
+    width: 40vw;
+    height: 30vh;}
+.p14boxr{
+    display: inline-block;
+   
+     width: 40vw;
+     height: 45vh;
+     padding-top: 2vw;
+     font-size: 1.2vw;
+
+}
+.p14clone{
+    position: relative;
+    top:-6vw;
+}
+
+.p14clone img{
+    width: 90vw;
+    margin-left: 5.5vw;
+}
+.p14cir1 img{
+    position: relative;
+    width: 3vw;
+    margin-left: 11vw;
+    top:-2vw;
+    z-index: 0;
+    transform: rotate(150deg);
+    display: inline-block;
+}
+.p14cir1{
+    display: inline-block;
+}
+.p14cir2{
+    display: inline-block;
+}
+.p14cir2 img{
+    position: relative;
+    width: 3vw;
+    top:-2vw;
+    margin-left: 32vw;
+    z-index: 0;
+    
+    
+}
+.p14rec{
+    position: relative;
+    margin-left: 40vw;
+    top:4vw
+}
+.p14rec img{
+    width: 2.5vw;
+}
+
+
+/* footer */
+footer{
+    background-color: #FF611E;
+    height: 16vh;
+    
+}
+.allfooter{
+    padding-left: 2vw;
+}
+.pickmitlit{
+    display: inline-block;
+}
+.textfooter{
+    display: inline-block;
+    padding: 1.5vw;
+    font-size: 1.2vw;
+}
+.kmitl, .nited{
+    width:3.5vw;
+    padding-left: 1vw;
+}
+.itlogo{
+    width:4.5vw;
+    padding-left: 1vw;
+}
