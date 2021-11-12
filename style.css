@@ -30,6 +30,34 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'SukhumvitSet-Bold';
+    src: url('SukhumvitSet-Bold.woff2') format('woff2'),
+        url('SukhumvitSet-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-SemiBold';
+    src: url('SukhumvitSet-SemiBold.woff2') format('woff2'),
+        url('SukhumvitSet-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Text';
+    src: url('SukhumvitSet-Text.woff2') format('woff2'),
+        url('SukhumvitSet-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 #acumin {
     font-family: 'Acumin Pro';
 }
