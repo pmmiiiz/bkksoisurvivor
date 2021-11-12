@@ -438,7 +438,7 @@ body {
 }
 .page14_contant{
     width: 100vw;
-    height: 117vh;
+    height: 125vh;
 }
 .checkerboardbw {
     width: 100vw;
@@ -2582,6 +2582,7 @@ body {
 }
 
 /* ตารางหมากรุก */
+
 .checkerboardbl {
     width: 100vw;
     background-color: black;
@@ -2609,8 +2610,189 @@ body {
 /* page13*/
 
 /* pageinfo*/
+
+@media screen and (max-width: 1280px) {
+    .page14_contant{
+        width: 100vw;
+        height: 103vh!important;
+    }
+    .p14boxr{
+        display: inline-block;
+         width: 40vw;
+         height: 60vh;
+         padding-top: 2vw;
+         font-size: 1.4vw!important;
+    
+    }
+    .p14clone{
+        position: relative;
+        top:-4vw!important;
+    }
+    .textfooter{
+        display: inline-block;
+        padding-top: 3vw!important;
+        font-size: 1.2vw;
+    }
+
+}
+@media screen and (max-width: 415px) {
+    .page14_contant{
+        width: 100vw;
+        height: 85vh!important;
+    }
+    .topicinfo{
+        position: relative;
+         font-size: 17vw!important;
+         font-family: 'Acumin Pro';
+         color: #cbed00;
+         margin-left: 5vw!important;
+         width: 90vw!important;
+         height: 20vw!important;
+         border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+         z-index: 2;
+        }
+    .topicinfo_o{
+        font-size: 18vw!important;
+
+    }
+    .p14boxtele{
+        display: block!important;
+        font-size: 3.3vw;
+        margin-top: 10vw;
+    }
+    .p14boxr{
+        display: none!important;
+    }
+    .p14boxl{
+        display: none!important;
+    }
+    .p14clone{
+        display: none!important;
+
+    }
+    .p14clonetele{
+        display: block!important;
+       
+    }
+    .p14clonetele img{
+        width: 75vw!important;
+        margin-left: 12.5vw;
+
+    }
+    footer{
+        background-color: #FF611E;
+        height: 10vh!important;
+        
+    }
+    .textfootertele{
+        display: inline-block!important;
+        font-size: 2.2vw!important;
+        padding-top: 2.5vw!important;
+        padding-left: 5vw!important;
+    }
+    .textfooter{
+        display: none!important;
+    }
+    .kmitl, .nited{
+        width:7.5vw!important;
+        padding-left: 1vw!important;
+    }
+    .itlogo{
+        width:11.5vw!important;
+        padding-left: 1vw!important;
+    }
+    
+
+}
+@media screen and (max-width: 1024px) {
+    .page14_contant{
+        width: 100vw;
+        height: 85vh!important;
+    }
+    .topicinfo{
+        position: relative;
+         font-size: 17vw!important;
+         font-family: 'Acumin Pro';
+         color: #cbed00;
+         margin-left: 5vw!important;
+         width: 90vw!important;
+         height: 20vw!important;
+         border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+         z-index: 2;
+        }
+    .topicinfo_o{
+        font-size: 18vw!important;
+
+    }
+    .p14boxtele{
+        display: block!important;
+        font-size: 2.3vw;
+        margin-top: 6vw;
+    }
+    .p14boxr{
+        display: none!important;
+    }
+    .p14boxl{
+        display: none!important;
+    }
+    .p14clone{
+        display: none!important;
+
+    }
+    .p14clonetele{
+        display: block!important;
+       
+    }
+    .p14clonetele img{
+        width: 60vw!important;
+        margin-left: 12.5vw;
+
+    }
+    footer{
+        background-color: #FF611E;
+        height: 14vh!important;
+        
+    }
+    .textfootertele{
+        display: inline-block!important;
+        font-size: 2.2vw!important;
+        padding-top: 2.5vw!important;
+        padding-left: 5vw!important;
+    }
+    .textfooter{
+        display: none!important;
+    }
+    .kmitl, .nited{
+        width:7.5vw!important;
+        padding-left: 1vw!important;
+    }
+    .itlogo{
+        width:11.5vw!important;
+        padding-left: 1vw!important;
+    }
+}
+
+@media screen and (max-width: 2048px) and (min-width: 1920px) {
+    .page14_contant{
+        width: 100vw;
+        height: 60vw!important;
+    }
+    .p14boxr{
+        display: inline-block;
+         width: 40vw;
+         height: 60vh;
+         padding-top: 2vw;
+         font-size: 1.3vw!important;
+    
+    }
+
+}
+.p14boxtele{
+    display: none;
+}
 .allinfo{
-    padding-top: 4.5vh;
+    position: relative;
+    top: 4.5vh;
 }
 .topicinfo{
 position: relative;
@@ -2648,13 +2830,18 @@ position: relative;
 
 }
 .p14clone{
+    display: block;
     position: relative;
-    top:-6vw;
+    top:-2vw;
 }
-
+.p14clonetele{
+    display: none;
+}
 .p14clone img{
     width: 90vw;
     margin-left: 5.5vw;
+    display: block;
+    display: inline-block;
 }
 .p14cir1 img{
     position: relative;
@@ -2674,7 +2861,7 @@ position: relative;
 .p14cir2 img{
     position: relative;
     width: 3vw;
-    top:-2vw;
+    top:-1vw;
     margin-left: 32vw;
     z-index: 0;
     
@@ -2688,7 +2875,12 @@ position: relative;
 .p14rec img{
     width: 2.5vw;
 }
-
+.arrowdownpage14{
+    display: inline-block;
+    position: relative;
+    margin-left: 95vw;
+    top: -10vw;
+}
 
 /* footer */
 footer{
@@ -2714,4 +2906,7 @@ footer{
 .itlogo{
     width:4.5vw;
     padding-left: 1vw;
+}
+.textfootertele{
+    display: none;
 }
