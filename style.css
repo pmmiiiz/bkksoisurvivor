@@ -2636,6 +2636,10 @@ body {
 
 }
 @media screen and (max-width: 415px) {
+    .arrowdownpage14{
+        display: none!important;
+        
+    }
     .page14_contant{
         width: 100vw;
         height: 85vh!important;
@@ -2705,6 +2709,10 @@ body {
 
 }
 @media screen and (max-width: 1024px) {
+    .arrowdownpage14{
+        display: none!important;
+        
+    }
     .page14_contant{
         width: 100vw;
         height: 85vh!important;
@@ -2882,6 +2890,7 @@ position: relative;
     position: relative;
     margin-left: 95vw;
     top: -10vw;
+    transform: rotateZ(180deg);
 }
 
 /* footer */
