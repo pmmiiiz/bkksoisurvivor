@@ -921,7 +921,35 @@ body {
     top: 39.5vw;
     left: 15vw;
 }
-
+/* page8 */
+.content_allpage8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-top: 8vh;
+    margin-left: 8%;
+}
+.topicpage8 {
+    padding-top: 1.5vw;
+    text-align: left;
+    font-size: 4.5vw;
+    color: #DBFF00;
+    font-family: 'ChulaCharasNew'!important;
+}
+.content_page8text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 3vw;
+    left: 15vw;
+    z-index: 3;
+}
+#img8_1{
+    position: relative;
+    width: 16vw;
+    top: 18vw;
+    left: 2vw;
+}
 
 /* page4 */
 
@@ -988,6 +1016,12 @@ body {
         height: 100%;
     }
     .content_allpagemac3 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%;
+        height: 100%;
+    }
+    .content_allpagemac8 {
         display: flex!important;
         flex-wrap: wrap!important;
         width: 100%;
@@ -1475,6 +1509,38 @@ body {
         width: 4vw!important;
         top: 93vw;
         left: 1vw;
+    }
+    /*ball3*/
+    .content_allpage8 {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100%!important;
+        height: 100%;
+    }
+    .page8_contant {
+        width: 100vw;
+        height: 80vw!important;
+    }
+    .topicpage8 {
+        padding-top: 1.5vw;
+        text-align: left;
+        font-size: 7vw;
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew'!important;
+    }
+    .content_page8text {
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 25vw;
+        left: 15vw;
+        z-index: 3;
+    }
+    #img8_1{
+        position: relative;
+        width: 16vw;
+        top: 25vw;
+        left: 2vw;
+        display: none;
     }
     /* page1 */
     .p1head {
