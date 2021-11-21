@@ -652,13 +652,13 @@ body {
 
 #marquee1 {
     display: inline-block;
-    animation: marquee 15s linear infinite;
+    animation: marquee 24s linear infinite;
 }
 
 #marquee2 {
     display: inline-block;
-    animation: marquee2 15s linear infinite;
-    animation-delay: 7.47s;
+    animation: marquee2 24s linear infinite;
+    animation-delay: 11.95s;
 }
 
 #mainmarquee div:hover {
