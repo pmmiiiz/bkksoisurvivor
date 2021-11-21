@@ -778,7 +778,7 @@
 
  
     var x = window.matchMedia("(max-width: 1280px)")
-
+    var i = window.matchMedia("(max-width: 1024px)")
     function gogomptor() {
         if (numstartcar == 0){
         document.querySelector("#showhide").style.display = "block";
@@ -793,6 +793,15 @@
         document.querySelector(".p1car").style.height = "250vh";
     }
         else if(x.matches && numstartcar != 0){
+            document.querySelector("#showhide").style.display = "none";
+           
+        }
+        else if (i.matches && numstartcar != 0){
+        document.querySelector("#showhide").style.display = "block";
+        document.querySelector(".p1car").style.height = "215vh";
+        console.log(i);
+    }
+        else if(i.matches && numstartcar != 0){
             document.querySelector("#showhide").style.display = "none";
            
         }
