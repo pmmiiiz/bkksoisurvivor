@@ -2516,7 +2516,7 @@ body {
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 98vw;
+    height: 98.55vw;
     position: relative;
     margin-left: 8%;
 }
@@ -2623,6 +2623,9 @@ body {
 
 /* ipad7 */
 @media screen and (max-width: 1024px) and (min-width: 540px) {
+    .content_chaosoi{
+        height: 98vw;
+    }
     #clone {
         width: 10vw;
         padding-left: 10vw;
@@ -2710,6 +2713,9 @@ body {
 }
 /* phone7 */
 @media screen and (max-width: 415px) {
+    .content_chaosoi{
+        height: 98vw;
+    }
     #clone {
         width: 10vw;
         padding-left: 10vw;
