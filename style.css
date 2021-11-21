@@ -664,6 +664,11 @@ body {
 #mainmarquee div:hover {
     cursor: pointer;
 }
+@media screen and (max-width:415px){
+    #mainmarquee {
+    font-size: 12px;
+    }
+}
 
 @keyframes marquee {
     from {
@@ -2468,7 +2473,7 @@ body {
 
 .text_super {
     padding-left: 5%;
-    flex-basis: 37%;
+    flex-basis: 30%;
     font-size: 5vw;
 }
 
@@ -2478,7 +2483,16 @@ body {
     padding-bottom: 0px;
     color: #DBFF00;
 }
-
+.content_arrow {
+    flex-basis: 5%;
+    padding: 1vw;
+}
+.content_arrow img{
+    margin-bottom: -8%;
+    margin-top: -2%;
+    padding-bottom: 0px;
+    position: relative;
+}
 .content_umbrella {
     flex-basis: 40%;
     padding: 0 4.5%;
@@ -2488,7 +2502,7 @@ body {
 }
 
 .content_umbrella img {
-    margin-top: -54%;
+    margin-top: -52%;
     position: relative;
     z-index: 2;
 }
@@ -2633,6 +2647,28 @@ body {
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
     height: 10rem;
 }
+#zoom{
+    width: 3vw;
+    margin-left: 13vw;
+    margin-top: -4vw;
+    margin-bottom: -7vw;
+    position: absolute;
+    z-index: 55;
+    animation: zoomani 2s linear infinite;
+}
+@keyframes zoomani {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
 
 /* page7*/
 #clone{
