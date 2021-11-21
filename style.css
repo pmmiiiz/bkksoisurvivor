@@ -2687,7 +2687,20 @@ body {
         transform: scale(1);
     }
 }
-
+@media screen and (max-width:1024px) {
+    #zoom {
+        width: 3vw;
+        margin-left: 20vw;
+        margin-top: -5vw;
+    }
+}
+@media screen and (max-width:415px) {
+    #zoom {
+        width: 3vw;
+        margin-left: 18vw;
+        margin-top: -5vw;
+    }
+}
 
 
 /* page7*/
