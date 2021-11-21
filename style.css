@@ -420,7 +420,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.allpamga{
+    z-index: 5;
+    position: relative;
 
+}
 .page5_contant {
     width: 100vw;
     height: 100vh;
@@ -430,9 +434,16 @@ body {
 
 .page6_contant {
     width: 100vw;
+    z-index: 1;
+    position: relative;
+    
 }
 .page7_contant{
     width: 100vw;
+    z-index: 1;
+    position: relative;
+    background-color: black;
+    
 }
 
 .page12_contant{
@@ -470,6 +481,9 @@ body {
     top: 10vw;
     z-index: 0;
 }
+/* #showhide{
+    z-index: 100;
+} */
 
 
 /* page1 จอปกติ */
@@ -1194,7 +1208,7 @@ body {
     }
     .p1car {
         width: 50vw;
-        height: 270vh!important;
+        height: 290vh;
         position: relative;
         /* background-color: darkgoldenrod; */
     }
@@ -1907,7 +1921,7 @@ body {
     }
     .p1car {
         width: 50vw;
-        height: 330vh!important;
+        height: 200vh;
         position: relative;
         margin-top: 45vw;
         /* background-color: red; */
@@ -2178,6 +2192,11 @@ body {
 }
 .linemotor{
     height: 445vw;
+    position: relative;
+    z-index: 5;
+    width: 50vw;
+    margin-left: 3.5vw;
+    
 }
 
 /* โทรศัพท์ */
@@ -2499,6 +2518,7 @@ body {
     text-align: center;
     font-size: 18px;
     border-left: 0.1vw solid rgba(255, 255, 255, 0.5);
+    
 }
 
 .content_umbrella img {
