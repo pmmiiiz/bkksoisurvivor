@@ -741,14 +741,22 @@
     });
 
  
-
+    var x = window.matchMedia("(max-width: 1280px)")
 
     function gogomptor() {
         if (numstartcar == 0){
         document.querySelector("#showhide").style.display = "block";
         document.querySelector(".p1car").style.height = "400vh";
     }
-        else{
+        else if(numstartcar != 0){
+            document.querySelector("#showhide").style.display = "none";
+           
+        }
+        else if (x.matches && numstartcar == 0){
+        document.querySelector("#showhide").style.display = "block";
+        document.querySelector(".p1car").style.height = "250vh";
+    }
+        else if(x.matches && numstartcar != 0){
             document.querySelector("#showhide").style.display = "none";
            
         }
