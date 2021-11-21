@@ -2204,12 +2204,12 @@ body {
 }
 
 
-/* โทรศัพท์ */
+/* phone6 */
 
 @media screen and (max-width: 415px) {
     .page6_contant {
         width: 100vw;
-        height: 80vh;
+        /* height: 80vh; */
         padding-top: 5%;
     }
     .linepage5 {
@@ -2256,7 +2256,7 @@ body {
     .content_bottomleft_mobile {
         flex-basis: 90% !important;
         padding: 4vh 0;
-        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+        /* border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5); */
         border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
     }
     .content_bottomright_mobile {
@@ -2268,12 +2268,12 @@ body {
 }
 
 
-/* ไอแพด */
+/* ipad6 */
 
 @media screen and (max-width: 1024px) and (min-width: 540px) {
     .page6_contant {
         width: 100vw;
-        height: 100vh;
+        /* height: 100vh; */
         padding-top: 5%;
     }
     .col-1-moblie {
@@ -2316,7 +2316,7 @@ body {
         flex-basis: 90% !important;
         height: 39.5vh !important;
         padding: 4vh 0;
-        border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5);
+        /* border-bottom: 0.1vw solid rgba(255, 255, 255, 0.5); */
         border-top: 0.1vw solid rgba(255, 255, 255, 0.5);
     }
     .content_bottomright_mobile {
@@ -2516,11 +2516,33 @@ body {
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* width: 100%; */
-    height: 98.55vw;
+    height: 98vw;
     position: relative;
     margin-left: 8%;
 }
+
+.content_chaosoi2{
+    background-image: url(pic/page_7/table2.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    height: 98vw;
+    position: relative;
+    margin-left: 8%;
+}
+
+.content_chaosoi3{
+    background-image: url(pic/page_7/table3.png);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    height: 64vw;
+    position: relative;
+    margin-left: 8%;
+}
+
 .comment_one {
     flex-basis: 42%;
     text-align: center;
@@ -2543,7 +2565,7 @@ body {
     flex-basis: 42%;
     text-align: center;
     margin-top: -8vw;
-    margin-left: 18vw;
+    margin-left: 19.5vw;
 }
 .comment_three {
     flex-basis: 42%;
@@ -2555,9 +2577,224 @@ body {
     flex-basis: 40%;
     text-align: right;
     margin-top: -13vw;
-    margin-left: 12vw;
+    margin-left: 12.5vw;
+}
+#rec71{
+    width: 3vw;
+    margin-left: 50vw;
+    position: absolute;
+    display: block;
+}
+#rec72{
+    width: 3vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    position: absolute;
+    display: block;
+}
+#vec71{
+    width: 3vw;
+    margin-top: 17vw;
+    margin-left: 16vw;
+    position: absolute;
+    display: block;
+}
+#vec72{
+    width: 5vw;
+    margin-top: 38vw;
+    margin-left: 46vw;
+    position: absolute;
+    display: block;
+}
+#union7{
+    width: 5vw;
+    margin-top: 82vw;
+    margin-left: 63vw;
+    position: absolute;
+    display: block;
+}
+#none{
+    display: block;
 }
 
+.picsoi2 {
+    display: none;
+}
+
+/* ipad7 */
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+    #clone {
+        width: 10vw;
+        padding-left: 10vw;
+        padding-bottom: 15vw;
+        padding-top: 10vw;
+    }
+    .topic_chaosoi{
+        padding-bottom: 15vw;
+        padding-left: 5vw;
+        padding-top: 15vw;
+        text-align: center;
+        -webkit-text-stroke: 0.5px #DBFF00;
+    }
+    #rec71 {
+        width: 3vw;
+        margin-left: 50vw;
+        margin-top: 8vw;
+        border: 0.1vw solid white;
+    }
+    #rec72 {
+        display: none;
+    }
+    #vec71 {
+        width: 5vw;
+        margin-top: 26vw;
+        margin-left: 62vw;
+    }
+
+    .content_chaosoi2{
+        display: block;
+    }
+    .content_chaosoi3{
+        display: block;
+    }
+    #none{
+        display: none;
+        opacity: 0;
+    }
+
+    .comment_one {
+        flex-basis: 76%;
+        text-align: left;
+        margin-top: -9vw;
+        margin-left: -5.5vw;
+    }
+    .picsoi1 {
+        flex-basis: 80%;
+        text-align: right;
+        margin-top: -59.5vw;
+        margin-left: 26vw;
+    }
+    .clone_red{
+        margin-top: 54.5vw;
+    }
+    .comment_two {
+        flex-basis: 72%;
+        text-align: center;
+        margin-top: -13.5vw;
+        margin-left: -15vw;
+    }
+    .comment_three {
+        flex-basis: 71%;
+        text-align: center;
+        margin-top: -20.5vw;
+        margin-left: -4vw;
+    }
+    .picsoi3 {
+        flex-basis: 62%;
+        text-align: right;
+        margin-top: -14vw;
+        margin-left: -34.5vw;
+    }
+    .picsoi2 {
+        flex-basis: 47%;
+        display: block;
+        margin-top: -79vw;
+        margin-left: -7vw;
+    }
+    #vec72{
+        display: none;
+    }
+    #union7{
+        display: none;
+    }
+}
+/* phone7 */
+@media screen and (max-width: 415px) {
+    #clone {
+        width: 10vw;
+        padding-left: 10vw;
+        padding-bottom: 15vw;
+        padding-top: 10vw;
+    }
+    .topic_chaosoi{
+        padding-bottom: 15vw;
+        padding-left: 5vw;
+        padding-top: 15vw;
+        text-align: center;
+        -webkit-text-stroke: 0.3px #DBFF00;
+    }
+    #rec71 {
+        width: 3vw;
+        margin-left: 50vw;
+        margin-top: 8vw;
+        border: 0.1vw solid rgba(255, 255, 255, 0.5);
+    }
+    #rec72 {
+        display: none;
+    }
+    #vec71 {
+        width: 5vw;
+        margin-top: 26vw;
+        margin-left: 62vw;
+    }
+
+    .content_chaosoi2{
+        display: block;
+    }
+    .content_chaosoi3{
+        display: block;
+    }
+    #none{
+        display: none;
+        opacity: 0;
+    }
+
+    .comment_one {
+        flex-basis: 76%;
+        text-align: left;
+        margin-top: -9vw;
+        margin-left: -5.5vw;
+    }
+    .picsoi1 {
+        flex-basis: 80%;
+        text-align: right;
+        margin-top: -59.5vw;
+        margin-left: 26vw;
+    }
+    .clone_red{
+        margin-top: 54.5vw;
+    }
+    .comment_two {
+        flex-basis: 72%;
+        text-align: center;
+        margin-top: -13.5vw;
+        margin-left: -15vw;
+    }
+    .comment_three {
+        flex-basis: 71%;
+        text-align: center;
+        margin-top: -20.5vw;
+        margin-left: -4vw;
+    }
+    .picsoi3 {
+        flex-basis: 62%;
+        text-align: right;
+        margin-top: -14vw;
+        margin-left: -34.5vw;
+    }
+    .picsoi2 {
+        flex-basis: 47%;
+        display: block;
+        margin-top: -79vw;
+        margin-left: -7vw;
+    }
+    #vec72{
+        display: none;
+    }
+    #union7{
+        display: none;
+    }
+}
 /* page8*/
 
 
