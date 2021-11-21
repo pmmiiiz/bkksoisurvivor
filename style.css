@@ -2630,6 +2630,11 @@ body {
     animation-delay: 7.3s;
 }
 
+#hide{
+    opacity: 0;
+    height: 0%;
+    margin-top: -2%;
+}
 
 @keyframes marquee11 {
     from {
@@ -2646,6 +2651,113 @@ body {
     }
     to {
         transform: translateX(-200%);
+    }
+}
+
+/* phone12 */
+
+@media screen and (max-width: 415px) and (min-width: 280px) {
+    .page12_contant {
+        width: 100vw;
+        height: 180vw;
+    }
+    #mainmarqueetun {
+        font-size: 15vw;
+    }
+    #hide{
+        height: max-content;
+        opacity: 1;
+    }
+    .checkerboardbl {
+        width: 130vw;
+        margin-top: -25vw;
+    }
+    .sign {
+        margin: -108vw auto -16.5vw;
+        width: 45vw;
+    }
+    #vec111 {
+        width: 8vw;
+        top: -98vw;
+        margin-left: 77vw;
+    }
+    #vec112 {
+        width: 5vw;
+        top: -35vw;
+        margin-left: 55vw;
+    }
+    #rec {
+        width: 6vw;
+        top: -80vw;
+        margin-left: 69vw;
+    }
+    #union {
+        width: 8vw;
+        top: -108vw;
+        margin-left: -61vw;
+    }
+    #rec1{
+        display: none;
+    }
+    #rec2{
+        display: none;
+    }
+    #vec1122{
+        display: none;
+    }
+}
+
+
+/* ipad12 */
+
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+    .page12_contant {
+        width: 100vw;
+        height: 140vw;
+    }
+    #mainmarqueetun {
+        font-size: 11vw;
+    }
+    #hide{
+        height: max-content;
+        opacity: 1;
+    }
+    .checkerboardbl {
+        width: 130vw;
+        margin-top: -25vw;
+    }
+    .sign {
+        margin: -98vw auto -16.5vw;
+        width: 40vw;
+    }
+    #vec111 {
+        width: 8vw;
+        top: -90vw;
+        margin-left: 77vw;
+    }
+    #vec112 {
+        width: 5vw;
+        top: -35vw;
+        margin-left: 55vw;
+    }
+    #rec {
+        width: 6vw;
+        top: -73vw;
+        margin-left: 67vw;
+    }
+    #union {
+        width: 8vw;
+        top: -95vw;
+        margin-left: -58vw;
+    }
+    #rec1{
+        display: none;
+    }
+    #rec2{
+        display: none;
+    }
+    #vec1122{
+        display: none;
     }
 }
 
