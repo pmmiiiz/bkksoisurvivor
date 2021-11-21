@@ -57,7 +57,9 @@
     font-display: swap;
 }
 
-
+#showhide{
+    display: none;
+}
 #acumin {
     font-family: 'Acumin Pro';
 }
@@ -463,7 +465,7 @@ body {
 
 .content_car {
     width: 42vw;
-    height: 50vw;
+    height: 0vw;
     position: relative;
     top: 10vw;
     z-index: 0;
@@ -528,7 +530,7 @@ body {
 
 .p1car {
     width: 50vw;
-    height: 400vh;
+    height: 300vh;
     position: relative;
     /* background-color: darkgoldenrod; */
 }

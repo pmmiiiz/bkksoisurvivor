@@ -263,8 +263,8 @@
         <section id="b4"class="page4_contant snap_page" style="background-color: black;">
             <div class="content_allpage content_allpagemac">
                 <div class="content_car">
-                    <button id="leftchangecar">❰</button>
-                    <button id="rightchangecar">❱</button>
+                    <button id="leftchangecar" onclick="gogomptor()">❰</button>
+                    <button id="rightchangecar" onclick="gogomptor()">❱</button>
                     <img src="PIC/page_4/Rectangle 411.png" class="racp4">
                 </div>
                 <div class="content_page4text">
@@ -294,12 +294,12 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- ตารางหมากรุกสีส้ม -->
         <section class="checkerboardbo">
             <img src="pic/page_check/SOI stripe.png" class="checko">
         </section>
-
+        <div id="showhide">
         <!-- หน้าห้า -->
         <section class="page5_contant" style="background-color: black">
             <div class="linemotor">
@@ -600,7 +600,7 @@
             </div>
             
         </footer>
-
+    </div>
     </div>
 </body>
 <script>
@@ -672,6 +672,39 @@
         }
 
     });
+
+ 
+
+
+    function gogomptor() {
+        if (numstartcar == 0){
+        document.querySelector("#showhide").style.display = "block";
+        document.querySelector(".p1car").style.height = "400vh";
+    }
+        else{
+            document.querySelector("#showhide").style.display = "none";
+           
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     let body = document.body
     document.body.onscroll = function() {
         let newY = window.scrollY;
