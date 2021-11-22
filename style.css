@@ -2406,7 +2406,7 @@ body {
     #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box {
+    .mapimg {
         width: 110% !important;
     }
     .content_superblockmap_mobile {
@@ -2424,8 +2424,13 @@ body {
     .content_bottomright_mobile {
         display: none;
     }
-    #img-2 {
-        opacity: 0 !important;
+    .magnifier {
+        width: 70px !important;
+        height: 70px !important;
+        box-shadow: 0 0 0 1px white, 
+        0 0 7px 7px rgba(0, 0, 0, 0.25), 
+        inset 0 0 40px 2px rgba(0, 0, 0, 0.25) !important;
+        background-size: 50%;
     }
 }
 
@@ -2465,7 +2470,7 @@ body {
     #vec2 {
         margin-top: -63vw !important;
     }
-    #img-zoomer-box {
+    .mapimg {
         width: 109.5% !important;
     }
     .content_superblockmap_mobile {
@@ -2484,9 +2489,12 @@ body {
     .content_bottomright_mobile {
         display: none;
     }
-    #img-2 {
+    .magnifier {
         width: 150px !important;
         height: 150px !important;
+        box-shadow: 0 0 0 3px white, 
+        0 0 7px 7px rgba(0, 0, 0, 0.25), 
+        inset 0 0 40px 2px rgba(0, 0, 0, 0.25) !important;
     }
 }
 
@@ -2642,7 +2650,7 @@ body {
     opacity: 1;
 }
 
-#img-2 {
+/* #img-2 {
     width: 15vw;
     height: 15vw;
     background: url('PIC/page_6/superblockdoodle\ 2.png') no-repeat black;
@@ -2655,7 +2663,24 @@ body {
     border-radius: 100%;
     display: block;
     transition: opacity .2s;
+} */
+
+.magnifierWrap {
+	position: relative;
 }
+.magnifier {
+	width: 200px; 
+	height: 200px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 4px white, 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	background: url('PIC/page_6/superblockdoodle\ 2.png') no-repeat;
+	display: none;
+    cursor: none;
+}
+
 
 .content_bottomleft {
     flex-basis: 42%;
@@ -2701,7 +2726,6 @@ body {
         margin-top: -5vw;
     }
 }
-
 
 /* page7*/
 #clone{

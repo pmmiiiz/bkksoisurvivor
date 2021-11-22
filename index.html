@@ -7,6 +7,8 @@
     <title>bkk-soisurvivor</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="PIC/logo_icon/BKK_WEB_ICON.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -372,9 +374,13 @@
                     <div class="text_blocko text_block0_mobile">
                         <h1>O</h1>
                     </div>
-                    <div id="img-zoomer-box" class="img-zoomer-box-mobile">
+                    <!-- <div id="img-zoomer-box" class="img-zoomer-box-mobile">
                         <img src="PIC/page_6/SUPERBLOCK-MAP-.png" id="img-1" />
                         <div id="img-2"></div>
+                    </div> -->
+                    <div class="magnifierWrap">
+                        <div class="magnifier"></div>
+                        <img class="mapimg" src="PIC/page_6/SUPERBLOCK-MAP-.png" width="83%"/>
                     </div>
                     <img src="pic/page_6/Vector2.png" width="100%" id="vec1">
                     <img src="pic/page_6/Rectangle 348.png" width="100%" id="vec2">
@@ -855,41 +861,74 @@
     };
 
     //ซูมแผนที่//
-    let zoomer = function() {
-        document.querySelector('#img-zoomer-box')
-            .addEventListener('mousemove', function(e) {
+    $(document).ready(function(){
 
-                let original = document.querySelector('#img-1'),
-                    magnified = document.querySelector('#img-2'),
-                    style = magnified.style,
-                    x = e.pageX - this.offsetLeft,
-                    y = e.pageY - this.offsetTop,
-                    imgWidth = original.offsetWidth,
-                    imgHeight = original.offsetHeight,
-                    xperc = ((x / imgWidth) * 100),
-                    yperc = ((y / imgHeight) * 100);
+    var nativeWidth = 0;
+    var nativeHeight = 0;
 
-                //lets user scroll past right edge of image
-                if (x > (.01 * imgWidth)) {
-                    xperc += (.15 * xperc);
-                };
+    $(".magnifierWrap").mousemove(function(e) {
+        if(!nativeWidth && !nativeHeight) {
+            var imgObject = new Image();
+            imgObject.src = $(".mapimg").attr("src");
+            nativeWidth = imgObject.width;
+            nativeHeight = imgObject.height;
+        }
+        else {
+            var magnifyOffset = $(this).offset();
+            var mouseX = e.pageX - magnifyOffset.left;
+            var mouseY = e.pageY - magnifyOffset.top;
+            
+            if(mouseX < $(this).width() && mouseY < $(this).height() && mouseX > 0 && mouseY > 0) {
+                $(".magnifier").fadeIn(300);
+            }
+            else{
+                $(".magnifier").fadeOut(100);
+            }
+            if($(".magnifier").is(":visible")){
+                var mapimgX = Math.round(mouseX/$(".mapimg").width()*nativeWidth - $(".magnifier").width()/1.2)*-0.95;
+                var mapimgY = Math.round(mouseY/$(".mapimg").height()*nativeHeight - $(".magnifier").height()/2)*-1;
+                var bgp = mapimgX + "px " + mapimgY + "px";
+                
+                var largeImgX = mouseX - $(".magnifier").width()/2;
+                var largeImgY = mouseY - $(".magnifier").height()/2;
+                
+                $(".magnifier").css({left: largeImgX, top: largeImgY, backgroundPosition: bgp});
+            }
+        }
+    });
+    });
+    // let zoomer = function() {
+    //     document.querySelector('#img-zoomer-box')
+    //         .addEventListener('mousemove', function(e) {
 
-                //lets user scroll past bottom edge of image
-                if (y >= (.01 * imgHeight)) {
-                    yperc += (.15 * yperc);
-                };
+    //             let original = document.querySelector('#img-1'),
+    //                 magnified = document.querySelector('#img-2'),
+    //                 style = magnified.style,
+    //                 x = e.pageX - this.offsetLeft,
+    //                 y = e.pageY - this.offsetTop,
+    //                 imgWidth = original.offsetWidth,
+    //                 imgHeight = original.offsetHeight,
+    //                 xperc = ((x / imgWidth) * 100),
+    //                 yperc = ((y / imgHeight) * 100);
 
-                style.backgroundPositionX = (xperc - 9) + '%';
-                style.backgroundPositionY = (yperc - 18) + '%';
+    //             //lets user scroll past right edge of image
+    //             if (x > (.01 * imgWidth)) {
+    //                 xperc += (.15 * xperc);
+    //             };
 
-                style.left = (x - 180) + 'px';
-                style.top = (y - 220) + 'px';
+    //             //lets user scroll past bottom edge of image
+    //             if (y >= (.01 * imgHeight)) {
+    //                 yperc += (.15 * yperc);
+    //             };
 
-            }, false);
-    }();
-    //ตัวหนังสือเลื่อน//
-    // $('#maindiv').width($('#div1').width());
+    //             style.backgroundPositionX = (xperc - 9) + '%';
+    //             style.backgroundPositionY = (yperc - 18) + '%';
 
+    //             style.left = (x - 180) + 'px';
+    //             style.top = (y - 220) + 'px';
+
+    //         }, false);
+    // }();
 </script>
 
 </html>
