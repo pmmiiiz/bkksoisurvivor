@@ -1091,6 +1091,8 @@ body {
         
 
     }
+
+    /* แก้แล้วmac */
     .linepage5 {
         width: 30.5vh;
     }
@@ -1226,17 +1228,25 @@ body {
        
     .motorcycle{
         position: sticky!important;
-        padding: 6% 3.7vw!important;
+        padding: 6% 0vw!important;
         width: 9vw!important;
-        top:7vw!important;
+        top:30vw!important;
         
     
     }
+    #mortorline{
+        width: 9.25vw;
+    }
+    .linepage5 {
+        position: absolute;
+        margin: 6%!important;
+        width: 32.5vh;
+    }
     .p5toup{
-        margin-top: -375vw!important;
+        margin-top: -588vw!important;
     }
     .linemotor{
-        height: 375vw!important;
+        height: 588vw!important;
     }
 }
 
