@@ -5888,6 +5888,56 @@ body {
 }
 
 
+/*page9จอX*/
+@media screen and (min-height: 812px) and (max-height: 813px) and (min-width:375px)and (max-width:376px){
+    #line9_3 {
+        height: 110.5vh!important;
+        position: relative!important;
+        left: 80vw;
+        top: -162vw!important;
+        z-index: 0;
+    }
+    #p91_close {
+        width: 6.7vw!important;
+        position: relative;
+        top: -392.9vw!important;
+        left: 35.8vw!important;
+        z-index: 10!important;
+    }
+
+    .p91_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 78vw!important;
+        height: 68vh!important;
+        top: -237vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -1.59vw;
+    }
+
+    #p92_close {
+        width: 6.7vw!important;
+        position: relative;
+        top: -392.9vw!important;
+        left: 35.8vw!important;
+        z-index: 10!important;
+    }
+
+    .p92_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 78vw!important;
+        height: 68vh!important;
+        top: -237vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -1.59vw;
+    }
+}
+
 /* footer */
 
 
