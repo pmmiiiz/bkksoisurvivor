@@ -462,7 +462,7 @@ body {
     background-color: black;
 }
 
-.page9_contant{
+.page9_contant {
     width: 100vw;
     height: 85vh;
     z-index: -1;
@@ -1552,76 +1552,66 @@ body {
         left: 27vw;
         z-index: 1;
     }
-
     /*page9mac*/
-    .page9_contant{
+    .page9_contant {
         display: flex!important;
         flex-wrap: wrap!important;
         width: 100vw;
         height: 57vh!important;
         padding-top: 5%;
     }
-
-    .page9_contant{
+    .page9_contant {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    
-    #line9_1{
+    #line9_1 {
         width: 100vw;
         position: relative;
         top: 3vw;
         left: 8.1vw;
     }
-    
-    #line9_2{
+    #line9_2 {
         width: 100vw;
         position: relative;
         left: 8.1vw;
         top: -2.6vw;
     }
-    
-    #line9_3{
+    #line9_3 {
         height: 176vh!important;
         position: relative!important;
         left: 80vw;
-        top: -100vw!important;
+        top: -105vw!important;
         z-index: 0;
     }
-    
-    #vec9{
+    #vec9 {
         position: relative;
         width: 2.5vw;
         top: 0.7vw;
         left: 78.8vw;
         z-index: 1;
     }
-    
-    #union9{
+    #union9 {
         position: relative;
         width: 5vw;
         top: 20.5vw;
         left: 20vw;
         z-index: 1;
     }
-    
-    #square9{
+    #square9 {
         position: relative;
         width: 3vw;
-        top: -102vw;
+        top: -106vw!important;
         left: 78.8vw;
         z-index: 1;
     }
-    
-    .content_think{
+    .content_think {
         display: inline-block;
         text-align: center;
         position: relative;
     }
-    
-    .text9_1{
+    .text9_1 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 1.5vw;
@@ -1629,8 +1619,7 @@ body {
         position: relative;
         top: 2vw;
     }
-    
-    .text9_2{
+    .text9_2 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 1.5vw;
@@ -1638,84 +1627,67 @@ body {
         position: relative;
         top: 1.6vw;
     }
-    
-    
-    #pic9_1{
+    #pic9_1 {
         width: 18.5vw;
         position: relative;
         top: 0.7vw;
         z-index: 5;
     }
-    
-    #pic9_1:hover{
+    #pic9_1:hover {
         cursor: pointer;
     }
-    
-    #pic9_2{
+    #pic9_2 {
         width: 18.5vw;
         position: relative;
         top: 0.3vw;
         z-index: 2;
     }
-    
-    #pic9_2:hover{
+    #pic9_2:hover {
         cursor: pointer;
     }
-    
-    #arrow9_1{
+    #arrow9_1 {
         width: 4vw;
         top: 1vw;
         left: -5vw;
         position: absolute;
     }
-    
-    #arrow9_2{
+    #arrow9_2 {
         width: 4vw;
         top: 0.6vw;
         left: -5vw;
         position: absolute;
     }
-    
-    .soi91{
+    .soi91 {
         top: -5.5vw;
         display: inline-block;
         position: relative;
         left: 26.5vw;
-    
     }
-    
-    .soi91:hover{
+    .soi91:hover {
         cursor: pointer;
     }
-    
-    .soi92{
+    .soi92 {
         top: -5vw;
         display: inline-block;
         position: relative;
         left: 36.5vw;
     }
-    
-    .soi92:hover{
+    .soi92:hover {
         cursor: pointer;
     }
-    
-    .popup91{
+    .popup91 {
         position: relative;
         top: -7vw;
         display: none;
         z-index: 20;
-        
     }
-    
-    .popup92{
+    .popup92 {
         position: relative;
         top: -7vw;
         display: none;
         z-index: 20;
-    
     }
-    
-    .p91_hover{
+    .p91_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -1725,8 +1697,7 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    .p92_hover{
+    .p92_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -1736,25 +1707,21 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    #map91{
+    #map91 {
         width: 18vw;
         position: relative;
         top: 5.7vw!important;
         left: 3.6vw;
         float: left;
     }
-    
-    #map92{
+    #map92 {
         width: 18vw;
         position: relative;
         top: 5.7vw!important;
         left: 3.6vw;
         float: left;
     }
-    
-    
-    #head9_11{
+    #head9_11 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -1762,8 +1729,7 @@ body {
         left: 9vw;
         top: 5.5vw!important;
     }
-    
-    #head9_22{
+    #head9_22 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -1771,8 +1737,7 @@ body {
         left: 9vw;
         top: 5.5vw!important;
     }
-    
-    #detail9_11{
+    #detail9_11 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -1780,8 +1745,7 @@ body {
         left: 9vw;
         top: 6vw!important;
     }
-    
-    #detail9_22{
+    #detail9_22 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -1789,31 +1753,26 @@ body {
         left: 9vw;
         top: 9vw!important;
     }
-    
-    #p91_close{
+    #p91_close {
         width: 2.7vw;
         position: relative;
-        top: -165.6vw;
+        top: -168.8vw!important;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p91_close:hover{
+    #p91_close:hover {
         cursor: pointer;
     }
-    
-    #p92_close{
+    #p92_close {
         width: 2.7vw;
         position: relative;
-        top: -165.6vw;
+        top: -168.8vw!important;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p92_close:hover{
+    #p92_close:hover {
         cursor: pointer;
     }
-
     /* page10 mac */
     .page10_contant {
         width: 100vw;
@@ -3588,39 +3547,35 @@ body {
         height: 1185vw!important;
     }
     /*page9มือถือ*/
-    .page9_contant{
+    .page9_contant {
         display: flex!important;
         flex-wrap: wrap!important;
         width: 100vw;
         height: 57vh!important;
         padding-top: 5%;
     }
-
-    #line9_1{
+    #line9_1 {
         width: 120vw!important;
         position: relative!important;
         top: 3vw!important;
         left: -2vw!important;
         z-index: 1;
     }
-    
-    #line9_2{
+    #line9_2 {
         width: 120vw;
         position: relative;
         top: -2.6vw;
         z-index: 2;
         opacity: 0;
     }
-
-    #line9_3{
+    #line9_3 {
         height: 122.5vh!important;
         position: relative!important;
         left: 80vw;
         top: -162vw!important;
         z-index: 0;
     }
-
-    #vec9{
+    #vec9 {
         position: relative;
         width: 2.5vw;
         top: 0.7vw;
@@ -3628,8 +3583,7 @@ body {
         z-index: 1;
         opacity: 0;
     }
-    
-    #union9{
+    #union9 {
         position: relative;
         width: 5vw;
         top: 20.5vw;
@@ -3637,22 +3591,19 @@ body {
         z-index: 1;
         opacity: 0;
     }
-
-    #square9{
+    #square9 {
         position: relative!important;
         width: 3vw;
         top: -163vw!important;
         left: 78.7vw;
         z-index: 1!important;
     }
-    
-    .content_think{
+    .content_think {
         display: inline-block;
         text-align: center;
         position: relative;
     }
-    
-    .text9_1{
+    .text9_1 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 3.2vw!important;
@@ -3660,8 +3611,7 @@ body {
         position: relative;
         top: 3vw!important;
     }
-    
-    .text9_2{
+    .text9_2 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 3.2vw!important;
@@ -3669,85 +3619,69 @@ body {
         position: relative;
         top: 2.6vw!important;
     }
-    
-    
-    #pic9_1{
+    #pic9_1 {
         width: 30.5vw!important;
         position: relative!important;
         top: 0.7vw!important;
         z-index: 2!important;
     }
-    
-    #pic9_1:hover{
+    #pic9_1:hover {
         cursor: pointer;
     }
-    
-    #pic9_2{
+    #pic9_2 {
         width: 30.5vw!important;
         position: relative!important;
         top: 0.3vw!important;
         z-index: 2!important;
     }
-    
-    #pic9_2:hover{
+    #pic9_2:hover {
         cursor: pointer;
     }
-    
-    #arrow9_1{
+    #arrow9_1 {
         width: 7vw!important;
         top: 1vw!important;
         left: -17vw!important;
         position: absolute!important;
     }
-    
-    #arrow9_2{
+    #arrow9_2 {
         width: 7vw!important;
         top: 0.6vw!important;
         left: -18vw!important;
         position: absolute!important;
     }
-    
-    .soi91{
+    .soi91 {
         top: -0.5vw!important;
         display: inline-block!important;
         position: relative!important;
         left: 41.5vw!important;
     }
-    
-    .soi91:hover{
+    .soi91:hover {
         cursor: pointer;
     }
-    
-    .soi92{
+    .soi92 {
         top: 43vw!important;
         display: inline-block!important;
         position: relative!important;
         left: 9.6vw!important;
     }
-    
-    .soi92:hover{
+    .soi92:hover {
         cursor: pointer;
     }
-    
-    .popup91{
+    .popup91 {
         position: relative!important;
         top: -87vw!important;
         display: none;
         z-index: 20!important;
         left: -9vw;
-        
     }
-    
-    .popup92{
+    .popup92 {
         position: relative!important;
         top: -87vw!important;
         display: none;
         z-index: 20!important;
         left: -9vw;
-    
     }
-    
-    .p91_hover{
+    .p91_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -3757,8 +3691,7 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    .p92_hover{
+    .p92_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -3768,25 +3701,21 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    #map91{
+    #map91 {
         width: 18vw;
         position: relative;
         top: 3.7vw;
         left: 3.6vw;
         float: left;
     }
-    
-    #map92{
+    #map92 {
         width: 18vw;
         position: relative;
         top: 3.7vw;
         left: 3.6vw;
         float: left;
     }
-    
-    
-    #head9_11{
+    #head9_11 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -3794,8 +3723,7 @@ body {
         left: 9vw;
         top: 3.5vw;
     }
-    
-    #head9_22{
+    #head9_22 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -3803,8 +3731,7 @@ body {
         left: 9vw;
         top: 3.5vw;
     }
-    
-    #detail9_11{
+    #detail9_11 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -3812,8 +3739,7 @@ body {
         left: 9vw;
         top: 4vw;
     }
-    
-    #detail9_22{
+    #detail9_22 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -3821,31 +3747,26 @@ body {
         left: 9vw;
         top: 7vw;
     }
-    
-    #p91_close{
+    #p91_close {
         width: 2.7vw;
         position: relative;
         top: -165.6vw;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p91_close:hover{
+    #p91_close:hover {
         cursor: pointer;
     }
-    
-    #p92_close{
+    #p92_close {
         width: 2.7vw;
         position: relative;
         top: -165.6vw;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p92_close:hover{
+    #p92_close:hover {
         cursor: pointer;
     }
-
     /*page9มือถือhover1*/
     .p91_hover {
         background-color: black;
@@ -3858,14 +3779,12 @@ body {
         z-index: 20!important;
         left: -1.59vw;
     }
-    
     #map91 {
         width: 43vw!important;
         position: relative!important;
         top: 14.7vw!important;
         left: 17.5vw!important;
     }
-    
     #p91_close {
         width: 6.7vw!important;
         position: relative;
@@ -3873,11 +3792,9 @@ body {
         left: 35.8vw!important;
         z-index: 10!important;
     }
-    
     #head9_11 {
         display: none;
     }
-
     #head9_111 {
         text-align: left;
         font-family: 'Acumin Pro';
@@ -3888,7 +3805,6 @@ body {
         float: left;
         display: block!important;
     }
-    
     #detail9_11 {
         font-family: 'ChulaCharasNew';
         font-size: 3.3vw!important;
@@ -3898,8 +3814,6 @@ body {
         top: 31vw!important;
         float: left;
     }
-
-
     /*page9มือถือhover2*/
     .p92_hover {
         background-color: black;
@@ -3912,14 +3826,12 @@ body {
         z-index: 20!important;
         left: -1.59vw;
     }
-    
     #map92 {
         width: 43vw!important;
         position: relative!important;
         top: 14.7vw!important;
         left: 17.5vw!important;
     }
-    
     #p92_close {
         width: 6.7vw!important;
         position: relative;
@@ -3927,8 +3839,6 @@ body {
         left: 35.8vw!important;
         z-index: 10!important;
     }
-    
-
     #head9_22 {
         text-align: left;
         font-family: 'Acumin Pro';
@@ -3939,7 +3849,6 @@ body {
         float: left;
         display: block!important;
     }
-    
     #detail9_22 {
         font-family: 'ChulaCharasNew';
         font-size: 3.3vw!important;
@@ -4017,41 +3926,39 @@ body {
 /* }  */
 }
 
+
 /*page9ไอแพด*/
-@media screen and (max-width: 1024px) and (min-width: 416px){
-    .page9_contant{
+
+@media screen and (max-width: 1024px) and (min-width: 416px) {
+    .page9_contant {
         display: flex!important;
         flex-wrap: wrap!important;
         width: 100vw;
         height: 77vh!important;
         padding-top: 5%;
     }
-
-    #line9_1{
+    #line9_1 {
         width: 120vw!important;
         position: relative!important;
         top: 3vw!important;
         left: -2vw!important;
         z-index: 2;
     }
-    
-    #line9_2{
+    #line9_2 {
         width: 120vw;
         position: relative;
         top: -2.6vw;
         z-index: 2;
         opacity: 0;
     }
-
-    #line9_3{
+    #line9_3 {
         height: 162vh!important;
         position: relative!important;
         left: 80vw!important;
         top: -160vw!important;
         z-index: 0;
     }
-
-    #vec9{
+    #vec9 {
         position: relative;
         width: 2.5vw;
         top: 0.7vw;
@@ -4059,8 +3966,7 @@ body {
         z-index: 1;
         opacity: 0;
     }
-    
-    #union9{
+    #union9 {
         position: relative;
         width: 5vw;
         top: 20.5vw;
@@ -4068,22 +3974,19 @@ body {
         z-index: 1;
         opacity: 0;
     }
-
-    #square9{
+    #square9 {
         position: relative!important;
         width: 3vw!important;
         top: -161vw!important;
         left: 78.7vw!important;
         z-index: 1!important;
     }
-    
-    .content_think{
+    .content_think {
         display: inline-block;
         text-align: center;
         position: relative;
     }
-    
-    .text9_1{
+    .text9_1 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 3.2vw!important;
@@ -4091,8 +3994,7 @@ body {
         position: relative;
         top: 3vw!important;
     }
-    
-    .text9_2{
+    .text9_2 {
         color: #DBFF00;
         font-family: 'ChulaCharasNew';
         font-size: 3.2vw!important;
@@ -4100,83 +4002,69 @@ body {
         position: relative;
         top: 2.6vw!important;
     }
-    
-    
-    #pic9_1{
+    #pic9_1 {
         width: 30.5vw!important;
         position: relative!important;
         top: 0.7vw!important;
         z-index: 2!important;
     }
-    
-    #pic9_1:hover{
+    #pic9_1:hover {
         cursor: pointer;
     }
-    
-    #pic9_2{
+    #pic9_2 {
         width: 30.5vw!important;
         position: relative!important;
         top: 0.3vw!important;
         z-index: 2!important;
     }
-    
-    #pic9_2:hover{
+    #pic9_2:hover {
         cursor: pointer;
     }
-    
-    #arrow9_1{
+    #arrow9_1 {
         width: 7vw!important;
         top: 1vw!important;
         left: -17vw!important;
         position: absolute!important;
     }
-    
-    #arrow9_2{
+    #arrow9_2 {
         width: 7vw!important;
         top: 0.6vw!important;
         left: -18vw!important;
         position: absolute!important;
     }
-    
-    .soi91{
+    .soi91 {
         top: -0.5vw!important;
         display: inline-block!important;
         position: relative!important;
         left: 41.5vw!important;
     }
-    
-    .soi91:hover{
+    .soi91:hover {
         cursor: pointer;
     }
-    
-    .soi92{
+    .soi92 {
         top: 43vw!important;
         display: inline-block!important;
         position: relative!important;
         left: 10.6vw!important;
     }
-    
-    .soi92:hover{
+    .soi92:hover {
         cursor: pointer;
     }
-    
-    .popup91{
+    .popup91 {
         position: relative!important;
         top: -106vw!important;
         left: -4vw;
         display: none;
         z-index: 20!important;
     }
-    
-    .popup92{
+    .popup92 {
         position: relative!important;
         top: -106vw!important;
         left: -4vw;
         display: none;
         z-index: 20!important;
     }
-    
-    .p91_hover{
+    .p91_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -4186,8 +4074,7 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    .p92_hover{
+    .p92_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
@@ -4197,25 +4084,21 @@ body {
         position: relative;
         z-index: 2;
     }
-    
-    #map91{
+    #map91 {
         width: 18vw;
         position: relative;
         top: 3.7vw;
         left: 3.6vw;
         float: left;
     }
-    
-    #map92{
+    #map92 {
         width: 18vw;
         position: relative;
         top: 3.7vw;
         left: 3.6vw;
         float: left;
     }
-    
-    
-    #head9_11{
+    #head9_11 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -4223,8 +4106,7 @@ body {
         left: 9vw;
         top: 3.5vw;
     }
-    
-    #head9_22{
+    #head9_22 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 2.7vw;
@@ -4232,8 +4114,7 @@ body {
         left: 9vw;
         top: 3.5vw;
     }
-    
-    #detail9_11{
+    #detail9_11 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -4241,8 +4122,7 @@ body {
         left: 9vw;
         top: 4vw;
     }
-    
-    #detail9_22{
+    #detail9_22 {
         font-family: 'ChulaCharasNew';
         font-size: 1.25vw;
         text-align: left;
@@ -4250,32 +4130,26 @@ body {
         left: 9vw;
         top: 7vw;
     }
-    
-    #p91_close{
+    #p91_close {
         width: 2.7vw;
         position: relative;
         top: -165.6vw;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p91_close:hover{
+    #p91_close:hover {
         cursor: pointer;
     }
-    
-    #p92_close{
+    #p92_close {
         width: 2.7vw;
         position: relative;
         top: -165.6vw;
         left: 29.3vw;
         z-index: 2;
     }
-    
-    #p92_close:hover{
+    #p92_close:hover {
         cursor: pointer;
     }
-
-    
     /*page9ไอแพดhover1*/
     .p91_hover {
         background-color: black;
@@ -4288,19 +4162,16 @@ body {
         z-index: 20!important;
         left: -6.199999999999999vw;
     }
-    
     #map91 {
         width: 28vw!important;
         position: relative!important;
         top: 13.7vw!important;
         left: 22.6vw!important;
     }
-    
     #head9_11 {
         display: none;
     }
-
-    #head9_111{
+    #head9_111 {
         text-align: left;
         font-family: 'Acumin Pro';
         font-size: 5vw!important;
@@ -4309,7 +4180,6 @@ body {
         top: 51.5vw!important;
         display: block!important;
     }
-    
     #detail9_11 {
         font-family: 'ChulaCharasNew';
         font-size: 2.6vw!important;
@@ -4319,7 +4189,6 @@ body {
         top: 56vw!important;
         float: left;
     }
-    
     #p91_close {
         width: 6.699999999999999vw!important;
         position: relative;
@@ -4327,8 +4196,6 @@ body {
         left: 28.8vw!important;
         z-index: 10!important;
     }
-
-
     /*page9ไอแพดhover2*/
     .p92_hover {
         background-color: black;
@@ -4341,14 +4208,12 @@ body {
         z-index: 20!important;
         left: -6.199999999999999vw;
     }
-    
     #map92 {
         width: 28vw!important;
         position: relative!important;
         top: 13.7vw!important;
         left: 22.6vw!important;
     }
-    
     #head9_22 {
         text-align: left;
         font-family: 'Acumin Pro';
@@ -4357,7 +4222,6 @@ body {
         left: -13vw!important;
         top: 51.5vw!important;
     }
-    
     #detail9_22 {
         font-family: 'ChulaCharasNew';
         font-size: 2.6vw!important;
@@ -4367,7 +4231,6 @@ body {
         top: 56vw!important;
         float: left;
     }
-    
     #p92_close {
         width: 6.699999999999999vw!important;
         position: relative;
@@ -5092,40 +4955,41 @@ body {
 
 
 /* page9*/
-.page9_contant{
+
+.page9_contant {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
     height: 85vh;
 }
 
-#head9_111{
+#head9_111 {
     display: none;
 }
 
-#line9_1{
+#line9_1 {
     width: 100vw;
     position: relative;
     top: 3vw;
     left: 8.1vw;
 }
 
-#line9_2{
+#line9_2 {
     width: 100vw;
     position: relative;
     left: 8.1vw;
     top: -2.6vw;
 }
 
-#line9_3{
-    height: 215vh;
+#line9_3 {
+    height: 230vh;
     position: relative;
     left: 80vw;
     top: -100vw;
     z-index: 0;
 }
 
-#vec9{
+#vec9 {
     position: relative;
     width: 2.5vw;
     top: 0.7vw;
@@ -5133,7 +4997,7 @@ body {
     z-index: 1;
 }
 
-#union9{
+#union9 {
     position: relative;
     width: 5vw;
     top: 20.5vw;
@@ -5141,21 +5005,21 @@ body {
     z-index: 1;
 }
 
-#square9{
+#square9 {
     position: relative;
-    width: 3vw;
-    top: -102vw;
+    width: 2.5vw;
+    top: -100vw;
     left: 78.8vw;
     z-index: 1;
 }
 
-.content_think{
+.content_think {
     display: inline-block;
     text-align: center;
     position: relative;
 }
 
-.text9_1{
+.text9_1 {
     color: #DBFF00;
     font-family: 'ChulaCharasNew';
     font-size: 1.5vw;
@@ -5164,7 +5028,7 @@ body {
     top: 2vw;
 }
 
-.text9_2{
+.text9_2 {
     color: #DBFF00;
     font-family: 'ChulaCharasNew';
     font-size: 1.5vw;
@@ -5173,105 +5037,101 @@ body {
     top: 1.6vw;
 }
 
-
-#pic9_1{
+#pic9_1 {
     width: 18.5vw;
     position: relative;
     top: 0.7vw;
     z-index: 5;
 }
 
-#pic9_1:hover{
+#pic9_1:hover {
     cursor: pointer;
 }
 
-#pic9_2{
+#pic9_2 {
     width: 18.5vw;
     position: relative;
     top: 0.3vw;
     z-index: 2;
 }
 
-#pic9_2:hover{
+#pic9_2:hover {
     cursor: pointer;
 }
 
-#arrow9_1{
+#arrow9_1 {
     width: 4vw;
     top: 1vw;
     left: -5vw;
     position: absolute;
 }
 
-#arrow9_2{
+#arrow9_2 {
     width: 4vw;
     top: 0.6vw;
     left: -5vw;
     position: absolute;
 }
 
-.soi91{
+.soi91 {
     top: -5.5vw;
     display: inline-block;
     position: relative;
     left: 26.5vw;
-
 }
 
-.soi91:hover{
+.soi91:hover {
     cursor: pointer;
 }
 
-.soi92{
+.soi92 {
     top: -5vw;
     display: inline-block;
     position: relative;
     left: 36.5vw;
 }
 
-.soi92:hover{
+.soi92:hover {
     cursor: pointer;
 }
 
-.popup91{
+.popup91 {
     position: relative;
     top: -7vw;
     display: none;
     z-index: 20;
-    
 }
 
-.popup92{
+.popup92 {
     position: relative;
     top: -7vw;
     display: none;
     z-index: 20;
-
 }
 
-.p91_hover{
+.p91_hover {
     background-color: black;
     border: 0.1vw solid #DBFF00;
     padding: 0 1vw;
     width: 53vw;
-    height: 47vh;
-    top: -140vw;
+    height: 52vh;
+    top: -124.2vw;
     position: relative;
     z-index: 2;
 }
 
-.p92_hover{
+.p92_hover {
     background-color: black;
     border: 0.1vw solid #DBFF00;
     padding: 0 1vw;
     width: 53vw;
-    height: 47vh;
-    top: -140vw;
+    height: 52vh;
+    top: -124.2vw;
     position: relative;
     z-index: 2;
 }
 
-#map91{
+#map91 {
     width: 18vw;
     position: relative;
     top: 3.7vw;
@@ -5279,7 +5139,7 @@ body {
     float: left;
 }
 
-#map92{
+#map92 {
     width: 18vw;
     position: relative;
     top: 3.7vw;
@@ -5287,8 +5147,7 @@ body {
     float: left;
 }
 
-
-#head9_11{
+#head9_11 {
     text-align: left;
     font-family: 'Acumin Pro';
     font-size: 2.7vw;
@@ -5297,7 +5156,7 @@ body {
     top: 3.5vw;
 }
 
-#head9_22{
+#head9_22 {
     text-align: left;
     font-family: 'Acumin Pro';
     font-size: 2.7vw;
@@ -5306,7 +5165,7 @@ body {
     top: 3.5vw;
 }
 
-#detail9_11{
+#detail9_11 {
     font-family: 'ChulaCharasNew';
     font-size: 1.25vw;
     text-align: left;
@@ -5315,7 +5174,7 @@ body {
     top: 4vw;
 }
 
-#detail9_22{
+#detail9_22 {
     font-family: 'ChulaCharasNew';
     font-size: 1.25vw;
     text-align: left;
@@ -5324,27 +5183,27 @@ body {
     top: 7vw;
 }
 
-#p91_close{
+#p91_close {
     width: 2.7vw;
     position: relative;
-    top: -165.6vw;
+    top: -148.8vw;
     left: 29.3vw;
     z-index: 2;
 }
 
-#p91_close:hover{
+#p91_close:hover {
     cursor: pointer;
 }
 
-#p92_close{
+#p92_close {
     width: 2.7vw;
     position: relative;
-    top: -165.6vw;
+    top: -148.8vw;
     left: 29.3vw;
     z-index: 2;
 }
 
-#p92_close:hover{
+#p92_close:hover {
     cursor: pointer;
 }
 
@@ -5889,7 +5748,8 @@ body {
 
 
 /*page9จอX*/
-@media screen and (min-height: 812px) and (max-height: 813px) and (min-width:375px)and (max-width:376px){
+
+@media screen and (min-height: 812px) and (max-height: 813px) and (min-width:375px)and (max-width:376px) {
     #line9_3 {
         height: 110.5vh!important;
         position: relative!important;
@@ -5904,7 +5764,6 @@ body {
         left: 35.8vw!important;
         z-index: 10!important;
     }
-
     .p91_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
@@ -5916,7 +5775,6 @@ body {
         z-index: 20!important;
         left: -1.59vw;
     }
-
     #p92_close {
         width: 6.7vw!important;
         position: relative;
@@ -5924,7 +5782,6 @@ body {
         left: 35.8vw!important;
         z-index: 10!important;
     }
-
     .p92_hover {
         background-color: black;
         border: 0.1vw solid #DBFF00;
@@ -5937,6 +5794,7 @@ body {
         left: -1.59vw;
     }
 }
+
 
 /* footer */
 
