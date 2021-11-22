@@ -4743,11 +4743,30 @@ body {
         background-color: #FF611E!important;
         height: 11vh!important;
     }
+    /* page10 iphineX */
+    .p10vec2 {
+        /* position: relative; */
+        top: -58vw;
+        left: 15vw;
+        width: 3.5vw;
+    }
+    .p10vec3 {
+        position: relative;
+        top: -52vw;
+        left: 12vw;
+        width: 4vw;
+    }
+    .p10vec4 {
+        position: relative;
+        top: -14vw;
+        left: 25vw;
+        width: 6vw;
+    }
     /* page11 iphoneX */
     #p11graph {
         width: 50vw;
         height: 30vw;
-        padding: 30vw 0vw 5vw 15vw;
+        padding: 30vw 0vw 5vw 8vw;
     }
     .p11detail1_ipad {
         top: 40vw;
