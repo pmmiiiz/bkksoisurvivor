@@ -3446,11 +3446,11 @@ margin-bottom: 10vw;
         margin-left: 12.5vw;
 
     }
-    footer{
+    /* .footer{
         background-color: #FF611E;
         height: 10vh!important;
         
-    }
+    } */
     .textfootertele{
         display: inline-block!important;
         font-size: 2.2vw!important;
@@ -3657,13 +3657,15 @@ position: relative;
 }
 
 /* footer */
-footer{
+/* footer{
     background-color: #FF611E;
     height: 16vh;
     
-}
+} */
 .allfooter{
     padding-left: 2vw;
+    background-color: #FF611E;
+    height: 13vh;
 }
 .pickmitlit{
     display: inline-block;
