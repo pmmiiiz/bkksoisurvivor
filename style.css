@@ -455,7 +455,7 @@ body {
 }
 .checkerboardbw {
     width: 100vw;
-    height: 20vh;
+    height: max-content;
     background-color: black;
     scroll-snap-align: start;
     z-index: -1;
@@ -469,7 +469,7 @@ body {
 
 .checkerboardbo {
     width: 100vw;
-    height: 20vh;
+    height: 11vw;
     background-color: black;
     scroll-snap-align: start;
 }
@@ -1064,7 +1064,7 @@ body {
     }
     .checkerboardbo {
         width: 100vw;
-        height: 16vh;
+        /* height: 16vh; */
         background-color: black;
         scroll-snap-align: start;
     }
@@ -1359,7 +1359,7 @@ body {
     }
     .checkerboardbo {
         width: 100vw;
-        height: 10vw;
+        /* height: 10vw; */
         background-color: black;
         scroll-snap-align: start;
     }
@@ -1858,9 +1858,9 @@ body {
     .page1_contant {
         height: 163vw;
     }
-    .checkerboardbw {
+    /* .checkerboardbw {
         height: 10vh;
-    }
+    } */
     .p1detailmobile {
         font-family: 'ChulaCharasNew';
         width: 100vw;
@@ -2104,6 +2104,7 @@ body {
 
 .checko {
     /* width: 100vw; */
+    width: 125vw;
     position: relative;
     z-index: 3;
 }
