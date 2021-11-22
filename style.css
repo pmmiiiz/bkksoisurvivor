@@ -2347,6 +2347,12 @@ body {
         top: 58vw;
         left: 30vw;
     }
+    .arrowdownp22{
+        position: relative;
+        width: 4vw!important;
+        top: 58vw;
+        left: 0vw
+    }
     #circle {
         position: relative;
         width: 5vw;
@@ -2763,6 +2769,14 @@ body {
     .checkerboardbw {
         height: 15vw;
     }
+    .arrowdownp5{
+        position: relative;
+        width: 4vw!important;
+        padding-top: 0vw;
+        padding-left: 40vw;
+        top: 4vw;
+        left: 13vw!important;
+    }
 }
 
 
@@ -3108,6 +3122,15 @@ body {
     margin-top: 10vw;
     margin-bottom: -7vw;
     position: absolute;
+}
+
+.arrowdownp5{
+    position: relative;
+    width: 2vw;
+    padding-top: 0vw;
+    padding-left: 40vw;
+    top: 4vw;
+    left: -5vw;
 }
 
 
