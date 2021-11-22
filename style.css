@@ -765,7 +765,8 @@ body {
     border: 0.1vw #DBFF00 solid;
     font-size: 4vw;
     width: 45vw;
-    /* animation: bar1 5s linear 2s infinite alternate; */
+    animation: anibar1 1s linear 1s infinite alternate;
+    /* animation: anibar1 3s linear 3s infinite alternate; */
 }
 
 .p11bar1_country {
@@ -790,6 +791,7 @@ body {
 .p11bar-2 {
     width: 18.67vw;
     margin-top: -6.17vw;
+    animation: anibar2 1s linear 1s infinite alternate;
 }
 
 .p11bar2_percent {
@@ -813,6 +815,7 @@ body {
 
 .p11bar-3 {
     width: 7vw;
+    animation: anibar1 1s linear 1s infinite alternate;
 }
 
 .p11bar3_percent {
@@ -836,6 +839,7 @@ body {
 
 .p11bar-4 {
     width: 4.6vw;
+    animation: anibar2 1s linear 1s infinite alternate;
 }
 
 .p11bar4_percent {
@@ -855,6 +859,30 @@ body {
     position: relative;
     top: -3.8vw;
     left: 15vw;
+}
+
+@keyframes anibar1 {
+    from {
+        transform: translateX(1vw);
+    }
+    to {
+        transform: translateX(0vw);
+    }
+    /* 0% {
+        width: 10vw;
+    }
+    100% {
+        width: 45vw;
+    } */
+}
+
+@keyframes anibar2 {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(1vw);
+    }
 }
 
 
