@@ -1384,6 +1384,8 @@ margin-bottom: 10vw;
         text-align: center!important;
         padding-top: 1vw!important;
     }
+
+    
     .vector301 {
         align-items: center;
         padding-top: 1vw;
@@ -2109,6 +2111,15 @@ margin-bottom: 10vw;
     align-items: center;
     text-align: center;
 }
+.animaopa{
+        
+    animation: myfirst 1s linear 0.1s infinite alternate;
+}
+@keyframes myfirst {
+    0%   {opacity: 1; left:0px; top:0px;}
+   
+    100% {opacity: 0; left:0px; top:0px;}
+  }
 
 .vector301 {
     align-items: center;
