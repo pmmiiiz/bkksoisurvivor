@@ -159,7 +159,7 @@
         </section>
 
         <!-- หน้าสอง -->
-        <section id="b2"class="page2_contant snap_page" style="background-color: black;">
+        <section id="b2" class="page2_contant snap_page" style="background-color: black;">
             <div class="content_allpage2 content_allpagemac2">
                 <div id="mainmarquee">
                     <div id="marstop">
@@ -202,7 +202,7 @@
                 <div class="square">
                     <img src="PIC/page_2/pic1.png" id="square">
                 </div>
-                <div  class="circle">
+                <div class="circle">
                     <img src="PIC/page_2/circle.png" id="circle">
                 </div>
                 <div class="circle">
@@ -214,7 +214,7 @@
                 <div class="circle">
                     <img src="PIC/page_2/cirle2.png" id="circle4">
                 </div>
-                <div  class="circle">
+                <div class="circle">
                     <img src="PIC/page_2/cirle2.png" id="circle5">
                 </div>
                 <!-- <div class="arrowdownpage2">
@@ -739,7 +739,7 @@
             </section>
 
             <!-- หน้าinfo -->
-            <section  id="info" class="page14_contant" style="background-color: black">
+            <section id="info" class="page14_contant" style="background-color: black">
                 <div class="allinfo">
                     <div class="p14rec">
                         <img src="pic/page_info/Rec.png">
@@ -811,62 +811,62 @@
     </div>
 </body>
 <script>
-    document.body.onscroll = function() {
-        let scrollY = window.scrollY;
-        let viewHeight = window.innerHeight;
-        // document.querySelector("#yyy").innerText = scrollY;
-        document.body.style.setProperty("--scrollY", scrollY);
-        document.body.style.setProperty("--h", scrollY / 10);
+    // document.body.onscroll = function() {
+    //     let scrollY = window.scrollY;
+    //     let viewHeight = window.innerHeight;
+    //     // document.querySelector("#yyy").innerText = scrollY;
+    //     document.body.style.setProperty("--scrollY", scrollY);
+    //     document.body.style.setProperty("--h", scrollY / 10);
 
 
-        let graphY = document.querySelector('#p11graph').offsetTop;
+    //     let graphY = document.querySelector('#p11graph').offsetTop;
 
-        if (scrollY + viewHeight - 400 >= graphY) {
-            document.getElementById("bar1ct").style.opacity = "0.5";
-            document.getElementById("bar1per").style.opacity = "0.5";
-            document.getElementById("bar1vec").style.opacity = "0.5";
-            document.getElementById("bar2ct").style.opacity = "0.5";
-            document.getElementById("bar2per").style.opacity = "0.5";
-            document.getElementById("bar2vec").style.opacity = "0.5";
-            document.getElementById("bar3ct").style.opacity = "0.5";
-            document.getElementById("bar3per").style.opacity = "0.5";
-            document.getElementById("bar3vec").style.opacity = "0.5";
-            document.getElementById("bar4ct").style.opacity = "0.5";
-            document.getElementById("bar4per").style.opacity = "0.5";
-            document.getElementById("bar4vec").style.opacity = "0.5";
-        }
-        if (scrollY + viewHeight - 450 >= graphY) {
-            document.getElementById("bar1ct").style.opacity = "1";
-            document.getElementById("bar1per").style.opacity = "1";
-            document.getElementById("bar1vec").style.opacity = "1";
-            document.getElementById("bar2ct").style.opacity = "1";
-            document.getElementById("bar2per").style.opacity = "1";
-            document.getElementById("bar2vec").style.opacity = "1";
-            document.getElementById("bar3ct").style.opacity = "1";
-            document.getElementById("bar3per").style.opacity = "1";
-            document.getElementById("bar3vec").style.opacity = "1";
-            document.getElementById("bar4ct").style.opacity = "1";
-            document.getElementById("bar4per").style.opacity = "1";
-            document.getElementById("bar4vec").style.opacity = "1";
-        }
-        if (scrollY + viewHeight - 300 >= graphY) {
-            document.querySelector('#p11graph').dataset.active = 1;
-        } else {
-            document.querySelector('#p11graph').dataset.active = 0;
-            document.getElementById("bar1ct").style.opacity = "0";
-            document.getElementById("bar1per").style.opacity = "0";
-            document.getElementById("bar1vec").style.opacity = "0";
-            document.getElementById("bar2ct").style.opacity = "0";
-            document.getElementById("bar2per").style.opacity = "0";
-            document.getElementById("bar2vec").style.opacity = "0";
-            document.getElementById("bar3ct").style.opacity = "0";
-            document.getElementById("bar3per").style.opacity = "0";
-            document.getElementById("bar3vec").style.opacity = "0";
-            document.getElementById("bar4ct").style.opacity = "0";
-            document.getElementById("bar4per").style.opacity = "0";
-            document.getElementById("bar4vec").style.opacity = "0";
-        }
-    };
+    //     if (scrollY + viewHeight - 400 >= graphY) {
+    //         document.getElementById("bar1ct").style.opacity = "0.5";
+    //         document.getElementById("bar1per").style.opacity = "0.5";
+    //         document.getElementById("bar1vec").style.opacity = "0.5";
+    //         document.getElementById("bar2ct").style.opacity = "0.5";
+    //         document.getElementById("bar2per").style.opacity = "0.5";
+    //         document.getElementById("bar2vec").style.opacity = "0.5";
+    //         document.getElementById("bar3ct").style.opacity = "0.5";
+    //         document.getElementById("bar3per").style.opacity = "0.5";
+    //         document.getElementById("bar3vec").style.opacity = "0.5";
+    //         document.getElementById("bar4ct").style.opacity = "0.5";
+    //         document.getElementById("bar4per").style.opacity = "0.5";
+    //         document.getElementById("bar4vec").style.opacity = "0.5";
+    //     }
+    //     if (scrollY + viewHeight - 450 >= graphY) {
+    //         document.getElementById("bar1ct").style.opacity = "1";
+    //         document.getElementById("bar1per").style.opacity = "1";
+    //         document.getElementById("bar1vec").style.opacity = "1";
+    //         document.getElementById("bar2ct").style.opacity = "1";
+    //         document.getElementById("bar2per").style.opacity = "1";
+    //         document.getElementById("bar2vec").style.opacity = "1";
+    //         document.getElementById("bar3ct").style.opacity = "1";
+    //         document.getElementById("bar3per").style.opacity = "1";
+    //         document.getElementById("bar3vec").style.opacity = "1";
+    //         document.getElementById("bar4ct").style.opacity = "1";
+    //         document.getElementById("bar4per").style.opacity = "1";
+    //         document.getElementById("bar4vec").style.opacity = "1";
+    //     }
+    //     if (scrollY + viewHeight - 300 >= graphY) {
+    //         document.querySelector('#p11graph').dataset.active = 1;
+    //     } else {
+    //         document.querySelector('#p11graph').dataset.active = 0;
+    //         document.getElementById("bar1ct").style.opacity = "0";
+    //         document.getElementById("bar1per").style.opacity = "0";
+    //         document.getElementById("bar1vec").style.opacity = "0";
+    //         document.getElementById("bar2ct").style.opacity = "0";
+    //         document.getElementById("bar2per").style.opacity = "0";
+    //         document.getElementById("bar2vec").style.opacity = "0";
+    //         document.getElementById("bar3ct").style.opacity = "0";
+    //         document.getElementById("bar3per").style.opacity = "0";
+    //         document.getElementById("bar3vec").style.opacity = "0";
+    //         document.getElementById("bar4ct").style.opacity = "0";
+    //         document.getElementById("bar4per").style.opacity = "0";
+    //         document.getElementById("bar4vec").style.opacity = "0";
+    //     }
+    // };
 
     //navbar mobile//
     function home() {
