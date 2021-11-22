@@ -677,9 +677,7 @@ body {
     animation-delay: 11.95s;
 }
 
-#mainmarquee div:hover {
-    cursor: pointer;
-}
+
 @media screen and (max-width:415px){
     #mainmarquee {
     font-size: 12px;
