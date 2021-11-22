@@ -813,6 +813,28 @@ body {
 
 
 /* page3 */
+.lineone{
+    position: relative;
+    width: 1.5vw;
+    margin-top: -50vw;
+    left: 0.5vw;
+}
+
+.lineone1{
+    position: relative; 
+    width: 2.5vw;
+    margin-top: -110vw;
+    left: 1vw;
+    display: none;
+}
+@media screen and (max-width:1024px){
+    .lineone1{
+        display: block;
+    }
+    .lineone{
+        display: none;
+    }
+}
 
 .content_allpage3 {
     display: flex;
@@ -820,7 +842,7 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 8vh;
-    margin-left: 8%;
+    margin-left: 6.5%;
 }
 
 .content_page2text {
@@ -1542,6 +1564,7 @@ margin-bottom: 10vw;
         flex-wrap: wrap!important;
         width: 100%!important;
         height: 100%;
+        margin-left: 5.5%;
     }
     .page3_contant {
         width: 100vw;
