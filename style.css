@@ -57,6 +57,19 @@
     font-display: swap;
 }
 
+/* @media only screen and (max-height: 812px){
+    .p1car {
+        width: 50vw;
+        height: 210vh!important;
+        position: relative;
+        margin-top: 45vw!important;
+    }
+    #changecar {
+        position: sticky;
+        top: 57vw!important;
+}
+} */
+
 #showhide{
     display: none;
 }
@@ -1154,6 +1167,7 @@ body {
         position: relative;
         top: 13vw!important;
         left: 40vw;
+        height: 0;
     }
     /* page1 */
     .p1logo1 {
@@ -1328,7 +1342,7 @@ margin-bottom: 10vw;
     }
     .content_car {
         width: 100vw;
-        height: 180vw!important;
+        height: 167vw!important;
         position: relative;
         top: 6vw!important;
         z-index: 0;
@@ -3658,4 +3672,21 @@ footer{
 }
 .textfootertele{
     display: none;
+    
 }
+
+@media screen and (min-height: 812px) and (max-height: 813px) and (min-width:375px)and (max-width:376px){
+    .p1car {
+        width: 50vw;
+        height: 210vh!important;
+        position: relative;
+        margin-top: 45vw!important;
+    }
+    #changecar {
+        position: sticky;
+        top: 57vw!important;
+}
+}
+
+
+
