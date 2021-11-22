@@ -1085,17 +1085,20 @@ body {
     } */
     .motorcycle{
         position: sticky!important;
-        margin: 6% -0.6vw!important;
+        margin: 6% -1.2vw!important;
         width: 9vw;
-        top:5vw!important;
+        top:20vw!important;
         
 
     }
+    .linepage5 {
+        width: 30.5vh;
+    }
     .p5toup{
-        margin-top: -540vw!important;
+        margin-top: -615vw!important;
     }
     .linemotor{
-        height: 540vw!important;
+        height: 615vw!important;
         width: 30vw!important;
     }
     /*ball*/
@@ -2191,7 +2194,7 @@ body {
     position: sticky;
     padding: 10% 0vw;
     width: 9vw;
-    top:10vw;
+    top:17vw;
     
 
 }
