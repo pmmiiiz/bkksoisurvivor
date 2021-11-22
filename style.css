@@ -3685,7 +3685,36 @@ footer{
     #changecar {
         position: sticky;
         top: 57vw!important;
-}
+    }
+    .motorcycle{
+        position: sticky!important;
+        padding: 6% 0vw!important;
+        width: 9vw!important;
+        top:150vw!important;
+        
+    
+    }
+    #mortorline{
+        width: 13vw;
+        margin-left: -0.5vw!important;
+    }
+    .linepage5 {
+        position: absolute;
+        margin: 6%!important;
+        width: 19.2vh;
+        margin-left: -0.5vw!important;
+    }
+    .p5toup{
+        margin-top: -1325vw!important;
+    }
+    .linemotor{
+        height: 1325vw!important;
+    }
+    .p14clone {
+        display: block;
+        position: relative;
+        top: -5.5vw!important;
+    }
 }
 
 
