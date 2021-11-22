@@ -2306,21 +2306,29 @@ margin-bottom: 10vw;
         margin-bottom: -7vw;
         position: absolute;
     }
+
+    /* แก้ */
+    .linepage5 {
+        position: absolute;
+        margin: 10% 5%;
+        width: 37vw;
+    }
     .motorcycle{
         position: sticky;
         padding: 10% 1vw!important;
-        top:15vw!important;
+        top:30vw!important;
         
     
     }
     #mortorline{
         width: 15vw;
+        margin-left: -3vw!important;
     }
     .p5toup{
-        margin-top: -900vw!important;
+        margin-top: -1185vw!important;
     }
     .linemotor{
-        height: 900vw!important;
+        height: 1185vw!important;
     }
 }
 
@@ -2418,7 +2426,7 @@ margin-bottom: 10vw;
     }
 }
 
-
+/* แก้ */
 /* phone6 */
 
 @media screen and (max-width: 415px) {
@@ -2426,11 +2434,6 @@ margin-bottom: 10vw;
         width: 100vw;
         /* height: 80vh; */
         padding-top: 5%;
-    }
-    .linepage5 {
-        position: absolute;
-        margin: 10% 5%;
-        width: 24%;
     }
     .col-1-moblie {
         width: 10px;
