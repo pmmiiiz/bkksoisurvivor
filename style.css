@@ -837,7 +837,8 @@ body {
     text-align: left;
     font-size: 4.5vw;
     color: rgb(255, 255, 255);
-    font-family: 'ChulaCharasNew';
+    font-family: 'SukhumvitSet-Bold';
+    line-height: 5.5vw!important;
 }
 
 .linepage2 {
@@ -958,7 +959,7 @@ body {
     text-align: left;
     font-size: 4.5vw;
     color: #DBFF00;
-    font-family: 'ChulaCharasNew'!important;
+    font-family: 'SukhumvitSet-Bold' !important;
 }
 .content_page8text {
     color: rgb(255, 255, 255);
@@ -1264,7 +1265,8 @@ body {
         margin-left: -17%;
         font-size: 7vw!important;
         color: rgb(255, 255, 255);
-        font-family: 'ChulaCharasNew';
+        font-family: 'SukhumvitSet-Bold';
+        line-height: 8.5vw!important;
     }
     .linepage4 {
         border-bottom: 0.1vw solid rgba(255, 255, 255);
@@ -1513,7 +1515,8 @@ body {
         margin-left: -17%;
         font-size: 7vw!important;
         color: rgb(255, 255, 255);
-        font-family: 'ChulaCharasNew';
+        font-family: 'SukhumvitSet-Bold';
+        line-height: 8.5vw!important;
     }
     .linepage2 {
         border-bottom: 0.1vw solid rgba(255, 255, 255);
@@ -1597,7 +1600,7 @@ body {
         position: relative;
         width: 6vw;
         top: 51.5vw;
-        left: -53vw;
+        left: -57vw;
     }
     .arrowdownp2_2 {
         position: relative;
@@ -1621,7 +1624,7 @@ body {
         text-align: left;
         font-size: 7vw;
         color: #DBFF00;
-        font-family: 'ChulaCharasNew'!important;
+        font-family: 'SukhumvitSet-Bold' !important;
     }
     .content_page8text {
         color: rgb(255, 255, 255);
@@ -1993,12 +1996,13 @@ body {
     text-align: left;
     font-size: 4.5vw;
     color: rgb(255, 255, 255);
-    font-family: 'ChulaCharasNew';
+    font-family: 'SukhumvitSet-Bold';
+    line-height: 5.5vw;
 }
 
 .hrlime {
     color: #DBFF00;
-    font-family: 'ChulaCharasNew';
+    font-family: 'SukhumvitSet-Bold';
 }
 
 .parapage4 {
