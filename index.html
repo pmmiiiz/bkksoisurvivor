@@ -508,8 +508,81 @@
             </section>
 
             <!-- หน้าเก้า -->
-            <section class="page9_contant" style="background-color: royalblue">
-            </section>
+        <section class="page9_contant">
+            <div class="content_allpage9 content_allpagemac9">
+                <div class="line9_1"><img src="PIC/page_9/Vector 194.png" id="line9_1"></div>
+                <div class="vec9">
+                    <img src="pic/page_9/Vector.png" id="vec9">
+                </div>
+                <div class="union9">
+                    <img src="pic/page_9/Union.png" id="union9">
+                </div>
+                <div class="content_think">
+                    <div class="soi91">
+                        <img src="pic/page_9/ARROW2-pg8.png" id="arrow9_1">
+                        <img src="pic/page_9/SOI1-pg8.png" id="pic9_1" onclick="seemap91()">
+                        <div class="text9_1">ซอยตันแบบก้างปลา</div>
+                    </div>
+                    <div class="soi92">
+                        <img src="pic/page_9/ARROW2-pg8.png" id="arrow9_2">
+                        <img src="pic/page_9//SOI2-pg8.png" id="pic9_2" onclick="seemap92()">
+                        <div class="text9_2">ซอยตันทั่วไปในระบบกริด</div>
+                        </div>
+                </div>
+                
+
+                <div class="line9_2"><img src="PIC/page_9/Vector 194.png" id="line9_2"></div>
+                <div class="line9_3"><img src="PIC/page_9/Vector 228.png" id="line9_3"></div>
+                <div class="square9"><img src="PIC/page_9/Rectangle 349.png" id="square9"></div>
+                
+                <center><div class="popup91">
+                    <div class="p91_hover">
+                        <div class="map91">
+                            <img src="PIC/page_9/Group 126.png" id="map91">
+                        </div>
+                        <div id="head9_11">
+                            LINEAR / PARALLEL<br>
+                            TREE
+                        </div>
+                        <div id="head9_111">
+                            LINEAR / <br>
+                            PARALLEL TREE
+                        </div>
+                        <div id="detail9_11">
+                            ซอยตันแบบก้างปลา<br><br>
+                            เป็นรูปแบบซอยตันที่มีเอกลักษณ์<br>
+                            อย่างมากของกรุงเทพฯ ในลักษณะที่สอดคล้องกับ<br>
+                            ระบบถนนและระบบคลองที่ขนานกันไปพบได้มาก<br>
+                            ในพื้นที่ชานเมือง เช่น บางกะปิ มีนบุรี หรือกลุ่มพื้นที่<br>
+                            บริเวณคลองสามวาและหนองจอกเป็นต้น
+                        </div>
+                    </div>
+                    <div class="p91_close" onclick="closep91()">
+                        <img src="PIC/page_9/CLOSE button2-pg8.2.png" class="picclose91" id="p91_close">
+                    </div>
+                </div>
+                <div class="popup92">
+                    <div class="p92_hover">
+                        <div class="map92">
+                            <img src="PIC/page_9/Group 110.png" id="map92">
+                        </div>
+                        <div id="head9_22">
+                            GRID TEE
+                        </div>
+                        <div id="detail9_22">
+                            ซอยตันทั่วไปในระบบกริด<br><br><br>
+                            เป็นรูปแบบซอยตันรูปตัว T ในพื้นที่ที่มีโครงข่าย<br>
+                            ส่วนใหญ่เป็นระบบกริด / ตารางหมากรุก<br>
+                            ส่วนใหญ่พบในพื้นที่บริเวณเขตเมืองชั้นในและภายใน<br>
+                            เกาะรัตนโกสินทร์ สัมพันธวงศ์ ป้อมปราบศัตรูพ่าย
+                        </div>
+                    </div>
+                    <div class="p92_close" onclick="closep92()">
+                        <img src="PIC/page_9/CLOSE button2-pg8.2.png" class="picclose92" id="p92_close">
+                    </div>
+                </div></center>
+            </div>
+        </section>
 
             <!-- หน้าสิบ -->
             <div class="page10_contant">
@@ -904,6 +977,28 @@
     function closesmallbar() {
         document.querySelector(".menubar").style.display = "none";
     }
+
+    //seemappage9//
+    function seemap91(){
+        document.querySelector(".popup91").style.display = "block";
+        document.querySelector(".p91_close").style.display = "block";
+    }
+
+    function seemap92(){
+        document.querySelector(".popup92").style.display = "block";
+        document.querySelector(".p92_close").style.display = "block";
+    }
+    //closepage9//
+    function closep91(){
+        document.querySelector(".popup91").style.display = "none";
+        document.querySelector(".p91_close").style.display = "none";
+    }
+
+    function closep92(){
+        document.querySelector(".popup92").style.display = "none";
+        document.querySelector(".p92_close").style.display = "none";
+    }
+
 
 
     let numstartcar = 0;

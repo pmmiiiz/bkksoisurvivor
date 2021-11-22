@@ -432,7 +432,6 @@ body {
 .page2_contant,
 .page3_contant,
 .page8_contant,
-.page9_contant,
 .page13_contant {
     width: 100vw;
     height: 100vh;
@@ -460,6 +459,13 @@ body {
     width: 100vw;
     z-index: 1;
     position: relative;
+    background-color: black;
+}
+
+.page9_contant{
+    width: 100vw;
+    height: 85vh;
+    z-index: -1;
     background-color: black;
 }
 
@@ -1546,6 +1552,268 @@ body {
         left: 27vw;
         z-index: 1;
     }
+
+    /*page9mac*/
+    .page9_contant{
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100vw;
+        height: 57vh!important;
+        padding-top: 5%;
+    }
+
+    .page9_contant{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #line9_1{
+        width: 100vw;
+        position: relative;
+        top: 3vw;
+        left: 8.1vw;
+    }
+    
+    #line9_2{
+        width: 100vw;
+        position: relative;
+        left: 8.1vw;
+        top: -2.6vw;
+    }
+    
+    #line9_3{
+        height: 176vh!important;
+        position: relative!important;
+        left: 80vw;
+        top: -100vw!important;
+        z-index: 0;
+    }
+    
+    #vec9{
+        position: relative;
+        width: 2.5vw;
+        top: 0.7vw;
+        left: 78.8vw;
+        z-index: 1;
+    }
+    
+    #union9{
+        position: relative;
+        width: 5vw;
+        top: 20.5vw;
+        left: 20vw;
+        z-index: 1;
+    }
+    
+    #square9{
+        position: relative;
+        width: 3vw;
+        top: -102vw;
+        left: 78.8vw;
+        z-index: 1;
+    }
+    
+    .content_think{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    
+    .text9_1{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 1.5vw;
+        top: 10vw;
+        position: relative;
+        top: 2vw;
+    }
+    
+    .text9_2{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 1.5vw;
+        top: 10vw;
+        position: relative;
+        top: 1.6vw;
+    }
+    
+    
+    #pic9_1{
+        width: 18.5vw;
+        position: relative;
+        top: 0.7vw;
+        z-index: 5;
+    }
+    
+    #pic9_1:hover{
+        cursor: pointer;
+    }
+    
+    #pic9_2{
+        width: 18.5vw;
+        position: relative;
+        top: 0.3vw;
+        z-index: 2;
+    }
+    
+    #pic9_2:hover{
+        cursor: pointer;
+    }
+    
+    #arrow9_1{
+        width: 4vw;
+        top: 1vw;
+        left: -5vw;
+        position: absolute;
+    }
+    
+    #arrow9_2{
+        width: 4vw;
+        top: 0.6vw;
+        left: -5vw;
+        position: absolute;
+    }
+    
+    .soi91{
+        top: -5.5vw;
+        display: inline-block;
+        position: relative;
+        left: 26.5vw;
+    
+    }
+    
+    .soi91:hover{
+        cursor: pointer;
+    }
+    
+    .soi92{
+        top: -5vw;
+        display: inline-block;
+        position: relative;
+        left: 36.5vw;
+    }
+    
+    .soi92:hover{
+        cursor: pointer;
+    }
+    
+    .popup91{
+        position: relative;
+        top: -7vw;
+        display: none;
+        z-index: 20;
+        
+    }
+    
+    .popup92{
+        position: relative;
+        top: -7vw;
+        display: none;
+        z-index: 20;
+    
+    }
+    
+    .p91_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 53vw;
+        height: 47vh;
+        top: -136vw!important;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .p92_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 53vw;
+        height: 47vh;
+        top: -136vw!important;
+        position: relative;
+        z-index: 2;
+    }
+    
+    #map91{
+        width: 18vw;
+        position: relative;
+        top: 5.7vw!important;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    #map92{
+        width: 18vw;
+        position: relative;
+        top: 5.7vw!important;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    
+    #head9_11{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 5.5vw!important;
+    }
+    
+    #head9_22{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 5.5vw!important;
+    }
+    
+    #detail9_11{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 6vw!important;
+    }
+    
+    #detail9_22{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 9vw!important;
+    }
+    
+    #p91_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p91_close:hover{
+        cursor: pointer;
+    }
+    
+    #p92_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p92_close:hover{
+        cursor: pointer;
+    }
+
     /* page10 mac */
     .page10_contant {
         width: 100vw;
@@ -3319,6 +3587,368 @@ body {
     .linemotor {
         height: 1185vw!important;
     }
+    /*page9มือถือ*/
+    .page9_contant{
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100vw;
+        height: 57vh!important;
+        padding-top: 5%;
+    }
+
+    #line9_1{
+        width: 120vw!important;
+        position: relative!important;
+        top: 3vw!important;
+        left: -2vw!important;
+        z-index: 1;
+    }
+    
+    #line9_2{
+        width: 120vw;
+        position: relative;
+        top: -2.6vw;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    #line9_3{
+        height: 122.5vh!important;
+        position: relative!important;
+        left: 80vw;
+        top: -162vw!important;
+        z-index: 0;
+    }
+
+    #vec9{
+        position: relative;
+        width: 2.5vw;
+        top: 0.7vw;
+        left: 79vw;
+        z-index: 1;
+        opacity: 0;
+    }
+    
+    #union9{
+        position: relative;
+        width: 5vw;
+        top: 20.5vw;
+        left: 20vw;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    #square9{
+        position: relative!important;
+        width: 3vw;
+        top: -163vw!important;
+        left: 78.7vw;
+        z-index: 1!important;
+    }
+    
+    .content_think{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    
+    .text9_1{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 3.2vw!important;
+        top: 10vw;
+        position: relative;
+        top: 3vw!important;
+    }
+    
+    .text9_2{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 3.2vw!important;
+        top: 10vw;
+        position: relative;
+        top: 2.6vw!important;
+    }
+    
+    
+    #pic9_1{
+        width: 30.5vw!important;
+        position: relative!important;
+        top: 0.7vw!important;
+        z-index: 2!important;
+    }
+    
+    #pic9_1:hover{
+        cursor: pointer;
+    }
+    
+    #pic9_2{
+        width: 30.5vw!important;
+        position: relative!important;
+        top: 0.3vw!important;
+        z-index: 2!important;
+    }
+    
+    #pic9_2:hover{
+        cursor: pointer;
+    }
+    
+    #arrow9_1{
+        width: 7vw!important;
+        top: 1vw!important;
+        left: -17vw!important;
+        position: absolute!important;
+    }
+    
+    #arrow9_2{
+        width: 7vw!important;
+        top: 0.6vw!important;
+        left: -18vw!important;
+        position: absolute!important;
+    }
+    
+    .soi91{
+        top: -0.5vw!important;
+        display: inline-block!important;
+        position: relative!important;
+        left: 41.5vw!important;
+    }
+    
+    .soi91:hover{
+        cursor: pointer;
+    }
+    
+    .soi92{
+        top: 43vw!important;
+        display: inline-block!important;
+        position: relative!important;
+        left: 9.6vw!important;
+    }
+    
+    .soi92:hover{
+        cursor: pointer;
+    }
+    
+    .popup91{
+        position: relative!important;
+        top: -87vw!important;
+        display: none;
+        z-index: 20!important;
+        left: -9vw;
+        
+    }
+    
+    .popup92{
+        position: relative!important;
+        top: -87vw!important;
+        display: none;
+        z-index: 20!important;
+        left: -9vw;
+    
+    }
+    
+    .p91_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 53vw;
+        height: 47vh;
+        top: -140vw;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .p92_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 53vw;
+        height: 47vh;
+        top: -140vw;
+        position: relative;
+        z-index: 2;
+    }
+    
+    #map91{
+        width: 18vw;
+        position: relative;
+        top: 3.7vw;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    #map92{
+        width: 18vw;
+        position: relative;
+        top: 3.7vw;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    
+    #head9_11{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 3.5vw;
+    }
+    
+    #head9_22{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 3.5vw;
+    }
+    
+    #detail9_11{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 4vw;
+    }
+    
+    #detail9_22{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 7vw;
+    }
+    
+    #p91_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p91_close:hover{
+        cursor: pointer;
+    }
+    
+    #p92_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p92_close:hover{
+        cursor: pointer;
+    }
+
+    /*page9มือถือhover1*/
+    .p91_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 78vw!important;
+        height: 79vh!important;
+        top: -233vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -1.59vw;
+    }
+    
+    #map91 {
+        width: 43vw!important;
+        position: relative!important;
+        top: 14.7vw!important;
+        left: 17.5vw!important;
+    }
+    
+    #p91_close {
+        width: 6.7vw!important;
+        position: relative;
+        top: -381.9vw!important;
+        left: 35.8vw!important;
+        z-index: 10!important;
+    }
+    
+    #head9_11 {
+        display: none;
+    }
+
+    #head9_111 {
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 7vw!important;
+        position: relative;
+        left: 11vw!important;
+        top: 26.5vw!important;
+        float: left;
+        display: block!important;
+    }
+    
+    #detail9_11 {
+        font-family: 'ChulaCharasNew';
+        font-size: 3.3vw!important;
+        text-align: left!important;
+        position: relative;
+        left: 11vw!important;
+        top: 31vw!important;
+        float: left;
+    }
+
+
+    /*page9มือถือhover2*/
+    .p92_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 78vw!important;
+        height: 79vh!important;
+        top: -233vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -1.59vw;
+    }
+    
+    #map92 {
+        width: 43vw!important;
+        position: relative!important;
+        top: 14.7vw!important;
+        left: 17.5vw!important;
+    }
+    
+    #p92_close {
+        width: 6.7vw!important;
+        position: relative;
+        top: -381.9vw!important;
+        left: 35.8vw!important;
+        z-index: 10!important;
+    }
+    
+
+    #head9_22 {
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 7vw!important;
+        position: relative;
+        left: -32vw!important;
+        top: 69.5vw!important;
+        float: left;
+        display: block!important;
+    }
+    
+    #detail9_22 {
+        font-family: 'ChulaCharasNew';
+        font-size: 3.3vw!important;
+        text-align: left!important;
+        position: relative;
+        left: 11vw!important;
+        top: 42vw!important;
+        float: left;
+    }
 }
 
 
@@ -3385,6 +4015,366 @@ body {
         height: 720vw!important;
     }
 /* }  */
+}
+
+/*page9ไอแพด*/
+@media screen and (max-width: 1024px) and (min-width: 416px){
+    .page9_contant{
+        display: flex!important;
+        flex-wrap: wrap!important;
+        width: 100vw;
+        height: 77vh!important;
+        padding-top: 5%;
+    }
+
+    #line9_1{
+        width: 120vw!important;
+        position: relative!important;
+        top: 3vw!important;
+        left: -2vw!important;
+        z-index: 2;
+    }
+    
+    #line9_2{
+        width: 120vw;
+        position: relative;
+        top: -2.6vw;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    #line9_3{
+        height: 162vh!important;
+        position: relative!important;
+        left: 80vw!important;
+        top: -160vw!important;
+        z-index: 0;
+    }
+
+    #vec9{
+        position: relative;
+        width: 2.5vw;
+        top: 0.7vw;
+        left: 79vw;
+        z-index: 1;
+        opacity: 0;
+    }
+    
+    #union9{
+        position: relative;
+        width: 5vw;
+        top: 20.5vw;
+        left: 20vw;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    #square9{
+        position: relative!important;
+        width: 3vw!important;
+        top: -161vw!important;
+        left: 78.7vw!important;
+        z-index: 1!important;
+    }
+    
+    .content_think{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    
+    .text9_1{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 3.2vw!important;
+        top: 10vw;
+        position: relative;
+        top: 3vw!important;
+    }
+    
+    .text9_2{
+        color: #DBFF00;
+        font-family: 'ChulaCharasNew';
+        font-size: 3.2vw!important;
+        top: 10vw;
+        position: relative;
+        top: 2.6vw!important;
+    }
+    
+    
+    #pic9_1{
+        width: 30.5vw!important;
+        position: relative!important;
+        top: 0.7vw!important;
+        z-index: 2!important;
+    }
+    
+    #pic9_1:hover{
+        cursor: pointer;
+    }
+    
+    #pic9_2{
+        width: 30.5vw!important;
+        position: relative!important;
+        top: 0.3vw!important;
+        z-index: 2!important;
+    }
+    
+    #pic9_2:hover{
+        cursor: pointer;
+    }
+    
+    #arrow9_1{
+        width: 7vw!important;
+        top: 1vw!important;
+        left: -17vw!important;
+        position: absolute!important;
+    }
+    
+    #arrow9_2{
+        width: 7vw!important;
+        top: 0.6vw!important;
+        left: -18vw!important;
+        position: absolute!important;
+    }
+    
+    .soi91{
+        top: -0.5vw!important;
+        display: inline-block!important;
+        position: relative!important;
+        left: 41.5vw!important;
+    }
+    
+    .soi91:hover{
+        cursor: pointer;
+    }
+    
+    .soi92{
+        top: 43vw!important;
+        display: inline-block!important;
+        position: relative!important;
+        left: 10.6vw!important;
+    }
+    
+    .soi92:hover{
+        cursor: pointer;
+    }
+    
+    .popup91{
+        position: relative!important;
+        top: -106vw!important;
+        left: -4vw;
+        display: none;
+        z-index: 20!important;
+    }
+    
+    .popup92{
+        position: relative!important;
+        top: -106vw!important;
+        left: -4vw;
+        display: none;
+        z-index: 20!important;
+    }
+    
+    .p91_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 80vw;
+        height: 80vh;
+        top: -130vw;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .p92_hover{
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 53vw;
+        height: 47vh;
+        top: -140vw;
+        position: relative;
+        z-index: 2;
+    }
+    
+    #map91{
+        width: 18vw;
+        position: relative;
+        top: 3.7vw;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    #map92{
+        width: 18vw;
+        position: relative;
+        top: 3.7vw;
+        left: 3.6vw;
+        float: left;
+    }
+    
+    
+    #head9_11{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 3.5vw;
+    }
+    
+    #head9_22{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 2.7vw;
+        position: relative;
+        left: 9vw;
+        top: 3.5vw;
+    }
+    
+    #detail9_11{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 4vw;
+    }
+    
+    #detail9_22{
+        font-family: 'ChulaCharasNew';
+        font-size: 1.25vw;
+        text-align: left;
+        position: relative;
+        left: 9vw;
+        top: 7vw;
+    }
+    
+    #p91_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p91_close:hover{
+        cursor: pointer;
+    }
+    
+    #p92_close{
+        width: 2.7vw;
+        position: relative;
+        top: -165.6vw;
+        left: 29.3vw;
+        z-index: 2;
+    }
+    
+    #p92_close:hover{
+        cursor: pointer;
+    }
+
+    
+    /*page9ไอแพดhover1*/
+    .p91_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 74vw!important;
+        height: 79vh!important;
+        top: -161vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -6.199999999999999vw;
+    }
+    
+    #map91 {
+        width: 28vw!important;
+        position: relative!important;
+        top: 13.7vw!important;
+        left: 22.6vw!important;
+    }
+    
+    #head9_11 {
+        display: none;
+    }
+
+    #head9_111{
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 5vw!important;
+        position: relative;
+        left: -13vw!important;
+        top: 51.5vw!important;
+        display: block!important;
+    }
+    
+    #detail9_11 {
+        font-family: 'ChulaCharasNew';
+        font-size: 2.6vw!important;
+        text-align: left!important;
+        position: relative;
+        left: -13vw!important;
+        top: 56vw!important;
+        float: left;
+    }
+    
+    #p91_close {
+        width: 6.699999999999999vw!important;
+        position: relative;
+        top: -274.6vw!important;
+        left: 28.8vw!important;
+        z-index: 10!important;
+    }
+
+
+    /*page9ไอแพดhover2*/
+    .p92_hover {
+        background-color: black;
+        border: 0.1vw solid #DBFF00;
+        padding: 0 1vw;
+        width: 74vw!important;
+        height: 79vh!important;
+        top: -161vw!important;
+        position: relative;
+        z-index: 20!important;
+        left: -6.199999999999999vw;
+    }
+    
+    #map92 {
+        width: 28vw!important;
+        position: relative!important;
+        top: 13.7vw!important;
+        left: 22.6vw!important;
+    }
+    
+    #head9_22 {
+        text-align: left;
+        font-family: 'Acumin Pro';
+        font-size: 5vw!important;
+        position: relative;
+        left: -13vw!important;
+        top: 51.5vw!important;
+    }
+    
+    #detail9_22 {
+        font-family: 'ChulaCharasNew';
+        font-size: 2.6vw!important;
+        text-align: left!important;
+        position: relative;
+        left: -13vw!important;
+        top: 56vw!important;
+        float: left;
+    }
+    
+    #p92_close {
+        width: 6.699999999999999vw!important;
+        position: relative;
+        top: -274.6vw!important;
+        left: 28.8vw!important;
+        z-index: 10!important;
+    }
 }
 
 
@@ -4102,6 +5092,261 @@ body {
 
 
 /* page9*/
+.page9_contant{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 85vh;
+}
+
+#head9_111{
+    display: none;
+}
+
+#line9_1{
+    width: 100vw;
+    position: relative;
+    top: 3vw;
+    left: 8.1vw;
+}
+
+#line9_2{
+    width: 100vw;
+    position: relative;
+    left: 8.1vw;
+    top: -2.6vw;
+}
+
+#line9_3{
+    height: 215vh;
+    position: relative;
+    left: 80vw;
+    top: -100vw;
+    z-index: 0;
+}
+
+#vec9{
+    position: relative;
+    width: 2.5vw;
+    top: 0.7vw;
+    left: 78.8vw;
+    z-index: 1;
+}
+
+#union9{
+    position: relative;
+    width: 5vw;
+    top: 20.5vw;
+    left: 20vw;
+    z-index: 1;
+}
+
+#square9{
+    position: relative;
+    width: 3vw;
+    top: -102vw;
+    left: 78.8vw;
+    z-index: 1;
+}
+
+.content_think{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.text9_1{
+    color: #DBFF00;
+    font-family: 'ChulaCharasNew';
+    font-size: 1.5vw;
+    top: 10vw;
+    position: relative;
+    top: 2vw;
+}
+
+.text9_2{
+    color: #DBFF00;
+    font-family: 'ChulaCharasNew';
+    font-size: 1.5vw;
+    top: 10vw;
+    position: relative;
+    top: 1.6vw;
+}
+
+
+#pic9_1{
+    width: 18.5vw;
+    position: relative;
+    top: 0.7vw;
+    z-index: 5;
+}
+
+#pic9_1:hover{
+    cursor: pointer;
+}
+
+#pic9_2{
+    width: 18.5vw;
+    position: relative;
+    top: 0.3vw;
+    z-index: 2;
+}
+
+#pic9_2:hover{
+    cursor: pointer;
+}
+
+#arrow9_1{
+    width: 4vw;
+    top: 1vw;
+    left: -5vw;
+    position: absolute;
+}
+
+#arrow9_2{
+    width: 4vw;
+    top: 0.6vw;
+    left: -5vw;
+    position: absolute;
+}
+
+.soi91{
+    top: -5.5vw;
+    display: inline-block;
+    position: relative;
+    left: 26.5vw;
+
+}
+
+.soi91:hover{
+    cursor: pointer;
+}
+
+.soi92{
+    top: -5vw;
+    display: inline-block;
+    position: relative;
+    left: 36.5vw;
+}
+
+.soi92:hover{
+    cursor: pointer;
+}
+
+.popup91{
+    position: relative;
+    top: -7vw;
+    display: none;
+    z-index: 20;
+    
+}
+
+.popup92{
+    position: relative;
+    top: -7vw;
+    display: none;
+    z-index: 20;
+
+}
+
+.p91_hover{
+    background-color: black;
+    border: 0.1vw solid #DBFF00;
+    padding: 0 1vw;
+    width: 53vw;
+    height: 47vh;
+    top: -140vw;
+    position: relative;
+    z-index: 2;
+}
+
+.p92_hover{
+    background-color: black;
+    border: 0.1vw solid #DBFF00;
+    padding: 0 1vw;
+    width: 53vw;
+    height: 47vh;
+    top: -140vw;
+    position: relative;
+    z-index: 2;
+}
+
+#map91{
+    width: 18vw;
+    position: relative;
+    top: 3.7vw;
+    left: 3.6vw;
+    float: left;
+}
+
+#map92{
+    width: 18vw;
+    position: relative;
+    top: 3.7vw;
+    left: 3.6vw;
+    float: left;
+}
+
+
+#head9_11{
+    text-align: left;
+    font-family: 'Acumin Pro';
+    font-size: 2.7vw;
+    position: relative;
+    left: 9vw;
+    top: 3.5vw;
+}
+
+#head9_22{
+    text-align: left;
+    font-family: 'Acumin Pro';
+    font-size: 2.7vw;
+    position: relative;
+    left: 9vw;
+    top: 3.5vw;
+}
+
+#detail9_11{
+    font-family: 'ChulaCharasNew';
+    font-size: 1.25vw;
+    text-align: left;
+    position: relative;
+    left: 9vw;
+    top: 4vw;
+}
+
+#detail9_22{
+    font-family: 'ChulaCharasNew';
+    font-size: 1.25vw;
+    text-align: left;
+    position: relative;
+    left: 9vw;
+    top: 7vw;
+}
+
+#p91_close{
+    width: 2.7vw;
+    position: relative;
+    top: -165.6vw;
+    left: 29.3vw;
+    z-index: 2;
+}
+
+#p91_close:hover{
+    cursor: pointer;
+}
+
+#p92_close{
+    width: 2.7vw;
+    position: relative;
+    top: -165.6vw;
+    left: 29.3vw;
+    z-index: 2;
+}
+
+#p92_close:hover{
+    cursor: pointer;
+}
 
 
 /* page10*/
