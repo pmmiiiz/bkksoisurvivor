@@ -448,6 +448,8 @@ body {
 
 .page12_contant{
     width: 100vw;
+    z-index: 6;
+    position: relative;
 }
 .page14_contant{
     width: 100vw;
@@ -2179,25 +2181,24 @@ body {
     position: absolute;
 }
 
-
+/* แก้แล้วปกติ */
 .motorcycle{
     position: sticky;
-    padding: 10% 3vw;
+    padding: 10% 0vw;
     width: 9vw;
-    top:4vw;
+    top:10vw;
     
 
 }
 .p5toup{
-    margin-top: -445vw;
+    margin-top: -540vw;
 }
 .linemotor{
-    height: 445vw;
+    height: 540vw;
     position: relative;
     z-index: 5;
-    width: 50vw;
+    width: 40vw;
     margin-left: 3.5vw;
-    
 }
 
 /* โทรศัพท์ */
@@ -3242,6 +3243,8 @@ body {
     width: 100vw;
     background-color: black;
     scroll-snap-align: start;
+    position: relative;
+    z-index: 6;
 }
 #rec1{
     width: 3vw;
