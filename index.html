@@ -7,6 +7,8 @@
     <title>bkk-soisurvivor</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="PIC/logo_icon/BKK_WEB_ICON.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,15 +18,19 @@
             <div class="menu">
                 <div class="homebtn" id="homebtn" onclick="home()">
                     <div class="arrow1"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                    <div class="frame1"><a href="#home">
-                        <p>HOME</p>
-                </a></div>
+                    <div class="frame1">
+                        <a href="#b1">
+                            <p>HOME</p>
+                        </a>
+                    </div>
                 </div>
                 <div class="infobtn" id="infobtn" onclick="info()">
                     <div class="arrow2"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                    <div class="frame2"><a href="#info">
+                    <div class="frame2">
+                        <a href="#info">
                             <p>INFO</p>
-                    </a></div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="header">
@@ -43,24 +49,28 @@
             <hr class="line1">
             <div class="homebtnbar" onclick="homebar()">
                 <div class="arrow1bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                <div class="frame1bar"><a href="#home">
-                    <p>HOME</p>
-            </a></div>
+                <div class="frame1bar">
+                    <a href="#b1">
+                        <p>HOME</p>
+                    </a>
+                </div>
             </div>
             <div class="infobtnbar" onclick="infobar()">
                 <div class="arrow2bar"><img src="PIC/navbar/ARROW-SMALL_01.png"></div>
-                <div class="frame2bar"><a href="#info">
+                <div class="frame2bar">
+                    <a href="#info">
                         <p>INFO</p>
-                </a></div>
+                    </a>
+                </div>
             </div>
-          </a>
-          <div class="close" onclick="closesmallbar()">
-            <img src="PIC/navbar/MB-CLOSE button-pg8.2.png" class="picclose">
+            </a>
+            <div class="close" onclick="closesmallbar()">
+                <img src="PIC/navbar/MB-CLOSE button-pg8.2.png" class="picclose">
             </div>
         </div>
 
         <!-- หน้าแรก -->
-        <section class="page1_contant snap_page">
+        <section id="b1" class="page1_contant snap_page">
             <div class="p1head">
                 <div class="p1logo1">
                     BKK-<span class="yellow">SOI</span>
@@ -97,7 +107,7 @@
 
                     <div class="decor001">001</div>
                     <div class="p1arrow">
-                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic">
+                        <a href="#b2"><img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic"></a>
                     </div>
                 </div>
 
@@ -111,7 +121,7 @@
                         </div>
                     </div>
                     <div class="p1arrowmobile">
-                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpicmobile">
+                        <a href="#b2"><img src="PIC/page_1/ARROW ICON.png" class="p1arrowpicmobile"></a>
                     </div>
                 </div>
 
@@ -135,7 +145,7 @@
 
                     <div class="decor001">001</div>
                     <div class="p1arrow">
-                        <img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic">
+                        <a href="#b2"><img src="PIC/page_1/ARROW ICON.png" class="p1arrowpic"></a>
                     </div>
                 </div>
             </div>
@@ -149,7 +159,7 @@
         </section>
 
         <!-- หน้าสอง -->
-        <section class="page2_contant snap_page" style="background-color: black;">
+        <section id="b2" class="page2_contant snap_page" style="background-color: black;">
             <div class="content_allpage2 content_allpagemac2">
                 <div id="mainmarquee">
                     <div id="marstop">
@@ -187,7 +197,7 @@
                     <img src="PIC/page_2/car2.png" id="car">
                 </div>
                 <div class="arrowdownpage2">
-                    <img src="PIC/page_2/ARROW ICON.png" class="arrowdownp2">
+                    <a href="#b3"><img src="PIC/page_2/ARROW ICON.png" class="arrowdownp2"></a>
                 </div>
                 <div class="square">
                     <img src="PIC/page_2/pic1.png" id="square">
@@ -207,16 +217,24 @@
                 <div class="circle">
                     <img src="PIC/page_2/cirle2.png" id="circle5">
                 </div>
+                <!-- <div class="arrowdownpage2">
+                    <a href="#b3"><img src="PIC/page_2/ARROW ICON.png" class="arrowdownp22"></a>
+                </div> -->
             </div>
         </section>
 
         <!-- หน้าสาม -->
-        <section class="page3_contant snap_page" style="background-color: black;">
+        <section id="b3" class="page3_contant snap_page" style="background-color: black;">
             <div class="content_allpage3 content_allpagemac3">
-
+                <div class="lineone">
+                    <img src="PIC/line2.png" width="100%">
+                </div>
+                <div class="lineone1">
+                    <img src="PIC/line21.png" width="100%">
+                </div>
                 <div class="content_page2text">
                     <div class="topicpage2">
-                        คุณเคยเจอ<br> 
+                        คุณเคยเจอ<br>
                         ปัญหารถติด<br> 
                         หรือไม่?<br>
                     </div>
@@ -253,18 +271,18 @@
                     <img src="PIC/page_3/pic1.png" id="square8">
                 </div>
                 <div class="arrowdownpage3">
-                    <img src="PIC/page_3/ARROW ICON.png" class="arrowdownp2_2">
+                    <a href="#b4"><img src="PIC/page_3/ARROW ICON.png" class="arrowdownp2_2"></a>
                 </div>
-                
+
             </div>
         </section>
 
         <!-- หน้าสี่ -->
-        <section id="b4"class="page4_contant snap_page" style="background-color: black;">
+        <section id="b4" class="page4_contant snap_page" style="background-color: black;">
             <div class="content_allpage content_allpagemac">
                 <div class="content_car">
-                    <button id="leftchangecar">❰</button>
-                    <button id="rightchangecar">❱</button>
+                    <button id="leftchangecar" onclick="gogomptor()">❰</button>
+                    <button id="rightchangecar" onclick="gogomptor()">❱</button>
                     <img src="PIC/page_4/Rectangle 411.png" class="racp4">
                 </div>
                 <div class="content_page4text">
@@ -283,12 +301,14 @@
                         <br>
                     </div>
                     <div class="boxlr">
-                        <img src="pic/page_4/Vector_301.png" class="vector301">
-                        <div class="textboxlr">เลื่อนที่รถเพื่อเปลี่ยนไปขึ้นวิน</div>
-                        <img src="pic/page_4/Vector_301.png" class="vector3012">
+                        <div class="animaopa">
+                            <img src="pic/page_4/Vector_301.png" class="vector301">
+                            <div class="textboxlr">เลื่อนที่รถเพื่อเปลี่ยนไปขึ้นวิน</div>
+                            <img src="pic/page_4/Vector_301.png" class="vector3012">
+                        </div>
                     </div>
                     <div class="arrowdownpage4">
-                        <img src="PIC/page_4/ARROW ICON.png" class="arrowdownp4">
+                        <a href="#b5"><img src="PIC/page_4/ARROW ICON.png" class="arrowdownp4"></a>
 
                     </div>
                 </div>
@@ -299,179 +319,740 @@
         <section class="checkerboardbo">
             <img src="pic/page_check/SOI stripe.png" class="checko">
         </section>
-
-        <!-- หน้าห้า -->
-        <section class="page5_contant" style="background-color: black">
-            <div class="linemotor">
+        <!-- เส้น -->
+        <div id="showhide">
+            <div class="allpamga">
+                <div class="linemotor">
+                    <div class="linepage5">
+                        <img src="pic/superline.png" width="25%">
+                    </div>
+                    <div class="motorcycle">
+                        <img src="pic/car/motorbike2.png" id="mortorline">
+                    </div>
+                </div>
+                <!-- หน้าห้า -->
+                <section id="b5" class="page5_contant" style="background-color: black">
+                    <!-- <div class="linemotor">
                 <div class="linepage5">
                     <img src="pic/line53.png" width="25%">
                 </div>
                 <div class="motorcycle">
                     <img src="pic/car/motorbike2.png" id="mortorline">
                 </div>
+            </div> -->
+                    <div class="col-2 p5toup">
+                        <div class="content_sign content_sign_mobile">
+                            <img src="pic/page_5/sign5.png" width="60%">
+                            <img src="pic/page_5/Vector2.png" width="100%" id="vec51">
+                            <img src="pic/page_5/Vector5.png" width="100%" id="vec52">
+                        </div>
+                        <div class="content_soi content_soi_mobile">
+                            <div class="topic_soi">SOI</div>
+                            <div class="info_soi">
+                                <div class="info_topic">
+                                    SOI, ซอย (n.)
+                                </div>
+                                    ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบ<br>
+                                    ทุนนิยมตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมือง<br>
+                                    ทำให้มีคนจากต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ<br>
+                                    อย่างล้นหลาม นักพัฒนาที่ดินจึงได้กว้านซื้อที่<br>
+                                    และแบ่งส่วนตัดเป็นถนนย่อย ๆ ออกเพื่อจะขาย<br>
+                                    ซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br>
+                                    ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิด<br>
+                                    ซอยแคบ ๆ เต็มไปหมด
+                            </div>
+                            <div class="info_soi2">
+                                <div class="info_topic">
+                                    SOI, ซอย (n.)
+                                </div>
+                                    ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบทุนนิยม<br>
+                                    ตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมืองทำให้มีคนจาก<br>
+                                    ต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ อย่างล้นหลาม<br>
+                                    นักพัฒนาที่ดินจึงได้กว้านซื้อที่และแบ่งส่วนตัดเป็นถนนย่อยๆ<br>
+                                    ออกเพื่อจะขายซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br>
+                                    ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิดซอยแคบ ๆ เต็มไปหมด<br>
+                            </div>
+                            <div class="arrowdownpage5">
+                                <a href="#b6"><img src="PIC/page_4/ARROW ICON.png" class="arrowdownp5"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- หน้าหก -->
+                <section id="b6" class="page6_contant" style="background-color: black">
+                    <div class="col-1 col-1-moblie"></div>
+                    <div class="col-2">
+                        <div class="text_super">
+                            <h1>SUPER</h1>
+                        </div>
+                        <div class="content_arrow">
+                            <img src="pic/page_6/ARROW.png" width="100%">
+                        </div>
+                        <div class="content_umbrella">
+                            <img src="pic/page_6/umbrella.png" width="70%">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="content_superblock">
+                            <div class="content_text content_text_mobile">
+                                <div class="super_topic">SUPER BLOCK (n.)</div>
+                                    ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา<br>
+                                    คันดิน ขนัดสวน ผนวกกับการเดินทาง<br>
+                                    ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมาเป็นถนน<br>
+                                    กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลัก<br>
+                                    เท่านั้น การวางผังเมืองและบล็อกมาตรฐาน<br>
+                                    ของกรุงเทพฯ จึงกลายเป็นบล็อกขนาดใหญ่<br>
+                                    (Super Block) ที่มีขนาดประมาณ 2,000 x<br>
+                                    2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br>
+                                    คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็ก<br>
+                                    ลงไป ทำให้บ้านที่อยู่ด้านใน Super Block<br>
+                                    เหล่านี้ ไม่สามารถเดินเท้าไปต่อกับระบบ<br>
+                                    ขนส่งมวลชนที่ปากซอยได้ต้องอาศัย<br>
+                                    รถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+                            </div>
+                        </div>
+                        <div class="content_superblockmap content_superblockmap_mobile" id="map">
+                            <div class="text_block text_block_mobile">
+                                <h1>BL&nbsp;&nbsp;CK</h1>
+                            </div>
+                            <div class="text_blocko text_block0_mobile">
+                                <h1>O</h1>
+                            </div>
+                            <div class="magnifierWrap">
+                                <div class="magnifier"></div>
+                                <img class="mapimg" src="PIC/page_6/SUPERBLOCK-MAP-.png" width="83%" />
+                            </div>
+                            <img src="pic/page_6/Vector2.png" width="100%" id="vec1">
+                            <img src="pic/page_6/Rectangle 348.png" width="100%" id="vec2">
+                            <img src="pic/page_6/ICON ZOOM.png" width="100%" id="zoom">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="content_bottomleft content_bottomleft_mobile ">
+                            <div class="content_text2 content_text2_mobile">
+                                <div class="super2_topic">SUPER BLOCK (n.)</div><br>
+                                    ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา คันดิน ขนัดสวน<br>
+                                    ผนวกกับการเดินทาง ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมา<br>
+                                    เป็นถนน กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลักเท่านั้น<br>
+                                    การวางผังเมืองและบล็อกมาตรฐานของกรุงเทพฯ จึงกลาย<br>
+                                    เป็นบล็อกขนาดใหญ่ (Super Block) ที่มีขนาดประมาณ<br>
+                                    2,000 x 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br>
+                                    คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็กลงไป<br>
+                                    ทำให้บ้านที่อยู่ด้านใน Super Block เหล่านี้ไม่สามารถ<br>
+                                    เดินเท้าไปต่อกับระบบขนส่งมวลชนที่ปากซอยได้<br>
+                                    ต้องอาศัยรถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+                            </div>
+                        </div>
+                        <div class="content_bottomright content_bottomright_mobile">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- หน้าเจ็ด -->
+                <section class="page7_contant">
+                    <div class="col-2">
+                        <img src="pic/page_7/clone.png" id="clone">
+                        <div class="topic_chaosoi">
+                            ฟังเสียง<br>จากชาวซอย
+                        </div>
+                        <img src="pic/page_7/Rectangle 349.png" width="100%" id="rec71">
+                        <img src="pic/page_7/Rectangle 349.png" width="100%" id="rec72">
+                        <img src="pic/page_7/Vector1.png" width="100%" id="vec71">
+                    </div>
+
+                    <div class="content_chaosoi">
+                        <div class="col-2">
+                            <div class="comment_one">
+                                <img src="pic/page_7/cm1.png" width="70%">
+                            </div>
+                            <div class="picsoi1">
+                                <img src="pic/page_7/picsoi1.png" width="45%">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="clone_red" id="none">
+                                <img src="pic/page_7/clone2.png" width="60%">
+                            </div>
+                            <div class="comment_two" id="none">
+                                <img src="pic/page_7/cm2.png" width="70%">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="comment_three" id="none">
+                                <img src="pic/page_7/cm3.png" width="70%">
+                            </div>
+                            <div class="picsoi3" id="none">
+                                <img src="pic/page_7/picsoi3.png" width="45%">
+                            </div>
+                        </div>
+                        <img src="pic/page_7/Vector2.png" width="100%" id="vec72">
+                        <img src="pic/page_7/Union.png" width="100%" id="union7">
+                    </div>
+                    <!-- ipad&phone -->
+                    <div class="content_chaosoi2">
+                        <div class="col-2">
+                            <div class="clone_red">
+                                <img src="pic/page_7/clone2.png" width="60%">
+                            </div>
+                            <div class="comment_two">
+                                <img src="pic/page_7/cm3.png" width="70%">
+                            </div>
+                            <div class="picsoi2">
+                                <img src="pic/page_7/picsoi2.png" width="45%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_chaosoi3">
+                        <div class="col-2">
+                            <div class="comment_three">
+                                <img src="pic/page_7/cm2.png" width="70%">
+                            </div>
+                            <div class="picsoi3">
+                                <img src="pic/page_7/picsoi3.png" width="45%">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ipad&phone -->
+                </section>
             </div>
-            <div class="col-2 p5toup">
-                <div class="content_sign content_sign_mobile">
-                    <img src="pic/page_5/sign5.png" width="60%">
-                    <img src="pic/page_5/Vector2.png" width="100%" id="vec51">
-                    <img src="pic/page_5/Vector5.png" width="100%" id="vec52">
-                </div>
-                <div class="content_soi content_soi_mobile">
-                    <div class="topic_soi">SOI</div>
-                    <div class="info_soi">
-                        <div class="info_topic">SOI, ซอย (n.)</div>
-                        ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบ<br> ทุนนิยมตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมือง<br> ทำให้มีคนจากต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ
-                        <br> อย่างล้นหลาม นักพัฒนาที่ดินจึงได้กว้านซื้อที่<br> และแบ่งส่วนตัดเป็นถนนย่อย ๆ ออกเพื่อจะขาย<br> ซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิด<br> ซอยแคบ ๆ เต็มไปหมด
+            <!-- หน้าแปด -->
+            <section class="page8_contant" style="background-color: black">
+                <div class="content_allpage8 content_allpagemac8">
+                    <div class="content_page8text">
+                        <div class="topicpage8">
+                            แล้วคุณคิดว่า<br> ซอยแบบไหน
+                            <br> ที่กรุงเทพฯ
+                            <br> กำลังเผชิญอยู่ ?
+                        </div>
                     </div>
-                    <div class="info_soi2">
-                        <div class="info_topic">SOI, ซอย (n.)</div>
-                        ซอยเริ่มต้นมาจาก เมื่อปี 1960 มีการเข้ามาของระบบทุนนิยม<br> ตะวันตกและเป็นช่วงที่กรุงเทพฯ กำลังสร้างเมืองทำให้มีคนจาก<br> ต่างจังหวัดเข้ามาหางานทำที่กรุงเทพฯ อย่างล้นหลาม<br> นักพัฒนาที่ดินจึงได้กว้านซื้อที่และแบ่งส่วนตัดเป็นถนนย่อย
-                        ๆ<br> ออกเพื่อจะขายซึ่ง ณ ขณะนั้นประเทศไทยยังไม่ได้มีกฎหมาย<br> ชัดเจนเรื่องความกว้างถนน จึงทำให้เกิดซอยแคบ ๆ เต็มไปหมด<br>
+                    <div class="img8">
+                        <img src="PIC/page_8/picleft.png" id="img8_1">
                     </div>
                 </div>
+            </section>
+
+            <!-- หน้าเก้า -->
+        <section class="page9_contant">
+            <div class="content_allpage9 content_allpagemac9">
+                <div class="line9_1"><img src="PIC/page_9/Vector 194.png" id="line9_1"></div>
+                <div class="vec9">
+                    <img src="pic/page_9/Vector.png" id="vec9">
+                </div>
+                <div class="union9">
+                    <img src="pic/page_9/Union.png" id="union9">
+                </div>
+                <div class="content_think">
+                    <div class="soi91">
+                        <img src="pic/page_9/ARROW2-pg8.png" id="arrow9_1">
+                        <img src="pic/page_9/SOI1-pg8.png" id="pic9_1" onclick="seemap91()">
+                        <div class="text9_1">ซอยตันแบบก้างปลา</div>
+                    </div>
+                    <div class="soi92">
+                        <img src="pic/page_9/ARROW2-pg8.png" id="arrow9_2">
+                        <img src="pic/page_9//SOI2-pg8.png" id="pic9_2" onclick="seemap92()">
+                        <div class="text9_2">ซอยตันทั่วไปในระบบกริด</div>
+                        </div>
+                </div>
+                
+
+                <div class="line9_2"><img src="PIC/page_9/Vector 194.png" id="line9_2"></div>
+                <div class="line9_3"><img src="PIC/page_9/Vector 228.png" id="line9_3"></div>
+                <div class="square9"><img src="PIC/page_9/Rectangle 349.png" id="square9"></div>
+                
+                <center><div class="popup91">
+                    <div class="p91_hover">
+                        <div class="map91">
+                            <img src="PIC/page_9/Group 126.png" id="map91">
+                        </div>
+                        <div id="head9_11">
+                            LINEAR / PARALLEL<br>
+                            TREE
+                        </div>
+                        <div id="head9_111">
+                            LINEAR / <br>
+                            PARALLEL TREE
+                        </div>
+                        <div id="detail9_11">
+                            ซอยตันแบบก้างปลา<br><br>
+                            เป็นรูปแบบซอยตันที่มีเอกลักษณ์<br>
+                            อย่างมากของกรุงเทพฯ ในลักษณะที่สอดคล้องกับ<br>
+                            ระบบถนนและระบบคลองที่ขนานกันไปพบได้มาก<br>
+                            ในพื้นที่ชานเมือง เช่น บางกะปิ มีนบุรี หรือกลุ่มพื้นที่<br>
+                            บริเวณคลองสามวาและหนองจอกเป็นต้น
+                        </div>
+                    </div>
+                    <div class="p91_close" onclick="closep91()">
+                        <img src="PIC/page_9/CLOSE button2-pg8.2.png" class="picclose91" id="p91_close">
+                    </div>
+                </div>
+                <div class="popup92">
+                    <div class="p92_hover">
+                        <div class="map92">
+                            <img src="PIC/page_9/Group 110.png" id="map92">
+                        </div>
+                        <div id="head9_22">
+                            GRID TEE
+                        </div>
+                        <div id="detail9_22">
+                            ซอยตันทั่วไปในระบบกริด<br><br><br>
+                            เป็นรูปแบบซอยตันรูปตัว T ในพื้นที่ที่มีโครงข่าย<br>
+                            ส่วนใหญ่เป็นระบบกริด / ตารางหมากรุก<br>
+                            ส่วนใหญ่พบในพื้นที่บริเวณเขตเมืองชั้นในและภายใน<br>
+                            เกาะรัตนโกสินทร์ สัมพันธวงศ์ ป้อมปราบศัตรูพ่าย
+                        </div>
+                    </div>
+                    <div class="p92_close" onclick="closep92()">
+                        <img src="PIC/page_9/CLOSE button2-pg8.2.png" class="picclose92" id="p92_close">
+                    </div>
+                </div></center>
             </div>
         </section>
 
-        <!-- หน้าหก -->
-        <section class="page6_contant" style="background-color: black">
-            <div class="col-1 col-1-moblie"></div>
-            <div class="col-2">
-                <div class="text_super">
-                    <h1>SUPER</h1>
+            <!-- หน้าสิบ -->
+            <div class="page10_contant">
+                <div class="p10bg p10center">
+                    <div class="p10card">
+                        แล้วซอยตันในกรุงเทพฯ<br>คิดเป็น<u>กี่เปอร์เซ็นต์ ?</u>
+                    </div>
                 </div>
-                <div class="content_umbrella">
-                    <img src="pic/page_6/umbrella.png" width="70%">
+                <div class="p10vector">
+
+                    <img src="/PIC/page_10/vector02.png" class="p10vec2">
+                    <img src="/PIC/page_10/vector03.png" class="p10vec3">
+                    <img src="/PIC/page_10/vector04.png" class="p10vec4">
                 </div>
             </div>
-            <div class="col-2">
-                <div class="content_superblock">
-                    <div class="content_text content_text_mobile">
-                        <div class="super_topic">SUPER BLOCK (n.)</div>
-                        ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา<br> คันดิน ขนัดสวน ผนวกกับการเดินทาง<br> ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมาเป็นถนน<br> กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลัก
-                        <br> เท่านั้น การวางผังเมืองและบล็อกมาตรฐาน<br> ของกรุงเทพฯ จึงกลายเป็นบล็อกขนาดใหญ่<br> (Super Block) ที่มีขนาดประมาณ 2,000 x<br> 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็ก<br> ลงไป
-                        ทำให้บ้านที่อยู่ด้านใน Super Block<br> เหล่านี้ ไม่สามารถเดินเท้าไปต่อกับระบบ<br> ขนส่งมวลชนที่ปากซอยได้ต้องอาศัย
-                        <br> รถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+
+            <!-- หน้าสิบเอ็ด -->
+            <div class="page11_contant">
+                <div id="p11graph">
+                    <!-- <h3>ผู้เข้าร่วม</h3> -->
+                    <div class="p11bar p11bar-1">
+                        <div class="p11bar1_country" id="bar1ct">BANGKOK</div>
+                        <div class="p11bar1_percent" id="bar1per">45%</div>
+                    </div>
+                    <div class="p11vec1">
+                        <img src="/PIC/page_11/vector01.png" class="p11vec1pic" id="bar1vec">
+                    </div>
+
+                    <div class="p11bar p11bar-2">
+                        <div class="p11vec2">
+                            <img src="/PIC/page_11/vector02.png" class="p11vec2pic" id="bar2vec">
+                        </div>
+                        <div class="p11bar2_percent" id="bar2per">18.67%</div>
+                        <div class="p11bar2_country" id="bar2ct">LONDON</div>
+                    </div>
+
+                    <div class="p11bar p11bar-3">
+                        <div class="p11vec3">
+                            <img src="/PIC/page_11/vector02.png" class="p11vec3pic" id="bar3vec">
+                        </div>
+                        <div class="p11bar3_percent" id="bar3per">7%</div>
+                        <div class="p11bar3_country" id="bar3ct">TOKYO</div>
+                    </div>
+                    <div class="p11bar p11bar-4">
+                        <div class="p11vec4">
+                            <img src="/PIC/page_11/vector02.png" class="p11vec4pic" id="bar4vec">
+                        </div>
+                        <div class="p11bar4_percent" id="bar4per">4.6%</div>
+                        <div class="p11bar4_country" id="bar4ct">NEWYORK</div>
                     </div>
                 </div>
-                <div class="content_superblockmap content_superblockmap_mobile" id="map">
-                    <div class="text_block text_block_mobile">
-                        <h1>BL&nbsp;&nbsp;CK</h1>
+                <div class="p11detail">
+                    <div class="p11line"></div>
+                    <div class="p11detail1">
+                        ความยาวถนนทั้งหมดในกรุงเทพฯ กว่า 45% เป็นซอยตัน<br> และซอยตันส่วนใหญ่เหล่านี้กระจายอยู่ในบริเวณ
+                        <br> เขตพื้นที่ชานเมือง หรือพื้นที่เมืองชั้นนอกของกรุงเทพฯ
                     </div>
-                    <div class="text_blocko text_block0_mobile">
-                        <h1>O</h1>
+                    <div class="p11detail2">
+                        และเมื่อเทียบกับเมืองใหญ่ในประเทศอื่น ๆ แล้ว<br> กรุงเทพฯ คือเมืองที่มีซอยตันเยอะมาก ๆ
                     </div>
-                    <div id="img-zoomer-box" class="img-zoomer-box-mobile">
-                        <img src="PIC/page_6/SUPERBLOCK-MAP-.png" id="img-1" />
-                        <div id="img-2"></div>
+                    <div class="p11ex">
+                        <ul>
+                            <li>ลอนดอน 18.67%</li>
+                            <li>โตเกียว 18.67%</li>
+                            <li>นิวยอร์ก 4.6%</li>
+                        </ul>
                     </div>
-                    <img src="pic/page_6/Vector2.png" width="100%" id="vec1">
-                    <img src="pic/page_6/Rectangle 348.png" width="100%" id="vec2">
+                </div>
+                <div class="p11detail_ipad">
+                    <div class="p11line"></div>
+                    <div class="p11detail1_ipad">
+                        ความยาวถนนทั้งหมดในกรุงเทพฯ กว่า 45%<br> เป็นซอยตัน และซอยตันส่วนใหญ่เหล่านี้กระจาย<br> อยู่ในบริเวณเขตพื้นที่ชานเมือง หรือพื้นที่เมือง<br> ชั้นนอกของกรุงเทพฯ
+                    </div>
+                    <div class="p11detail2_ipad">
+                        และเมื่อเทียบกับเมืองใหญ่ในประเทศอื่น ๆ แล้ว<br> กรุงเทพฯ คือเมืองที่มีซอยตันเยอะมาก ๆ
+                    </div>
+                    <div class="p11ex">
+                        <ul>
+                            <li>ลอนดอน 18.67%</li>
+                            <li>โตเกียว 18.67%</li>
+                            <li>นิวยอร์ก 4.6%</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="content_bottomleft content_bottomleft_mobile ">
-                    <div class="content_text2 content_text2_mobile">
-                        <div class="super2_topic">SUPER BLOCK (n.)</div><br> ด้วยกรุงเทพฯ พัฒนาเมืองขึ้นจาก คูนา คันดิน ขนัดสวน<br> ผนวกกับการเดินทาง ในคูคลองเป็นหลัก แต่เมื่อเปลี่ยนมา<br> เป็นถนน กลับสร้างถนนมาตรฐานเพียงแค่ถนนสายหลักเท่านั้น<br> การวางผังเมืองและบล็อกมาตรฐานของกรุงเทพฯ
-                        จึงกลาย
-                        <br> เป็นบล็อกขนาดใหญ่ (Super Block) ที่มีขนาดประมาณ<br> 2,000 x 2,000 เมตรขึ้นไป ซึ่งผลของปรากฏการณ์นี้<br> คือเมื่อบล็อกใหญ่ พื้นที่ถนนก็ต้องมีขนาดเล็กลงไป<br> ทำให้บ้านที่อยู่ด้านใน Super Block เหล่านี้ไม่สามารถ<br> เดินเท้าไปต่อกับระบบขนส่งมวลชนที่ปากซอยได้
-                        <br> ต้องอาศัยรถ 4 ล้อเล็ก รถเมล์เล็กหรือมอเตอร์ไซค์รับจ้าง
+
+            <!-- หน้าสิบสอง -->
+            <section class="page12_contant" style="background-color: black">
+                <div id="mainmarqueetun">
+                    <div id="marquee1tun">
+                        &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                    <div id="marquee2tun">
+                        YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                </div>
+                <div id="mainmarqueetun">
+                    <div id="marquee1tun">
+                        &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                    <div id="marquee2tun">
+                        YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                </div>
+                <div id="mainmarqueetun">
+                    <div id="marquee1tun">
+                        &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                    <div id="marquee2tun">
+                        YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                </div>
+                <div id="mainmarqueetun">
+                    <div id="marquee1tun">
+                        &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                    <div id="marquee2tun">
+                        YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                </div>
+                <div id="mainmarqueetun">
+                    <div id="marquee1tun">
+                        &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                    <div id="marquee2tun">
+                        YOUR DESTINATION IS "TUN"&nbsp;
+                    </div>
+                </div>
+
+                <!-- ipad&phone only -->
+                <div id="hide">
+                    <div id="mainmarqueetun">
+                        <div id="marquee1tun">
+                            &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                        <div id="marquee2tun">
+                            YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                    </div>
+                    <div id="mainmarqueetun">
+                        <div id="marquee1tun">
+                            &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                        <div id="marquee2tun">
+                            YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                    </div>
+                    <div id="mainmarqueetun">
+                        <div id="marquee1tun">
+                            &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                        <div id="marquee2tun">
+                            YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                    </div>
+                    <div id="mainmarqueetun">
+                        <div id="marquee1tun">
+                            &nbsp;YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                        <div id="marquee2tun">
+                            YOUR DESTINATION IS "TUN"&nbsp;
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_signtun">
+                    <div class="sign">
+                        <img src="pic/page_12/SIGN-pg13.png" width="100%">
+                    </div>
+                </div>
+                <div class="vecter">
+                    <img src="pic/page_12/Vector2.png" width="100%" id="vec111">
+                    <img src="pic/page_12/Rectangle 365.png" width="100%" id="rec">
+                    <img src="pic/page_12/Union.png" width="100%" id="union">
+                    <img src="pic/page_12/Vector1.png" width="100%" id="vec112">
+                    <img src="pic/page_12/Rectangle 365.png" width="100%" id="rec1">
+                    <img src="pic/page_12/Vector1.png" width="100%" id="vec1122">
+                    <img src="pic/page_12/Rectangle 365.png" width="100%" id="rec2">
+
+                </div>
+            </section>
+
+            <!-- ตารางหมากรุก -->
+            <section class="checkerboardbl">
+                <img src="pic/page_check/FINAL STRIPE.png" width="100%">
+            </section>
+
+            <!-- หน้าสิบสาม -->
+            <section class="page13_contant" style="background-color: black">
+                <div class="content_allpage13 content_allpagemac13">
+                    <div class="content_page13text">
+                        <div class="topicpage13">
+                            <u class="hrlime">ยินดีด้วย!</u>
+                            <br>คุณมาถึงทางตันแล้ว และคุณไม่สามารถ
+                            <br> ไปไหนได้นอกจากกลับออกไปทางเดิม
+                            <br> คุณคือสุดยอด SERVIVOR ตัวจริง !
+                        </div>
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/picframe.png" id="img13_1">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Vector2.png" id="img13_2">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Rectangle 365.png" id="img13_3">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Rectangle 365.png" id="img13_4">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Vector1.png" id="img13_5">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Union.png" id="img13_6">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Rectangle 365.png" id="img13_7">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Union.png" id="img13_8">
+                    </div>
+                    <div class="img13">
+                        <img src="PIC/page_13/Rectangle 365.png" id="img13_9">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- หน้าinfo -->
+            <section id="info" class="page14_contant" style="background-color: black">
+                <div class="allinfo">
+                    <div class="p14rec">
+                        <img src="pic/page_info/Rec.png">
+                    </div>
+                    <div class="topicinfo">
+                        INF<span class="topicinfo_o">0</span>
+                    </div>
+                    <div class="p14cir1">
+                        <img src="pic/page_info/Cir.png">
+                    </div>
+                    <div class="p14cir2">
+                        <img src="pic/page_info/Cir.png">
+                    </div>
+                    <div class="p14text">
+                        <div class="p14boxl">
+                        </div>
+                        <div class="p14boxr">
+                            กรุงเทพฯ มีการวางผังเมืองแบบก้างปลา ทำให้มีทางเลือกในการเดินทางน้อย<br> 
+                            เนื่องจากเส้นทางไม่เชื่อมต่อกันเหมือนผังเมืองแบบตาราง ส่งผลให้<br> 
+                            การตั้งเป้าหมายจะไปที่ที่หนึ่งจะเกิดการจราจรติดขัด / แน่นหนา <br> 
+                            เพราะมีเส้นทางให้เลือกไม่มาก<br><br>
+                            เช่น ในบริบทของชุมชนหรือเมืองที่มีบ้านมากกว่า 1 หลังในพื้นที่<br> 
+                            การโครงถนนแบบที่มีซอยตันก็คงจะทำให้ถนนเส้นรอบชุมชนที่จะพา<br>
+                            ไปสู่โรงเรียนประสบกับปัญหารถติด เนื่องจากทุกคนต้องเชื่อมออกมา<br> 
+                            ใช้ถนนเส้นดังกล่าวเพื่อไปโรงเรียน <br><br>
+                            ในขณะเดียวกัน โครงถนนที่เชื่อมต่อกันมาก ทุกบ้านมีทางเลือก<br> 
+                            เป็นของตนเองได้ สามารถหลีกหนีเส้นที่รถติดไปเส้นทางอื่น ๆ ทำให้<br> 
+                            การกระจุกตัวมีเพียงพื้นที่ใกล้จุดหมายเท่านั้น
+                            <br>
+                        </div>
+                        <div class="p14boxtele">
+                            กรุงเทพฯ มีการวางผังเมืองแบบก้างปลา ทำให้มีทางเลือกในการเดินทางน้อย<br> 
+                            เนื่องจากเส้นทางไม่เชื่อมต่อกันเหมือนผังเมืองแบบตาราง ส่งผลให้<br> 
+                            การตั้งเป้าหมายจะไปที่ที่หนึ่งจะเกิดการจราจรติดขัด / แน่นหนา <br> 
+                            เพราะมีเส้นทางให้เลือกไม่มาก<br><br>
+                            เช่น ในบริบทของชุมชนหรือเมืองที่มีบ้านมากกว่า 1 หลังในพื้นที่<br> 
+                            การโครงถนนแบบที่มีซอยตันก็คงจะทำให้ถนนเส้นรอบชุมชนที่จะพา<br>
+                            ไปสู่โรงเรียนประสบกับปัญหารถติด เนื่องจากทุกคนต้องเชื่อมออกมา<br> 
+                            ใช้ถนนเส้นดังกล่าวเพื่อไปโรงเรียน <br><br>
+                            ในขณะเดียวกัน โครงถนนที่เชื่อมต่อกันมาก ทุกบ้านมีทางเลือก<br> 
+                            เป็นของตนเองได้ สามารถหลีกหนีเส้นที่รถติดไปเส้นทางอื่น ๆ ทำให้<br> 
+                            การกระจุกตัวมีเพียงพื้นที่ใกล้จุดหมายเท่านั้น
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="p14clone">
+                        <img src="pic/page_info/CONE-pg15.png">
+                    </div>
+                    <div class="p14clonetele">
+                        <img src="pic/page_info/CONEtele.png">
+                    </div>
+                    <div class="arrowdownpage14">
+                        <a href="#b1"><img src="PIC/page_4/ARROW ICON.png"></a>
+
+                    </div>
+                    <div class="arrowdownp14tele">
+                        <a href="#b1"><img src="PIC/page_4/ARROW ICON.png"></a>
 
                     </div>
                 </div>
-                <div class="content_bottomright content_bottomright_mobile">
+            </section>
+
+            <!-- footer -->
+            <section>
+                <div class="allfooter">
+                    <div class="pickmitlit">
+                        <img src="pic/footer/kmitl.png" class="kmitl">
+                        <img src="pic/footer/nited.png" class="nited">
+                        <img src="pic/footer/logoit.png" class="itlogo">
+                    </div>
+                    <div class="textfooter">
+                        เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์<br> 
+                        และ การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ<br> 
+                        สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2021<br>
+                    </div>
+                    <div class="textfootertele">
+                        เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์<br>
+                        หลักสูตรนิเทศศิลป์คณะสถาปัตยกรรมศาสตร์ และ<br>
+                        การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสม<br>
+                        และเกม คณะเทคโนโลยีสารสนเทศ<br>
+                        สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2021
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- หน้าเจ็ด -->
-        <section class="page7_contant" style="background-color: peachpuff">
-        </section>
-
-        <!-- หน้าแปด -->
-        <section class="page8_contant" style="background-color: orchid">
-        </section>
-
-        <!-- หน้าเก้า -->
-        <section class="page9_contant" style="background-color: royalblue">
-        </section>
-
-        <!-- หน้าสิบ -->
-        <section class="page10_contant" style="background-color: wheat">
-        </section>
-
-        <!-- หน้าสิบเอ็ด -->
-        <section class="page11_contant" style="background-color: darkcyan">
-        </section>
-
-        <!-- หน้าสิบสอง -->
-        <section class="page12_contant" style="background-color: black">
-            <div class="sign">
-                <img src="pic/page_12/SIGN-pg13.png" width="100%">
-            </div>
-        </section>
-
-        <!-- ตารางหมากรุก -->
-        <section class="checkerboardbl">
-            <img src="pic/page_check/FINAL STRIPE.png" width="100%">
-        </section>
-
-        <!-- หน้าสิบสาม -->
-        <section class="page13_contant" style="background-color: lightgreen">
-        </section>
-
-        <!-- หน้าinfo -->
-        <section class="page14_contant" style="background-color: hotpink">
-        </section>
-
+            </section>
+        </div>
     </div>
 </body>
 <script>
+    // document.body.onscroll = function() {
+    //     let scrollY = window.scrollY;
+    //     let viewHeight = window.innerHeight;
+    //     // document.querySelector("#yyy").innerText = scrollY;
+    //     document.body.style.setProperty("--scrollY", scrollY);
+    //     document.body.style.setProperty("--h", scrollY / 10);
+
+
+    //     let graphY = document.querySelector('#p11graph').offsetTop;
+
+    //     if (scrollY + viewHeight - 400 >= graphY) {
+    //         document.getElementById("bar1ct").style.opacity = "0.5";
+    //         document.getElementById("bar1per").style.opacity = "0.5";
+    //         document.getElementById("bar1vec").style.opacity = "0.5";
+    //         document.getElementById("bar2ct").style.opacity = "0.5";
+    //         document.getElementById("bar2per").style.opacity = "0.5";
+    //         document.getElementById("bar2vec").style.opacity = "0.5";
+    //         document.getElementById("bar3ct").style.opacity = "0.5";
+    //         document.getElementById("bar3per").style.opacity = "0.5";
+    //         document.getElementById("bar3vec").style.opacity = "0.5";
+    //         document.getElementById("bar4ct").style.opacity = "0.5";
+    //         document.getElementById("bar4per").style.opacity = "0.5";
+    //         document.getElementById("bar4vec").style.opacity = "0.5";
+    //     }
+    //     if (scrollY + viewHeight - 450 >= graphY) {
+    //         document.getElementById("bar1ct").style.opacity = "1";
+    //         document.getElementById("bar1per").style.opacity = "1";
+    //         document.getElementById("bar1vec").style.opacity = "1";
+    //         document.getElementById("bar2ct").style.opacity = "1";
+    //         document.getElementById("bar2per").style.opacity = "1";
+    //         document.getElementById("bar2vec").style.opacity = "1";
+    //         document.getElementById("bar3ct").style.opacity = "1";
+    //         document.getElementById("bar3per").style.opacity = "1";
+    //         document.getElementById("bar3vec").style.opacity = "1";
+    //         document.getElementById("bar4ct").style.opacity = "1";
+    //         document.getElementById("bar4per").style.opacity = "1";
+    //         document.getElementById("bar4vec").style.opacity = "1";
+    //     }
+    //     if (scrollY + viewHeight - 300 >= graphY) {
+    //         document.querySelector('#p11graph').dataset.active = 1;
+    //     } else {
+    //         document.querySelector('#p11graph').dataset.active = 0;
+    //         document.getElementById("bar1ct").style.opacity = "0";
+    //         document.getElementById("bar1per").style.opacity = "0";
+    //         document.getElementById("bar1vec").style.opacity = "0";
+    //         document.getElementById("bar2ct").style.opacity = "0";
+    //         document.getElementById("bar2per").style.opacity = "0";
+    //         document.getElementById("bar2vec").style.opacity = "0";
+    //         document.getElementById("bar3ct").style.opacity = "0";
+    //         document.getElementById("bar3per").style.opacity = "0";
+    //         document.getElementById("bar3vec").style.opacity = "0";
+    //         document.getElementById("bar4ct").style.opacity = "0";
+    //         document.getElementById("bar4per").style.opacity = "0";
+    //         document.getElementById("bar4vec").style.opacity = "0";
+    //     }
+    // };
+
     //navbar mobile//
-    function home(){
+    function home() {
         document.querySelector(".arrow1").style.opacity = "1";
         document.querySelector(".arrow2").style.opacity = "0";
         document.querySelector(".frame2").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame1").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function info(){
+    function info() {
         document.querySelector(".arrow1").style.opacity = "0";
         document.querySelector(".arrow2").style.opacity = "1";
         document.querySelector(".frame1").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame2").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function homebar(){
+    function homebar() {
         document.querySelector(".arrow1bar").style.opacity = "1";
         document.querySelector(".arrow2bar").style.opacity = "0";
         document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function infobar(){
+    function infobar() {
         document.querySelector(".arrow1bar").style.opacity = "0";
         document.querySelector(".arrow2bar").style.opacity = "1";
         document.querySelector(".frame1bar").style.margin = "0vw 0vw 0vw -1.5vw";
         document.querySelector(".frame2bar").style.margin = "0vw 0vw 0vw 0vw";
     }
 
-    function smallbar(){
+    function smallbar() {
         document.querySelector(".menubar").style.display = "block";
     }
 
-    function closesmallbar(){
+    function closesmallbar() {
         document.querySelector(".menubar").style.display = "none";
     }
 
-    
+    //seemappage9//
+    function seemap91(){
+        document.querySelector(".popup91").style.display = "block";
+        document.querySelector(".p91_close").style.display = "block";
+    }
+
+    function seemap92(){
+        document.querySelector(".popup92").style.display = "block";
+        document.querySelector(".p92_close").style.display = "block";
+    }
+    //closepage9//
+    function closep91(){
+        document.querySelector(".popup91").style.display = "none";
+        document.querySelector(".p91_close").style.display = "none";
+    }
+
+    function closep92(){
+        document.querySelector(".popup92").style.display = "none";
+        document.querySelector(".p92_close").style.display = "none";
+    }
+
+
+
     let numstartcar = 0;
     let endnumcar = 2;
     const car = document.querySelectorAll(".car");
-    
+
 
     rightchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
-        
+
         numstartcar++;
 
         if (numstartcar < endnumcar) {
@@ -483,7 +1064,7 @@
     });
     leftchangecar.addEventListener("click", function() {
         car[numstartcar].style.opacity = "0";
-        
+
         numstartcar--;
 
         if (numstartcar > -1) {
@@ -494,52 +1075,89 @@
         }
 
     });
-    let body = document.body
-    document.body.onscroll = function() {
-        let newY = window.scrollY;
-        let scrollY = window.scrollY;
-        body.style.setProperty("--Y", window.scrollY);
-        // if(newY + window.innerWidth - 300 >= document.querySelector(".page4_contant").offsetTop && numstartcar == 0){
-        //     document.querySelector("#carpic").style.position = "sticky";
-        // }
-    };
+
+
+    var x = window.matchMedia("(max-width: 1280px)")
+    var i = window.matchMedia("(max-width: 1024px)")
+    var t = window.matchMedia("(max-width: 500px)")
+
+    function gogomptor() {
+        if (numstartcar == 0) {
+            document.querySelector("#showhide").style.display = "block";
+            document.querySelector(".p1car").style.height = "400vh";
+            document.querySelector("#leftchangecar").style.display = "none";
+            document.querySelector("#rightchangecar").style.display = "none";
+        } else if (numstartcar != 0) {
+            document.querySelector("#showhide").style.display = "none";
+
+        } else if (x.matches && numstartcar == 0) {
+            document.querySelector("#showhide").style.display = "block";
+            document.querySelector(".p1car").style.height = "250vh";
+            document.querySelector("#leftchangecar").style.display = "none";
+            document.querySelector("#rightchangecar").style.display = "none";
+        } else if (x.matches && numstartcar != 0) {
+            document.querySelector("#showhide").style.display = "none";
+
+        } else if (i.matches && numstartcar == 0) {
+            document.querySelector("#showhide").style.display = "block";
+            document.querySelector(".p1car").style.height = "215vh";
+            document.querySelector("#leftchangecar").style.display = "none";
+            document.querySelector("#rightchangecar").style.display = "none";
+            console.log(i);
+        } else if (i.matches && numstartcar != 0) {
+            document.querySelector("#showhide").style.display = "none";
+
+        } else if (t.matches && numstartcar == 0) {
+            document.querySelector("#showhide").style.display = "block";
+            document.querySelector(".p1car").style.height = "290vh";
+            document.querySelector("#leftchangecar").style.display = "none";
+            document.querySelector("#rightchangecar").style.display = "none";
+            console.log(i);
+        } else if (t.matches && numstartcar != 0) {
+            document.querySelector("#showhide").style.display = "none";
+
+        }
+    }
 
     //ซูมแผนที่//
-    let zoomer = function() {
-        document.querySelector('#img-zoomer-box')
-            .addEventListener('mousemove', function(e) {
+    $(document).ready(function() {
 
-                let original = document.querySelector('#img-1'),
-                    magnified = document.querySelector('#img-2'),
-                    style = magnified.style,
-                    x = e.pageX - this.offsetLeft,
-                    y = e.pageY - this.offsetTop,
-                    imgWidth = original.offsetWidth,
-                    imgHeight = original.offsetHeight,
-                    xperc = ((x / imgWidth) * 100),
-                    yperc = ((y / imgHeight) * 100);
+        var nativeWidth = 0;
+        var nativeHeight = 0;
 
-                //lets user scroll past right edge of image
-                if (x > (.01 * imgWidth)) {
-                    xperc += (.15 * xperc);
-                };
+        $(".magnifierWrap").mousemove(function(e) {
+            if (!nativeWidth && !nativeHeight) {
+                var imgObject = new Image();
+                imgObject.src = $(".mapimg").attr("src");
+                nativeWidth = imgObject.width;
+                nativeHeight = imgObject.height;
+            } else {
+                var magnifyOffset = $(this).offset();
+                var mouseX = e.pageX - magnifyOffset.left;
+                var mouseY = e.pageY - magnifyOffset.top;
 
-                //lets user scroll past bottom edge of image
-                if (y >= (.01 * imgHeight)) {
-                    yperc += (.15 * yperc);
-                };
+                if (mouseX < $(this).width() && mouseY < $(this).height() && mouseX > 0 && mouseY > 0) {
+                    $(".magnifier").fadeIn(300);
+                } else {
+                    $(".magnifier").fadeOut(100);
+                }
+                if ($(".magnifier").is(":visible")) {
+                    var mapimgX = Math.round(mouseX / $(".mapimg").width() * nativeWidth - $(".magnifier").width() / 1.2) * -0.95;
+                    var mapimgY = Math.round(mouseY / $(".mapimg").height() * nativeHeight - $(".magnifier").height() / 2) * -1;
+                    var bgp = mapimgX + "px " + mapimgY + "px";
 
-                style.backgroundPositionX = (xperc - 9) + '%';
-                style.backgroundPositionY = (yperc - 18) + '%';
+                    var largeImgX = mouseX - $(".magnifier").width() / 2;
+                    var largeImgY = mouseY - $(".magnifier").height() / 2;
 
-                style.left = (x - 180) + 'px';
-                style.top = (y - 220) + 'px';
-
-            }, false);
-    }();
-    //ตัวหนังสือเลื่อน//
-    // $('#maindiv').width($('#div1').width());
-
+                    $(".magnifier").css({
+                        left: largeImgX,
+                        top: largeImgY,
+                        backgroundPosition: bgp
+                    });
+                }
+            }
+        });
+    });
 </script>
 
 </html>
