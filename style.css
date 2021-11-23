@@ -5322,6 +5322,7 @@ body {
     .checkerboardbl {
         width: 130vw;
         margin-top: -25vw;
+        z-index: 7 !important;
     }
     .sign {
         margin: -108vw auto -16.5vw;
