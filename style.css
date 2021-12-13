@@ -2505,6 +2505,7 @@ body {
         display: none;
     }
     .boxlr {
+
         position: relative;
         top: 10vw!important;
         width: 70vw!important;
@@ -2515,6 +2516,7 @@ body {
         align-items: center!important;
         text-align: center!important;
         padding-top: 1vw!important;
+        
     }
     .vector301 {
         align-items: center;
@@ -3264,6 +3266,19 @@ body {
     padding: 0 1.5vw;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+}
+
+.boxlr:hover{
+    margin-top: 1vw;
+    width: 35vw;
+    /* height: 3vw; */
+    background-color: #F694FF;
+    border: 0.1vw solid #F694FF;
+    padding: 0 1.5vw;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 
 .animaopa {
@@ -5518,7 +5533,7 @@ body {
     }
     .page14_contant {
         width: 100vw;
-        height: 85vh!important;
+        height: 45vh!important;
     }
     .topicinfo {
         position: relative;
@@ -5559,12 +5574,7 @@ body {
     }
 }
 
-@media screen and (max-width: 415px) {
-    .page14_contant {
-        width: 100vw;
-        height: 75vh!important;
-    }
-}
+
 
 @media screen and (max-width: 2048px) and (min-width: 1920px) {
     .page14_contant {
@@ -5918,7 +5928,7 @@ body {
     }
     .page14_contant {
         width: 100vw;
-        height: 54vh!important;
+        height: 23vh!important;
     }
     .allfooter {
         padding-left: 2vw;
@@ -5963,4 +5973,234 @@ body {
     .p11ex {
         font-size: 3.7vw;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-height: 812px) and (max-height: 813px) and (min-width:375px)and (max-width:376px) {
+    .textshere{
+        /* margin-left: -5vw; */
+        /* margin-top: 20vh; */
+        top: 0vh!important;
+        position: relative!important;
+        text-align: center!important;
+        font-size: 3.5vw!important;
+        /* font-family: 'Hydrophilia'!important; */
+        color: #cbed00!important;
+    }
+    #btnshere {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    #btnshere2 {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere2:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    .arrowdownp14tele {
+        display: none!important;
+        position: relative!important;
+        margin-left: 90vw!important;
+        top: 8vw!important;
+        transform: rotateZ(180deg)!important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .page14_contant {
+        width: 100vw!important;
+        height: 50vh!important;
+    }
+    .textshere{
+        /* margin-left: -5vw!important; */
+        /* margin-top: 20vh!important; */
+        top: 5vh!important;
+        position: relative!important;
+        text-align: center!important;
+        font-size: 3.5vw!important;
+        /* font-family: 'Hydrophilia'!important; */
+        color: #cbed00!important;
+    }
+    #btnshere {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    #btnshere2 {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere2:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    .arrowdownp14tele {
+        display: none!important;
+        position: relative!important;
+        margin-left: 90vw!important;
+        top: 8vw!important;
+        transform: rotateZ(180deg)!important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .textshere{
+        /* margin-left: -5vw!important; */
+        /* margin-top: 20vh!important; */
+        top: 5vh!important;
+        position: relative!important;
+        text-align: center!important;
+        font-size: 3.5vw!important;
+        /* font-family: 'Hydrophilia'!important; */
+        color: #cbed00!important;
+    }
+    #btnshere {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    #btnshere2 {
+        background-color: black!important;
+        color: rgb(255, 255, 255)!important;
+        position: relative!important;
+        top: 2vw!important;
+        width: 20vw!important;
+        height: 6vw!important;
+        font-size: 3.5vw!important;
+        font-family: 'ChulaCharasNew'!important;
+        cursor: pointer!important;
+        border: 1.5px solid rgb(255, 255, 255)!important;
+    }
+    
+    #btnshere2:hover {
+        background-color: #DBFF00!important;
+        color: black!important;
+        border: 1.5px solid #DBFF00!important;
+    }
+    .arrowdownp14tele {
+        display: none!important;
+        position: relative!important;
+        margin-left: 90vw!important;
+        top: 8vw!important;
+        transform: rotateZ(180deg)!important;
+    }
+}
+.textshere{
+    /* margin-left: -5vw; */
+    /* margin-top: 20vh; */
+    top: 40vh;
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    /* font-family: 'Hydrophilia'; */
+    color: #cbed00;
+}
+#btnshere {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+#btnshere:hover {
+    background-color: #DBFF00;
+    color: black;
+    border: 1.5px solid #DBFF00;
+}
+#btnshere2 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'ChulaCharasNew';
+    cursor: pointer;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+#btnshere2:hover {
+    background-color: #DBFF00;
+    color: black;
+    border: 1.5px solid #DBFF00;
 }

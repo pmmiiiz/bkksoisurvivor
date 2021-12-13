@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://save-parrot-fish.netlify.app/img/bg/desktop/shere.png" />
     <title>bkk-soisurvivor</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="PIC/logo_icon/BKK_WEB_ICON.png" type="image/x-icon" />
@@ -300,10 +302,10 @@
                         ในเมื่อคุณไม่สามารถหาคำตอบได้ <br> และในขณะที่เห็นหน้าปากซอยอยู่รำไร แต่ก็ไม่มีทางไปต่อ <br> เราจึงขอเสนอตัวช่วยเป็น ‘วินมอเตอร์ไซค์’<br> เพื่อลัดเลาะตามทางได้สะดวกกว่าที่เคย
                         <br>
                     </div>
-                    <div class="boxlr">
+                    <div class="boxlr" id="cenchangecar" onclick="gogomptor()">
                         <div class="animaopa">
                             <img src="pic/page_4/Vector_301.png" class="vector301">
-                            <div class="textboxlr">เลื่อนที่รถเพื่อเปลี่ยนไปขึ้นวิน</div>
+                            <div class="textboxlr">กดเพื่อเปลี่ยนไปขึ้นวิน</div>
                             <img src="pic/page_4/Vector_301.png" class="vector3012">
                         </div>
                     </div>
@@ -840,7 +842,7 @@
             <!-- หน้าinfo -->
             <section id="info" class="page14_contant" style="background-color: black">
                 <div class="allinfo">
-                    <div class="p14rec">
+                    <!-- <div class="p14rec">
                         <img src="pic/page_info/Rec.png">
                     </div>
                     <div class="topicinfo">
@@ -894,6 +896,14 @@
                     <div class="arrowdownpage14">
                         <a href="#b1"><img src="PIC/page_4/ARROW ICON.png"></a>
 
+                    </div> -->
+
+                    <div class="textshere">
+                        ร่วมเชิญเพื่อนมาร่วมชะตาการเป็น SURVIVOR ด้วยกัน <br>
+                        เพื่อเป็นกระบอกเสียงให้ปัญหานี้หมดไป<br>
+                        <p>Share on</p>
+                        <button id="btnshere" onclick="sharefb()">FACEBOOK</button>
+                        <button id="btnshere2" onclick="sharett()">TWITTER</button>
                     </div>
                     <div class="arrowdownp14tele">
                         <a href="#b1"><img src="PIC/page_4/ARROW ICON.png"></a>
@@ -928,6 +938,16 @@
     </div>
 </body>
 <script>
+    function sharett(){
+    window.open("https://twitter.com/intent/tweet?from=5เทพ&url=bkk-soisurvivor.netlify.app", "", "width=200,height=100");
+    
+    
+}
+function sharefb(){
+    window.open("https://www.facebook.com/sharer/sharer.php?u=bkk-soisurvivor.netlify.app", "", "width=200,height=100");
+    
+    
+}
     // document.body.onscroll = function() {
     //     let scrollY = window.scrollY;
     //     let viewHeight = window.innerHeight;
@@ -1074,6 +1094,18 @@
             car[numstartcar].style.opacity = "1";
         }
 
+    });
+    cenchangecar.addEventListener("click", function() {
+        car[numstartcar].style.opacity = "0";
+
+        numstartcar++;
+
+        if (numstartcar < endnumcar) {
+            car[numstartcar].style.opacity = "1";
+        } else {
+            numstartcar = 0;
+            car[numstartcar].style.opacity = "1";
+        }
     });
 
 
