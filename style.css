@@ -1692,8 +1692,8 @@ body {
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
         width: 53vw;
-        height: 47vh;
-        top: -136vw!important;
+        height: 43vh!important;
+        top: -139vw!important;
         position: relative;
         z-index: 2;
     }
@@ -1702,22 +1702,22 @@ body {
         border: 0.1vw solid #DBFF00;
         padding: 0 1vw;
         width: 53vw;
-        height: 47vh;
-        top: -136vw!important;
+        height: 43vh!important;
+        top: -139vw!important;
         position: relative;
         z-index: 2;
     }
     #map91 {
         width: 18vw;
         position: relative;
-        top: 5.7vw!important;
+        top: 4.5vw!important;
         left: 3.6vw;
         float: left;
     }
     #map92 {
         width: 18vw;
         position: relative;
-        top: 5.7vw!important;
+        top: 4.5vw!important;
         left: 3.6vw;
         float: left;
     }
@@ -1727,7 +1727,7 @@ body {
         font-size: 2.7vw;
         position: relative;
         left: 9vw;
-        top: 5.5vw!important;
+        top: 4.5vw!important;
     }
     #head9_22 {
         text-align: left;
@@ -1735,7 +1735,7 @@ body {
         font-size: 2.7vw;
         position: relative;
         left: 9vw;
-        top: 5.5vw!important;
+        top: 4.5vw!important;
     }
     #detail9_11 {
         font-family: 'ChulaCharasNew';
@@ -1743,7 +1743,7 @@ body {
         text-align: left;
         position: relative;
         left: 9vw;
-        top: 6vw!important;
+        top: 5vw!important;
     }
     #detail9_22 {
         font-family: 'ChulaCharasNew';
@@ -1751,12 +1751,12 @@ body {
         text-align: left;
         position: relative;
         left: 9vw;
-        top: 9vw!important;
+        top: 8vw!important;
     }
     #p91_close {
         width: 2.7vw;
         position: relative;
-        top: -168.8vw!important;
+        top: -166.2vw!important;
         left: 29.3vw;
         z-index: 2;
     }
@@ -1766,7 +1766,7 @@ body {
     #p92_close {
         width: 2.7vw;
         position: relative;
-        top: -168.8vw!important;
+        top: -166.2vw!important;
         left: 29.3vw;
         z-index: 2;
     }
