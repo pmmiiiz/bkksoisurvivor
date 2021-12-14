@@ -5129,8 +5129,8 @@ body {
     border: 0.1vw solid #DBFF00;
     padding: 0 1vw;
     width: 53vw;
-    height: 52vh;
-    top: -124.2vw;
+    height: 49vh;
+    top: -158.2vw;
     position: relative;
     z-index: 2;
 }
@@ -5140,8 +5140,8 @@ body {
     border: 0.1vw solid #DBFF00;
     padding: 0 1vw;
     width: 53vw;
-    height: 52vh;
-    top: -124.2vw;
+    height: 49vh;
+    top: -158.2vw;
     position: relative;
     z-index: 2;
 }
@@ -5149,7 +5149,7 @@ body {
 #map91 {
     width: 18vw;
     position: relative;
-    top: 3.7vw;
+    top: 4.7vw;
     left: 3.6vw;
     float: left;
 }
@@ -5157,7 +5157,7 @@ body {
 #map92 {
     width: 18vw;
     position: relative;
-    top: 3.7vw;
+    top: 4.7vw;
     left: 3.6vw;
     float: left;
 }
@@ -5168,7 +5168,7 @@ body {
     font-size: 2.7vw;
     position: relative;
     left: 9vw;
-    top: 3.5vw;
+    top: 4.5vw;
 }
 
 #head9_22 {
@@ -5177,7 +5177,7 @@ body {
     font-size: 2.7vw;
     position: relative;
     left: 9vw;
-    top: 3.5vw;
+    top: 4.5vw;
 }
 
 #detail9_11 {
@@ -5186,7 +5186,7 @@ body {
     text-align: left;
     position: relative;
     left: 9vw;
-    top: 4vw;
+    top: 5.2vw;
 }
 
 #detail9_22 {
@@ -5195,13 +5195,13 @@ body {
     text-align: left;
     position: relative;
     left: 9vw;
-    top: 7vw;
+    top: 8vw;
 }
 
 #p91_close {
     width: 2.7vw;
     position: relative;
-    top: -148.8vw;
+    top: -186vw;
     left: 29.3vw;
     z-index: 2;
 }
@@ -5213,7 +5213,7 @@ body {
 #p92_close {
     width: 2.7vw;
     position: relative;
-    top: -148.8vw;
+    top: -186vw;
     left: 29.3vw;
     z-index: 2;
 }
